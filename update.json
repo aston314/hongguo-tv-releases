@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 28,
-  "version_name": "0.2.26",
+  "version_code": 29,
+  "version_name": "0.2.27",
   "min_sdk": 23,
-  "size": 14340789,
-  "sha256": "c2ec9d85f6906f0ff2eb3ae926ca8abdd978acc4de4065ec1fa8d37745a2b11b",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.26/hongguo-tv-0.2.26.apk",
-  "release_notes": "# 红果短剧 v0.2.26\n\n- 找剧新增手机扫码输入：手机与电视在同一局域网，输入或粘贴剧名后发送，电视自动搜索；原搜索框输入继续可用。\n- Android隐藏多余的搜索按钮：搜索框按确认键提交，向下进入扫码输入；桌面预览保留搜索按钮。\n- 显示最近10个搜索关键词，遥控器左右选择、确认搜索；自动去重并保留最新顺序，重启和覆盖升级后保留。\n- 最近搜索可在确认后清空；搜索失败、取消和输入过程不保存关键词。\n- 扫码支持刷新、返回和超时处理，离开页面或进入后台会关闭输入通道，迟到的输入不会跳转页面。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T03:35:52.063576+00:00"
+  "size": 14340179,
+  "sha256": "f8ad53aa207e78b3bb6220fe31fb09be2beb478de41c1c111b867d776d8dcbd8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.27/hongguo-tv-0.2.27.apk",
+  "release_notes": "# 红果短剧 v0.2.27\n\n- 缩短找剧搜索框，保持260px常规宽度，不再占满剩余空间；扫码和分类入口紧邻输入框，小屏自动换行。\n- 保留确认键搜索、手机扫码输入、最近关键词选择和原遥控器焦点逻辑。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-08T04:29:03.065059+00:00"
 }
