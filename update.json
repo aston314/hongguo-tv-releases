@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 30,
-  "version_name": "0.2.28",
+  "version_code": 31,
+  "version_name": "0.2.29",
   "min_sdk": 23,
-  "size": 14341360,
-  "sha256": "125e168378fdb439c5285d2f57a1ac24f88d8a18eb3bf57047fd32fbcd423bb1",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.28/hongguo-tv-0.2.28.apk",
-  "release_notes": "# 红果短剧 v0.2.28\n\n- 首次播放和切换另一部剧时，loading 中间完整显示海报，保持原比例；两侧以暗化的同图铺底，避免竖海报人物和标题被大幅裁剪。\n- 两层海报一起加载、显示和退出，避免旧海报闪回；同一部剧换集继续只显示 loading，视频就绪后退出过渡。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T06:40:45.652174+00:00"
+  "size": 14341494,
+  "sha256": "0a1e2fc5e5fe810564eb980790749d7453e8e9a0419e649d7f59ede3d6b15038",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.29/hongguo-tv-0.2.29.apk",
+  "release_notes": "# 红果短剧 v0.2.29\n\n- 简化播放 loading：首次播放或切换另一部剧时，以小字号显示剧名和目标集数；同一部剧换集只显示目标集数。\n- 去掉重复的“正在加载…”文字；集数尚未确定时先显示动画，确定后显示真实集数。完整海报、错误及重试提示保留。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-08T06:59:15.422805+00:00"
 }
