@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 34,
-  "version_name": "0.2.32",
+  "version_code": 35,
+  "version_name": "0.2.33",
   "min_sdk": 23,
-  "size": 14370376,
-  "sha256": "599cf5b1c517d52b75eb322aac0afb04b35bfedd70ecab79dba43938b2422691",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.32/hongguo-tv-0.2.32.apk",
-  "release_notes": "# 红果短剧 v0.2.32\n\n- 返回推荐时保留本次启动内原来的推荐列表、当前短剧和列表位置，继续对应集数及观看进度，无需再去历史中寻找。\n- 推荐顶部新增“换一批”，需要新推荐时可以主动刷新；切换频道和重新启动应用仍获取推荐。\n- 在找剧、历史等栏目播放其他短剧不会覆盖推荐位置；同一部剧在其他栏目有新的观看进度时，返回推荐采用最新记录。\n- 补充历史保存延迟或失败、解析中途离开、分页取消、快速切换、账号和频道隔离的回归检查。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T16:09:16.971628+00:00"
+  "size": 14371096,
+  "sha256": "320ae63ad4d281da4477aa1a8e70513ed6e26069f2b29871e32f3b7ef34c6e56",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.33/hongguo-tv-0.2.33.apk",
+  "release_notes": "# 红果短剧 v0.2.33\n\n- 修复进入或返回推荐时，顶部频道栏未获得焦点的问题；当前频道默认显示焦点，可以左右选择“关注、漫剧、真人剧、推荐、换一批”。\n- 顶部仅移动焦点不刷新内容，确认后执行频道切换或换一批；向下进入当前视频，上下切剧的操作保持原样。\n- 操作顶部频道栏时保持焦点，不再因四秒自动清屏跳回播放区。\n- 保留 0.2.32 的推荐列表、当前剧、集数及进度恢复逻辑。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-08T16:33:46.171029+00:00"
 }
