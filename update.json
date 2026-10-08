@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 33,
-  "version_name": "0.2.31",
+  "version_code": 34,
+  "version_name": "0.2.32",
   "min_sdk": 23,
-  "size": 14367762,
-  "sha256": "46e0849e2a5914d13dc38a6849f3d739a9b4d8e6e183cb4adad196983d2ab3c4",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.31/hongguo-tv-0.2.31.apk",
-  "release_notes": "# 红果短剧 v0.2.31\n\n- 播放控制栏新增带图标的“诊断”按钮，打开“播放诊断”弹窗，可截图反馈播放问题。\n- 自动展示应用与核心版本、设备型号、Android 与运行架构、WebView 内核、视频尺寸和帧计数、播放与缓冲状态、加载层与临时静音保护，以及当前视频的本机媒体请求状态。\n- 打开弹窗不暂停视频，信息保持为固定快照；支持刷新、遥控器左右选择和返回恢复按钮焦点。Android 6 无法读取 WebView 包版本时显示实际 Chromium 内核版本。\n- 诊断只读取状态，不重新解析或下载视频，不展示账号凭证、完整播放地址或原始错误内容；原播放流程和缓存策略保持不变。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T15:09:16.364588+00:00"
+  "size": 14370376,
+  "sha256": "599cf5b1c517d52b75eb322aac0afb04b35bfedd70ecab79dba43938b2422691",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.32/hongguo-tv-0.2.32.apk",
+  "release_notes": "# 红果短剧 v0.2.32\n\n- 返回推荐时保留本次启动内原来的推荐列表、当前短剧和列表位置，继续对应集数及观看进度，无需再去历史中寻找。\n- 推荐顶部新增“换一批”，需要新推荐时可以主动刷新；切换频道和重新启动应用仍获取推荐。\n- 在找剧、历史等栏目播放其他短剧不会覆盖推荐位置；同一部剧在其他栏目有新的观看进度时，返回推荐采用最新记录。\n- 补充历史保存延迟或失败、解析中途离开、分页取消、快速切换、账号和频道隔离的回归检查。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-08T16:09:16.971628+00:00"
 }
