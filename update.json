@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 29,
-  "version_name": "0.2.27",
+  "version_code": 30,
+  "version_name": "0.2.28",
   "min_sdk": 23,
-  "size": 14340179,
-  "sha256": "f8ad53aa207e78b3bb6220fe31fb09be2beb478de41c1c111b867d776d8dcbd8",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.27/hongguo-tv-0.2.27.apk",
-  "release_notes": "# 红果短剧 v0.2.27\n\n- 缩短找剧搜索框，保持260px常规宽度，不再占满剩余空间；扫码和分类入口紧邻输入框，小屏自动换行。\n- 保留确认键搜索、手机扫码输入、最近关键词选择和原遥控器焦点逻辑。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T04:29:03.065059+00:00"
+  "size": 14341360,
+  "sha256": "125e168378fdb439c5285d2f57a1ac24f88d8a18eb3bf57047fd32fbcd423bb1",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.28/hongguo-tv-0.2.28.apk",
+  "release_notes": "# 红果短剧 v0.2.28\n\n- 首次播放和切换另一部剧时，loading 中间完整显示海报，保持原比例；两侧以暗化的同图铺底，避免竖海报人物和标题被大幅裁剪。\n- 两层海报一起加载、显示和退出，避免旧海报闪回；同一部剧换集继续只显示 loading，视频就绪后退出过渡。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-08T06:40:45.652174+00:00"
 }
