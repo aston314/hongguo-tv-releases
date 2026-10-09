@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 35,
-  "version_name": "0.2.33",
+  "version_code": 36,
+  "version_name": "0.2.34",
   "min_sdk": 23,
-  "size": 14371096,
-  "sha256": "320ae63ad4d281da4477aa1a8e70513ed6e26069f2b29871e32f3b7ef34c6e56",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.33/hongguo-tv-0.2.33.apk",
-  "release_notes": "# 红果短剧 v0.2.33\n\n- 修复进入或返回推荐时，顶部频道栏未获得焦点的问题；当前频道默认显示焦点，可以左右选择“关注、漫剧、真人剧、推荐、换一批”。\n- 顶部仅移动焦点不刷新内容，确认后执行频道切换或换一批；向下进入当前视频，上下切剧的操作保持原样。\n- 操作顶部频道栏时保持焦点，不再因四秒自动清屏跳回播放区。\n- 保留 0.2.32 的推荐列表、当前剧、集数及进度恢复逻辑。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-08T16:33:46.171029+00:00"
+  "size": 17443945,
+  "sha256": "42f18f5eacd64688710c3ce0229b0eeaf641dfec0a1aa08566da11903d90e4d3",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.34/hongguo-tv-0.2.34.apk",
+  "release_notes": "# 红果短剧 v0.2.34\n\n- 修复 Android 6 登录页数字键盘关闭后，方向键无法从“获取验证码”移动到“检查更新”的问题。\n- 账号页焦点移动后会自动滚动到可视区域，避免“检查更新”按钮实际获得焦点但屏幕看不到。\n- 修复数字键盘关闭后焦点被隐藏键盘按钮抢回的问题。\n- 保持 Android 6 使用原来的 WebView 播放路径；本版本不加入临时 Media3 强制调试开关。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-09T16:28:29.497051+00:00"
 }
