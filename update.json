@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 39,
-  "version_name": "0.2.37",
+  "version_code": 40,
+  "version_name": "0.2.38",
   "min_sdk": 23,
-  "size": 17446038,
-  "sha256": "8e8a050083765d19e946768b478860b1173382511d813151a6347820720e5108",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.37/hongguo-tv-0.2.37.apk",
-  "release_notes": "# 红果短剧 v0.2.37\n\n- 修复 Android 7 及以上设备播放 HEVC/H.265 编码短剧时，Media3 没有可用视频解码器导致一直 loading 的问题；现在会使用设备实际提供的 HEVC 解码器，仍不选择 AV1。\n- 播放诊断增加 Media3 状态、视频解码器、编码格式及错误码，便于区分设备解码能力与媒体请求问题。\n- 保留 Android 6 的 WebView 播放路径。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-10T02:20:07.328312+00:00"
+  "size": 17446796,
+  "sha256": "85664e3bc454ccf72d15ca4e70a4c6aafd633c02f14fab99cdf80d038dee0250",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.38/hongguo-tv-0.2.38.apk",
+  "release_notes": "# 红果短剧 v0.2.38\n\n- 修复 Android 原生播放时间轴单位错误：播放位置不再几秒后被误显示为 100%。\n- Android 7 至 Android 9 的 HEVC 播放优先使用系统软件解码器，避免部分电视盒子硬件解码器有声音但画面黑屏。\n- 原生视频输出统一使用 `SurfaceView`，改善旧版 Android WebView 与 HEVC 视频层的合成兼容性；没有软件 HEVC 解码器时仍保留硬件解码回退。\n- 保留 Android 6 的 WebView 播放路径，以及原有 Media3 诊断信息。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-10T03:13:05.423772+00:00"
 }
