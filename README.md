@@ -13,4 +13,4 @@
 
 还有，你会喜欢的：
 
-- [看直播TV版](github.com/aston314/doudou-tv-releases/releases/latest)
+- [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
