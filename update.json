@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 42,
-  "version_name": "0.2.40",
+  "version_code": 43,
+  "version_name": "0.2.41",
   "min_sdk": 23,
-  "size": 17448399,
-  "sha256": "2792575b62d6b4ca81562cd18a8dfea0dbaba27edcaf3a53c1e507981bef1fdc",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.40/hongguo-tv-0.2.40.apk",
-  "release_notes": "# 红果短剧 v0.2.40\n\n- 所有支持的 Android 版本默认使用 WebView HTML 视频播放，保持已验证的播放路径一致。\n- WebView 报错或在限定时间内没有首帧时，才尝试使用 Media3/ExoPlayer 作为兼容回退。\n- 回退时保留当前播放地址、位置、倍速和静音状态；每个媒体源最多尝试一次，避免播放器反复切换。\n- 播放服务、账号、收藏、历史和更新数据格式保持兼容，覆盖安装即可保留已有数据。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名。",
-  "published_at": "2026-10-10T05:04:40.847616+00:00"
+  "size": 17448246,
+  "sha256": "4d8882a2c45a920948a04a57ea5eb1c68ce2e42132c4e7418c3affbcc150ee46",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.41/hongguo-tv-0.2.41.apk",
+  "release_notes": "# 红果短剧 v0.2.41\n\n- 修复 WebView 优先播放时提前隐藏 HTML 视频层的问题。普通 WebView 播放现在保持可见，只有实际切换到 Media3 兼容回退时才显示原生播放层。\n- Media3 回退失败后恢复 WebView 视频层，避免 Android 9 因黑屏回退路径遮住正常的 WebView 画面。\n- 播放服务、账号、收藏、历史和更新数据格式保持兼容，覆盖安装即可保留已有数据。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名。",
+  "published_at": "2026-10-10T05:21:34.142750+00:00"
 }
