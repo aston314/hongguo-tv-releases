@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 44,
-  "version_name": "0.2.42",
+  "version_code": 45,
+  "version_name": "0.2.43",
   "min_sdk": 23,
-  "size": 17508770,
-  "sha256": "5c0ded1f8cb58d5b36202adadb43ffc82be2e924aaffbd80ea80e3559265eb8e",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.42/hongguo-tv-0.2.42.apk",
-  "release_notes": "# 红果短剧 v0.2.42\n\n- 已完结短剧不再显示追更按钮，避免占用操作栏空间；连载中的短剧继续支持追更。\n- 增加追更页面和分页加载，并补充追更状态、收藏/点赞分类筛选与对应焦点导航。\n- 详情页增加同系列、剧评和相关推荐入口，支持在选集面板中切换查看。\n- 搜索、发弹幕和账号登录支持扫码输入；播放诊断可查看设备、WebView 和当前播放状态。\n- 优化 Android TV 遥控器焦点、排行榜筛选、无限滚动及 Android 6 兼容交互。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
-  "published_at": "2026-10-10T17:30:46.486422+00:00"
+  "size": 17509780,
+  "sha256": "0a1be50f7d6336c78d59147f2fcffd6a662e87ea6f6e6c2ac79dead4ca59e99a",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.43/hongguo-tv-0.2.43.apk",
+  "release_notes": "# 红果短剧 v0.2.43\n\n- 修复 Android 播放诊断弹窗在启用原生 Media3 播放代理时内容为空的问题。\n- 诊断继续读取原生播放状态，同时从真实视频 DOM 节点读取显示状态，旧版 WebView 读取失败时也会显示基础诊断信息。\n- 预约使用独立的日历/时钟图标，与追更铃铛图标区分。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
+  "published_at": "2026-10-10T17:58:04.668719+00:00"
 }
