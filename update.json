@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 38,
-  "version_name": "0.2.36",
+  "version_code": 39,
+  "version_name": "0.2.37",
   "min_sdk": 23,
-  "size": 17445074,
-  "sha256": "3d26f1032b400acaff8df2cb092435a8266e12d8af826efacad6fa8d25b6d016",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.36/hongguo-tv-0.2.36.apk",
-  "release_notes": "# 红果短剧 v0.2.36\n\n- 修复 Android 9/12 在 Media3 已经渲染首帧、进度条已经推进，但 WebView 仍停留在黑色 loading 过渡层的问题。\n- 首帧现在可以先完成画面呈现和解除过渡静音，等真正播放或进度推进后再记录观看历史，避免事件顺序差异造成“有进度但无画面、无声音”。\n- 保留 Android 6 的 WebView 播放路径和上一版账号焦点修复。\n- 发布流程增加 Android NDK 下载失败重试，避免临时下载包损坏导致 Release 没有 APK。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
-  "published_at": "2026-10-09T17:10:23.258689+00:00"
+  "size": 17446038,
+  "sha256": "8e8a050083765d19e946768b478860b1173382511d813151a6347820720e5108",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.37/hongguo-tv-0.2.37.apk",
+  "release_notes": "# 红果短剧 v0.2.37\n\n- 修复 Android 7 及以上设备播放 HEVC/H.265 编码短剧时，Media3 没有可用视频解码器导致一直 loading 的问题；现在会使用设备实际提供的 HEVC 解码器，仍不选择 AV1。\n- 播放诊断增加 Media3 状态、视频解码器、编码格式及错误码，便于区分设备解码能力与媒体请求问题。\n- 保留 Android 6 的 WebView 播放路径。\n\n支持 Android TV 6 及以上。覆盖安装保留账号、收藏和观看历史。",
+  "published_at": "2026-10-10T02:20:07.328312+00:00"
 }
