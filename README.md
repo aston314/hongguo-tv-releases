@@ -3,7 +3,7 @@
 此仓库仅发布正式安装包、版本信息和更新说明。
 
 - [最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
+-面向 Android TV，youbyou Android 6，ARM64，ARMv7 x 86_64
 - 使用同一签名的正式 APK 覆盖升级，可保留账号和观看记录。
 - 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
 
