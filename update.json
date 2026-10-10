@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 43,
-  "version_name": "0.2.41",
+  "version_code": 44,
+  "version_name": "0.2.42",
   "min_sdk": 23,
-  "size": 17448246,
-  "sha256": "4d8882a2c45a920948a04a57ea5eb1c68ce2e42132c4e7418c3affbcc150ee46",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.41/hongguo-tv-0.2.41.apk",
-  "release_notes": "# 红果短剧 v0.2.41\n\n- 修复 WebView 优先播放时提前隐藏 HTML 视频层的问题。普通 WebView 播放现在保持可见，只有实际切换到 Media3 兼容回退时才显示原生播放层。\n- Media3 回退失败后恢复 WebView 视频层，避免 Android 9 因黑屏回退路径遮住正常的 WebView 画面。\n- 播放服务、账号、收藏、历史和更新数据格式保持兼容，覆盖安装即可保留已有数据。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名。",
-  "published_at": "2026-10-10T05:21:34.142750+00:00"
+  "size": 17508770,
+  "sha256": "5c0ded1f8cb58d5b36202adadb43ffc82be2e924aaffbd80ea80e3559265eb8e",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.42/hongguo-tv-0.2.42.apk",
+  "release_notes": "# 红果短剧 v0.2.42\n\n- 已完结短剧不再显示追更按钮，避免占用操作栏空间；连载中的短剧继续支持追更。\n- 增加追更页面和分页加载，并补充追更状态、收藏/点赞分类筛选与对应焦点导航。\n- 详情页增加同系列、剧评和相关推荐入口，支持在选集面板中切换查看。\n- 搜索、发弹幕和账号登录支持扫码输入；播放诊断可查看设备、WebView 和当前播放状态。\n- 优化 Android TV 遥控器焦点、排行榜筛选、无限滚动及 Android 6 兼容交互。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
+  "published_at": "2026-10-10T17:30:46.486422+00:00"
 }
