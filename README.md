@@ -11,6 +11,6 @@
 
 `update.json` 是应用内更新的固定版本入口；每个 Release 同时提供 APK、SHA256SUMS.txt 和该版本的 update.json。
 
-还有，你会喜欢的：
+还有，抖音（douyin）你会喜欢的：
 
 - [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
