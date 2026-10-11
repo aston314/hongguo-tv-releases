@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 45,
-  "version_name": "0.2.43",
+  "version_code": 46,
+  "version_name": "0.2.44",
   "min_sdk": 23,
-  "size": 17509780,
-  "sha256": "0a1be50f7d6336c78d59147f2fcffd6a662e87ea6f6e6c2ac79dead4ca59e99a",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.43/hongguo-tv-0.2.43.apk",
-  "release_notes": "# 红果短剧 v0.2.43\n\n- 修复 Android 播放诊断弹窗在启用原生 Media3 播放代理时内容为空的问题。\n- 诊断继续读取原生播放状态，同时从真实视频 DOM 节点读取显示状态，旧版 WebView 读取失败时也会显示基础诊断信息。\n- 预约使用独立的日历/时钟图标，与追更铃铛图标区分。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
-  "published_at": "2026-10-10T17:58:04.668719+00:00"
+  "size": 17512536,
+  "sha256": "610fba2ae7fb6210d57f46a2f22bf75b318a9ee53583b6f399b1c4bdf4bc52ac",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.44/hongguo-tv-0.2.44.apk",
+  "release_notes": "# 红果短剧 v0.2.44\n\n- 排行榜只有推荐榜、热播榜显示“展开筛选 / 收起筛选”，其它榜单恢复直接显示筛选条件。\n- 修复排行榜筛选区域的 Android TV 遥控器焦点路径：从榜单类型进入时可到达筛选按钮，收起后焦点仍停留在按钮上，筛选项向上可返回按钮。\n- 点赞卡片标题下方已有总集数时，右下角集数角标不再重复显示总集数。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
+  "published_at": "2026-10-11T02:38:30.172222+00:00"
 }
