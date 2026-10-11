@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 47,
-  "version_name": "0.2.45",
+  "version_code": 48,
+  "version_name": "0.2.46",
   "min_sdk": 23,
-  "size": 17512494,
-  "sha256": "cf9dfda3c5d84bb4a10b44edbd555dac0e5e2ac917c098bd9ebb31af832c27c4",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.45/hongguo-tv-0.2.45.apk",
-  "release_notes": "# 红果短剧 v0.2.45\n\n- 修复最新一季播放结束后预约下一季的确认流程：只有服务端确认成功才显示预约成功。\n- 预约成功或失败会在当前窗口明确提示；失败时保留提示以便重试，不改变“预约”列表的现有页签行为。\n- 增加预约状态变化和播放上下文变化的校验，避免过期操作被误报为成功。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
-  "published_at": "2026-10-11T08:14:36.933425+00:00"
+  "size": 17515365,
+  "sha256": "6adef111f0af6164145458c90fa4608f7ebadec71a7e87fc60d10beda5c66cc7",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.46/hongguo-tv-0.2.46.apk",
+  "release_notes": "# 红果短剧 v0.2.46\n\n- 修复预约成功后待上线数量和列表因红果接口延迟短暂回退的问题。\n- 预约成功后会在当前账号会话中短暂保留确认状态，直到服务端列表同步；账号切换会清除这份临时状态。\n- 修复播放完本季后重复弹出下一季预约框的问题。已经预约的下一季只提示“您已预约，敬请期待”。\n- 预约状态临时保留有有效期，不会永久伪造服务端数据。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
+  "published_at": "2026-10-11T09:54:50.591288+00:00"
 }
