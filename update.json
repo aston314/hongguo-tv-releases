@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 46,
-  "version_name": "0.2.44",
+  "version_code": 47,
+  "version_name": "0.2.45",
   "min_sdk": 23,
-  "size": 17512536,
-  "sha256": "610fba2ae7fb6210d57f46a2f22bf75b318a9ee53583b6f399b1c4bdf4bc52ac",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.44/hongguo-tv-0.2.44.apk",
-  "release_notes": "# 红果短剧 v0.2.44\n\n- 排行榜只有推荐榜、热播榜显示“展开筛选 / 收起筛选”，其它榜单恢复直接显示筛选条件。\n- 修复排行榜筛选区域的 Android TV 遥控器焦点路径：从榜单类型进入时可到达筛选按钮，收起后焦点仍停留在按钮上，筛选项向上可返回按钮。\n- 点赞卡片标题下方已有总集数时，右下角集数角标不再重复显示总集数。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
-  "published_at": "2026-10-11T02:38:30.172222+00:00"
+  "size": 17512494,
+  "sha256": "cf9dfda3c5d84bb4a10b44edbd555dac0e5e2ac917c098bd9ebb31af832c27c4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.45/hongguo-tv-0.2.45.apk",
+  "release_notes": "# 红果短剧 v0.2.45\n\n- 修复最新一季播放结束后预约下一季的确认流程：只有服务端确认成功才显示预约成功。\n- 预约成功或失败会在当前窗口明确提示；失败时保留提示以便重试，不改变“预约”列表的现有页签行为。\n- 增加预约状态变化和播放上下文变化的校验，避免过期操作被误报为成功。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
+  "published_at": "2026-10-11T08:14:36.933425+00:00"
 }
