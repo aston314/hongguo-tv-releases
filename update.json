@@ -1,12 +1,13 @@
 {
   "schema": 1,
+  "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 48,
-  "version_name": "0.2.46",
+  "version_code": 49,
+  "version_name": "0.2.47",
   "min_sdk": 23,
-  "size": 17515365,
-  "sha256": "6adef111f0af6164145458c90fa4608f7ebadec71a7e87fc60d10beda5c66cc7",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.46/hongguo-tv-0.2.46.apk",
-  "release_notes": "# 红果短剧 v0.2.46\n\n- 修复预约成功后待上线数量和列表因红果接口延迟短暂回退的问题。\n- 预约成功后会在当前账号会话中短暂保留确认状态，直到服务端列表同步；账号切换会清除这份临时状态。\n- 修复播放完本季后重复弹出下一季预约框的问题。已经预约的下一季只提示“您已预约，敬请期待”。\n- 预约状态临时保留有有效期，不会永久伪造服务端数据。\n\n支持 Android TV 6 及以上。正式 APK 使用原有签名，覆盖安装可保留账号、收藏和历史数据。",
-  "published_at": "2026-10-11T09:54:50.591288+00:00"
+  "size": 17519019,
+  "sha256": "48805990732059ea8d49dcd33747b10684b934788757d471727135efb497d5b0",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.47/hongguo-tv-0.2.47.apk",
+  "release_notes": "红果短剧 v0.2.47\n\n- 标准版保留 WebView 播放和 Media3 兼容回退，现有安装可覆盖升级。\n- 新增独立 MPV 版，使用软件 HEVC 解码，可与标准版同时安装。具体设备流畅度和音画同步仍需验证。\n- 两版分别检查对应更新渠道，防止误装另一版本；本地账号、历史和设置独立保存。\n- MPV 版“我的”新增离线开源许可。下载附件提供对应库源码、上游补丁、构建和替换工具，无需下载源码即可使用 APK。\n- 增强播放诊断的轨道、解码器与渲染状态信息。\n\n标准版：`hongguo-tv-0.2.47.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.47.apk`\n\n安装与测试：标准版可覆盖原正式版，保留账号和观看记录；MPV 版使用独立包名，需单独登录，两版可以同时安装。\n\n建议在同一设备播放同一部剧，对比连续切集、暂停恢复和音画同步。有异常时请提供“播放诊断”截图。",
+  "published_at": "2026-10-12T04:34:39.033946+00:00"
 }
