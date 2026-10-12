@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 53,
-  "version_name": "0.2.51",
+  "version_code": 54,
+  "version_name": "0.2.52",
   "min_sdk": 23,
-  "size": 17524580,
-  "sha256": "50b8f129c9aa61d13481c5dafa47d3761a71f30066a4d610e86779bcb53b824d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.51/hongguo-tv-0.2.51.apk",
-  "release_notes": "红果短剧 v0.2.51\n\n- 标准版和 MPV 版的应用名称统一为“红果短剧”；下载文件名、包名和更新渠道仍分别保留。\n- 修复进入和退出全屏后原生播放区域没有同步的问题。MPV 保持视频原始比例、水平和垂直居中，不拉伸、不裁切；与屏幕比例不同的视频保留黑边。\n- 播放诊断改为独立滚动内容区，标题和底部按钮保持可见。打开后用上下键滚动，右键进入刷新/关闭按钮；从按钮向上返回内容区，刷新保留滚动位置。\n- 保留 v0.2.50 的自动/软件解码、声音输出和较轻的渲染配置；标准版继续使用 WebView + Media3。\n\n标准版：`hongguo-tv-0.2.51.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.51.apk`\n\n已安装的同版 APK 可直接覆盖升级，账号和历史保留。两版可以同时安装，但本地数据独立。全屏画面位置及比例仍请结合实际电视效果确认。",
-  "published_at": "2026-10-12T06:54:24.465089+00:00"
+  "size": 17525166,
+  "sha256": "cb52fb49cfe187a007eb423294614a136cc033d58f576512aed1578e8e87b17c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.52/hongguo-tv-0.2.52.apk",
+  "release_notes": "红果短剧 v0.2.52\n\n- 左侧导航在“我的”下方新增“设置”，带齿轮图标。\n- “版本更新”移至“设置”；MPV 版的“播放解码”和“开源许可”也在这里。“我的”保留账号登录和云同步。\n- 完善设置页遥控器焦点：进入后可检查更新，上下键移动到解码选择，左右键切换解码模式；返回设置时恢复上次焦点，页面会滚动到当前按钮。\n\n标准版：`hongguo-tv-0.2.52.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.52.apk`\n\n已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。两版可以同时安装，本地数据各自独立。标准版继续使用 WebView + Media3，MPV 版保留自动解码和软件解码。",
+  "published_at": "2026-10-12T07:31:17.078841+00:00"
 }
