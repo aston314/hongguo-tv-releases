@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 55,
-  "version_name": "0.2.53",
+  "version_code": 56,
+  "version_name": "0.2.54",
   "min_sdk": 23,
-  "size": 17525943,
-  "sha256": "0eb43af5d225abcafee994b759dce67bf94a7eb31f99fe024382fb2b6b4c25c5",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.53/hongguo-tv-0.2.53.apk",
-  "release_notes": "红果短剧 v0.2.53\n\n- “播放诊断”新增视口尺寸、屏幕尺寸、DPR、像素估算和完整 User Agent，方便排查电视输出 4K 时界面进入紧凑布局的问题。\n- 打开诊断或点击“刷新诊断”时读取当前值；长文本自动换行，支持遥控器滚动查看。\n- 像素估算是视口尺寸 × DPR，并不代表电视面板或 HDMI 实际输出分辨率。本次不调整布局断点和播放方式。\n\nShield 等设备安装后，请在播放界面打开“诊断”，点击“刷新诊断”，截图提供上述五项实测值。\n\n标准版：`hongguo-tv-0.2.53.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.53.apk`\n\n已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。两版可以同时安装，本地数据各自独立。标准版继续使用 WebView + Media3，MPV 版保留自动解码和软件解码。",
-  "published_at": "2026-10-12T08:20:21.822283+00:00"
+  "size": 17526595,
+  "sha256": "63da0044e9487bd7bf33592016c9e194d86bd922bf9c226d9637fbd6fad19a03",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.54/hongguo-tv-0.2.54.apk",
+  "release_notes": "红果短剧 v0.2.54\n\n- 修复 MPV 版从搜索、找剧、排行榜、历史、收藏等页面进入播放时可能立即退出的问题。\n- MPV 在同一个 SurfaceView 存活期间复用播放器客户端，切集使用新的 `loadfile`，减少 native 播放器反复销毁和重建。\n- 增加 MPV 会话生命周期保护，旧集回调不会覆盖新集；真正销毁 Surface 或退出应用时才释放播放器。\n- 播放诊断补充 MPV 缓存时长，便于区分网络缓冲、解码和设备输出问题。\n\n标准版：`hongguo-tv-0.2.54.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.54.apk`\n\n两版均支持 Android 6 及以上。已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。MPV 对应库源码随私有 Release 提供，公开下载仓库只提供 APK、更新清单和校验和。",
+  "published_at": "2026-10-12T16:16:47.283089+00:00"
 }
