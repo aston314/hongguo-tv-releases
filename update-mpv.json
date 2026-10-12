@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "variant": "mpv",
+  "package_name": "rocks.aston.hongguotv.mpv",
+  "version_code": 1,
+  "version_name": "0.2.47",
+  "min_sdk": 23,
+  "size": 35221160,
+  "sha256": "74c1bfc72f157ce7a3a4e057a61d71fb41c8cfe9d01cbada2893b22cbc94068b",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.47/hongguo-tv-mpv-0.2.47.apk",
+  "release_notes": "红果短剧 v0.2.47\n\n- 标准版保留 WebView 播放和 Media3 兼容回退，现有安装可覆盖升级。\n- 新增独立 MPV 版，使用软件 HEVC 解码，可与标准版同时安装。具体设备流畅度和音画同步仍需验证。\n- 两版分别检查对应更新渠道，防止误装另一版本；本地账号、历史和设置独立保存。\n- MPV 版“我的”新增离线开源许可。下载附件提供对应库源码、上游补丁、构建和替换工具，无需下载源码即可使用 APK。\n- 增强播放诊断的轨道、解码器与渲染状态信息。\n\n标准版：`hongguo-tv-0.2.47.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.47.apk`\n\n安装与测试：标准版可覆盖原正式版，保留账号和观看记录；MPV 版使用独立包名，需单独登录，两版可以同时安装。\n\n建议在同一设备播放同一部剧，对比连续切集、暂停恢复和音画同步。有异常时请提供“播放诊断”截图。",
+  "published_at": "2026-10-12T04:34:39.559586+00:00",
+  "library_source": {
+    "name": "hongguo-tv-mpv-library-source-0.2.47.zip",
+    "size": 69369235,
+    "sha256": "c731de114f79eef58a82a13841aada1f1d2f841173e3939e25348745f14e3988",
+    "url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.47/hongguo-tv-mpv-library-source-0.2.47.zip"
+  }
+}
