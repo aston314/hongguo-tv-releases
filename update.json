@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 51,
-  "version_name": "0.2.49",
+  "version_code": 52,
+  "version_name": "0.2.50",
   "min_sdk": 23,
-  "size": 17521225,
-  "sha256": "5bc21669e8c2118b47860c64dd90c8af2896a40cceb2e80a3fa357ad04dc9e47",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.49/hongguo-tv-0.2.49.apk",
-  "release_notes": "红果短剧 v0.2.49\n\n- 修复推荐页及全屏模式的网页黑色背景覆盖原生视频层的问题。\n- MPV 版补齐视频窗口尺寸更新，优先使用 OpenSL ES 音频输出，保留 AudioTrack 初始化回退；仍使用软件 HEVC 解码。\n- 播放诊断新增 MPV 实际音频输出、静音、音量和视频窗口状态；不再把“播放重启”误报成“已出首帧”。\n- 标准版继续使用 WebView + Media3；两版仍使用独立包名、数据及更新渠道。\n\n标准版：`hongguo-tv-0.2.49.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.49.apk`\n\n已有 MPV 版可直接覆盖升级，保留该版账号及记录。请在同一设备复测画面、声音、连续换集、暂停恢复及全屏；实际设备效果仍需复测，若仍有异常，请提供新版“播放诊断”截图。",
-  "published_at": "2026-10-12T05:28:44.016240+00:00"
+  "size": 17523530,
+  "sha256": "2e7918d7902881b7b6d6a03942a4cdb7c44bed680ec4e575e6b4d11af37364b1",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.50/hongguo-tv-0.2.50.apk",
+  "release_notes": "红果短剧 v0.2.50\n\n- MPV 版默认自动解码，参考 MiniReel 的 auto-safe 策略尝试硬件加速，降低持续播放的 CPU 开销。\n- “我的 → 播放解码”可切换自动解码和软件解码；选择会保存，下次播放或切集时生效。自动模式画面异常时，可使用软件模式。\n- MPV 采用较轻的画面缩放配置，保留已有声音、Surface 和全屏处理。\n- 播放诊断新增实际解码路径、解码/渲染掉帧和可用的音画差值，避免把设置值误当成实际硬解结果。\n- 标准版仍使用原有 WebView + Media3；两版保持独立包名、数据和更新渠道。\n\n标准版：`hongguo-tv-0.2.50.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.50.apk`\n\n已安装的同版 APK 可以直接覆盖升级。MPV 用户可先用自动模式比较同一集的流畅度，若出现画面异常，在“我的”改为软件解码后重新播放。实际盒子播放效果仍需设备验证。",
+  "published_at": "2026-10-12T06:11:39.502511+00:00"
 }
