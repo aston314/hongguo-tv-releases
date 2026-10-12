@@ -2,18 +2,18 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 2,
-  "version_name": "0.2.48",
+  "version_code": 3,
+  "version_name": "0.2.49",
   "min_sdk": 23,
-  "size": 35227063,
-  "sha256": "55c77d1fc25a52d88e58d56ecded3523ba70661f30ae46caff7e42dd25f97319",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.48/hongguo-tv-mpv-0.2.48.apk",
-  "release_notes": "红果短剧 v0.2.48\n\n- 修复推荐页的黑色背景覆盖原生视频层的问题。\n- MPV 版补齐视频窗口尺寸更新，避免原生视频窗口与页面布局脱节。\n- MPV 版优先使用 OpenSL ES 音频输出，保留 AudioTrack 初始化回退；仍使用软件 HEVC 解码。\n- 播放诊断新增 MPV 实际音频输出、静音、音量和视频窗口状态；不再把“播放重启”误报成“已出首帧”。\n- 标准版继续使用 WebView + Media3；两版仍使用独立包名、数据及更新渠道。\n\n标准版：`hongguo-tv-0.2.48.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.48.apk`\n\n已有 MPV 版可直接覆盖升级，保留该版账号及记录。请在同一设备复测画面、声音、连续换集、暂停恢复及全屏。音频调整与最终实机效果仍需设备验证，若仍有异常，请提供新版“播放诊断”截图。",
-  "published_at": "2026-10-12T05:21:01.459428+00:00",
+  "size": 35227760,
+  "sha256": "24ab4a2ac2b53b964b74a701f987e90a9ece9df94403905794190b17cb62aa6d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.49/hongguo-tv-mpv-0.2.49.apk",
+  "release_notes": "红果短剧 v0.2.49\n\n- 修复推荐页及全屏模式的网页黑色背景覆盖原生视频层的问题。\n- MPV 版补齐视频窗口尺寸更新，优先使用 OpenSL ES 音频输出，保留 AudioTrack 初始化回退；仍使用软件 HEVC 解码。\n- 播放诊断新增 MPV 实际音频输出、静音、音量和视频窗口状态；不再把“播放重启”误报成“已出首帧”。\n- 标准版继续使用 WebView + Media3；两版仍使用独立包名、数据及更新渠道。\n\n标准版：`hongguo-tv-0.2.49.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.49.apk`\n\n已有 MPV 版可直接覆盖升级，保留该版账号及记录。请在同一设备复测画面、声音、连续换集、暂停恢复及全屏；实际设备效果仍需复测，若仍有异常，请提供新版“播放诊断”截图。",
+  "published_at": "2026-10-12T05:28:44.442150+00:00",
   "library_source": {
-    "name": "hongguo-tv-mpv-library-source-0.2.48.zip",
+    "name": "hongguo-tv-mpv-library-source-0.2.49.zip",
     "size": 69369660,
-    "sha256": "3c3fd871cbce104c6fb54f09d277d096c8ffd1e20e90c09b87577b2e57eb73ae",
-    "url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.48/hongguo-tv-mpv-library-source-0.2.48.zip"
+    "sha256": "f2c3418dedd4a4410650fdb02cf6e9314046762f0fc1f363b7fadf8c40c0daa3",
+    "url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.49/hongguo-tv-mpv-library-source-0.2.49.zip"
   }
 }
