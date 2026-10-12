@@ -19,7 +19,7 @@
 | **标准版** | **`hongguo-tv-版本号.apk`**（文件名不含 `mpv`） | WebView 播放，失败时使用 Media3 兼容回退 |
 | **MPV 版** | **`hongguo-tv-mpv-版本号.apk`**（文件名含 `mpv`） | MPV 自动解码，可手动选择软件解码 |
 
-例如 v0.2.50 的标准版是 `hongguo-tv-0.2.50.apk`，约 **17.5 MB**；MPV 版是 `hongguo-tv-mpv-0.2.50.apk`，约 **35.2 MB**。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
+例如 v0.2.50 的标准版是 `hongguo-tv-0.2.50.apk`；MPV 版是 `hongguo-tv-mpv-0.2.50.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
 
 ### 已安装的用户怎么升级？
 
