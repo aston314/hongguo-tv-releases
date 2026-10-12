@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 54,
-  "version_name": "0.2.52",
+  "version_code": 55,
+  "version_name": "0.2.53",
   "min_sdk": 23,
-  "size": 17525166,
-  "sha256": "cb52fb49cfe187a007eb423294614a136cc033d58f576512aed1578e8e87b17c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.52/hongguo-tv-0.2.52.apk",
-  "release_notes": "红果短剧 v0.2.52\n\n- 左侧导航在“我的”下方新增“设置”，带齿轮图标。\n- “版本更新”移至“设置”；MPV 版的“播放解码”和“开源许可”也在这里。“我的”保留账号登录和云同步。\n- 完善设置页遥控器焦点：进入后可检查更新，上下键移动到解码选择，左右键切换解码模式；返回设置时恢复上次焦点，页面会滚动到当前按钮。\n\n标准版：`hongguo-tv-0.2.52.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.52.apk`\n\n已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。两版可以同时安装，本地数据各自独立。标准版继续使用 WebView + Media3，MPV 版保留自动解码和软件解码。",
-  "published_at": "2026-10-12T07:31:17.078841+00:00"
+  "size": 17525943,
+  "sha256": "0eb43af5d225abcafee994b759dce67bf94a7eb31f99fe024382fb2b6b4c25c5",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.53/hongguo-tv-0.2.53.apk",
+  "release_notes": "红果短剧 v0.2.53\n\n- “播放诊断”新增视口尺寸、屏幕尺寸、DPR、像素估算和完整 User Agent，方便排查电视输出 4K 时界面进入紧凑布局的问题。\n- 打开诊断或点击“刷新诊断”时读取当前值；长文本自动换行，支持遥控器滚动查看。\n- 像素估算是视口尺寸 × DPR，并不代表电视面板或 HDMI 实际输出分辨率。本次不调整布局断点和播放方式。\n\nShield 等设备安装后，请在播放界面打开“诊断”，点击“刷新诊断”，截图提供上述五项实测值。\n\n标准版：`hongguo-tv-0.2.53.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.53.apk`\n\n已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。两版可以同时安装，本地数据各自独立。标准版继续使用 WebView + Media3，MPV 版保留自动解码和软件解码。",
+  "published_at": "2026-10-12T08:20:21.822283+00:00"
 }
