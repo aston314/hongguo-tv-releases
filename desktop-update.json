@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.59",
-  "version_code": 1,
-  "release_notes": "红果短剧桌面版 0.2.59\n\n- macOS / Windows 共用 Go 核心和页面，手机号、验证码、搜索、弹幕直接键盘输入或粘贴。\n- 设置 → 版本更新：每天后台检查一次，播放时不弹出提醒；支持下载更新 ZIP、显示进度、校验 SHA256 和压缩包完整性、打开下载文件夹。\n- 默认通过 ghfast 检查和下载，失败时尝试直连。桌面版更新通道独立于 Android APK。\n- 下载后请退出应用，自行解压替换程序。macOS 替换 .app；Windows 替换整个程序文件夹，保留窗口与核心 EXE 在同一目录。账号、历史和设置保存在独立数据目录，替换程序会保留这些数据。\n- macOS universal ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 ZIP 支持 Intel / AMD 64 位处理器，需要 Microsoft Edge WebView2 Runtime。\n- 桌面版只使用系统 HTML5 播放，HEVC 能力取决于系统和硬件；Windows 真实设备播放仍待实测。\n- 没有 Apple 开发者签名/公证或 Windows 代码签名，系统可能提示未知开发者。",
+  "version_name": "0.2.60",
+  "version_code": 2,
+  "release_notes": "红果短剧桌面版 0.2.60\n\n- macOS / Windows 共用 Go 核心和页面，手机号、验证码、搜索、弹幕直接键盘输入或粘贴。\n- 应用显示名称统一为“红果短剧”；内部启动文件名保持稳定，以兼容已有桌面 ZIP 更新。\n- 设置 → 版本更新：每天后台检查一次，播放时不弹出提醒；支持下载更新 ZIP、显示进度、校验 SHA256 和压缩包完整性、打开下载文件夹。\n- 默认通过 ghfast 检查和下载，失败时尝试直连。桌面版更新通道独立于 Android APK。\n- 下载后请退出应用，自行解压替换程序。macOS 替换 .app；Windows 替换整个程序文件夹，保留窗口与核心 EXE 在同一目录。账号、历史和设置保存在独立数据目录，替换程序会保留这些数据。\n- macOS universal ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 ZIP 支持 Intel / AMD 64 位处理器，需要 Microsoft Edge WebView2 Runtime。\n- 桌面版只使用系统 HTML5 播放，HEVC 能力取决于系统和硬件；Windows 真实设备播放仍待实测。\n- 没有 Apple 开发者签名/公证或 Windows 代码签名，系统可能提示未知开发者。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.59-macos-universal.zip",
-      "size": 17328318,
-      "sha256": "302b4d9c061524e970e9ee6c2ef58fb7a9e95502d086cf8cc8229746e56ec4d2",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.59/hongguo-desktop-0.2.59-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.60-macos-universal.zip",
+      "size": 17329007,
+      "sha256": "653aff9ec360058a6c355ff7807f543556b014859cfdf1c1ff8559b14d01edff",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.60/hongguo-desktop-0.2.60-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.59-windows-x64.zip",
-      "size": 8928884,
-      "sha256": "dde7e56cab72fab2d9ea1e0f5239a667f526b944d7d6bf25d3a4591b85845256",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.59/hongguo-desktop-0.2.59-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.60-windows-x64.zip",
+      "size": 8928849,
+      "sha256": "ff7f4defcc641fb606f6925ffe3e8da9ddead7dd1b376d4617e4249028ed4ce0",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.60/hongguo-desktop-0.2.60-windows-x64.zip"
     }
   }
 }
