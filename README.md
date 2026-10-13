@@ -3,20 +3,20 @@
 此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.60)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.62)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
 
 ## macOS / Windows 桌面版
 
-[桌面版 0.2.60 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.60)。无需安装 APK，选择对应平台的 ZIP：
+[桌面版 0.2.62 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.62)。无需安装 APK，选择对应平台的 ZIP：
 
 | 平台 | 下载文件 | 要求 |
 | --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.60-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.60-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
+| **macOS** | `hongguo-desktop-0.2.62-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
+| **Windows amd64 / x64** | `hongguo-desktop-0.2.62-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
 
-macOS 解压后打开 **hongguo-desktop.app（红果短剧）**；Windows 请**完整解压整个文件夹**，打开 `hongguo-desktop.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
+macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
 
 桌面版使用系统 HTML5 播放，HEVC 视频是否能正常显示取决于系统与硬件。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。桌面版支持直接键盘输入和粘贴，不提供扫码输入。
 
@@ -27,9 +27,10 @@ macOS 解压后打开 **hongguo-desktop.app（红果短剧）**；Windows 请**�
 - 下载显示进度，完成后核验大小、SHA256 和 ZIP 完整性；点击 **打开所在文件夹**。
 - **安装由用户自己完成**：先退出应用，macOS 替换 `.app`；Windows 完整解压并替换程序文件夹，两个 EXE 必须一起更新。
 - 账号、观看历史和设置保存在独立系统用户数据目录，正常替换程序不会删除这些数据。
-- 先前 `preview.3` 等桌面预览包尚不含更新检查，需要手动下载本次 ZIP；从桌面版 0.2.59 起可在应用内检查和下载后续更新。
+- **0.2.60 及更早的桌面包需要手动下载一次 0.2.62 ZIP**。这次把应用文件改为“红果短剧”，旧更新器只识别英文路径，不能下载新的中文路径包。新版使用独立 `desktop-update-v2.json`，之后可在应用内下载更新。
+- macOS 退出旧应用后，用 `红果短剧.app` 替换 `hongguo-desktop.app`；Windows 用新完整文件夹替换旧文件夹并打开 `红果短剧.exe`。账号、历史和设置目录保持不变。
 
-桌面版使用独立的 `desktop-update.json`，不会读取或替换 Android 标准版/MPV 更新渠道。`*.sha256` 和更新清单是校验/更新资料，无需安装。
+桌面版使用独立的 `desktop-update-v2.json`，不会读取或替换 Android 标准版/MPV 更新渠道。`*.sha256` 和更新清单是校验/更新资料，无需安装。
 
 当前没有 Apple 开发者签名/公证或 Windows 代码签名，系统可能显示未知开发者提示。
 
