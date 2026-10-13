@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 61,
-  "version_name": "0.2.60",
+  "version_code": 62,
+  "version_name": "0.2.61",
   "min_sdk": 23,
-  "size": 17584221,
-  "sha256": "d054fdba5b799a3e445d6f2f4f3857feeb0f7563d9e6858b5aa361b0535667fe",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.60/hongguo-tv-0.2.60.apk",
-  "release_notes": "# 红果短剧 v0.2.60\n\n- Android TV 标准版与 MPV 版同步更新到同一版本号，安装后名称统一为“红果短剧”。\n- 桌面版继续使用 macOS 通用包和 Windows x64 包，应用显示名称统一为“红果短剧”；内部启动文件名保持兼容已有 ZIP 更新。\n- 桌面版与 Android TV 使用独立更新渠道，按平台和已安装版本选择对应文件。\n\n标准版 APK 使用 WebView/Media3 播放；MPV 版使用 MPV 播放路径。两版最低支持 Android 6。",
-  "published_at": "2026-10-13T11:57:42.010308+00:00"
+  "size": 17585847,
+  "sha256": "cf4a86f54061a86c8377898afa78a45b5f5ba06917cec608ffad6a86a6ad08b5",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.61/hongguo-tv-0.2.61.apk",
+  "release_notes": "# 红果短剧 v0.2.61\n\n- 修复 MPV 版从找剧、排行榜、新剧、历史、收藏和点赞卡片进入播放时的换源生命周期问题。\n- 切换播放源前先停止旧源，新源在收到 `FILE_LOADED` 后才开始播放，避免旧解码器和新源重叠。\n- 隔离旧会话的延迟回调，避免旧源的结束、错误或进度事件污染当前卡片。\n- 标准版继续使用 WebView + Media3，MPV 版继续使用内置 MPV 播放路径。\n- 两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.61.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.61.apk`",
+  "published_at": "2026-10-13T14:30:10.845234+00:00"
 }
