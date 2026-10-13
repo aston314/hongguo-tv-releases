@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 11,
-  "version_name": "0.2.57",
+  "version_code": 12,
+  "version_name": "0.2.58",
   "min_sdk": 23,
-  "size": 35283549,
-  "sha256": "11e15a4136ee8e829fdbc9dff9e0ed812b9e46a9e6df07ffdbc4f8fa0921d2e5",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.57/hongguo-tv-mpv-0.2.57.apk",
-  "release_notes": "红果短剧 v0.2.57\n\n- 新增“更新提醒”：追更的剧有新集、预约的剧正式上线时会记录提醒，并在不播放视频时以右下角提示通知。\n- 追更页可以打开更新提醒列表，查看历史提醒、查看未读数量，并单条或全部标记为已读；播放期间不会弹窗抢焦点。\n- 提醒记录按登录账号隔离保存，网络检查失败时保留已有记录并标记为过期，不会用空响应覆盖本地提醒。\n- 播放准备失败时，播放页面直接显示“重试播放”和“播放诊断”两个操作；播放恢复或切换到下一集后，失败操作会自动隐藏。\n- 标准版继续使用 WebView → Media3 播放路径，MPV 版继续使用独立的 MPV 播放路径。\n\n标准版：`hongguo-tv-0.2.57.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.57.apk`\n\n两版均支持 Android 6 及以上。已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。MPV 对应库源码随私有 Release 提供，公开下载仓库只提供 APK、更新清单和校验和。",
-  "published_at": "2026-10-13T05:37:00.069690+00:00"
+  "size": 35287084,
+  "sha256": "684827f27f94daa1397142b4048a149ae86973f4a178097c592d6a556717b060",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.58/hongguo-tv-mpv-0.2.58.apk",
+  "release_notes": "红果短剧 v0.2.58\n\n- 侧边栏展开宽度缩小至 200px，为剧集内容留出更多空间。\n- 设置页新增“侧边栏显示”，可选择“展开显示”或“仅显示图标”；默认展开，选择后立即生效，重启后保留。\n- 图标模式使用更大的导航图标，遥控器焦点和页面切换保持正常。\n- 调整设置页焦点滚动和上下移动，避免底部按钮高亮被遮挡；账号操作不会禁用侧边栏设置。\n\n标准版：`hongguo-tv-0.2.58.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.58.apk`\n\n两版均支持 Android 6 及以上。同版 APK 可直接覆盖升级，账号、收藏和历史保留。标准版使用 WebView → Media3，MPV 版使用独立 MPV 播放路径。",
+  "published_at": "2026-10-13T07:53:26.236626+00:00"
 }
