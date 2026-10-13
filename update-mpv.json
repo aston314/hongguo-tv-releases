@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 12,
-  "version_name": "0.2.58",
+  "version_code": 13,
+  "version_name": "0.2.60",
   "min_sdk": 23,
-  "size": 35287084,
-  "sha256": "684827f27f94daa1397142b4048a149ae86973f4a178097c592d6a556717b060",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.58/hongguo-tv-mpv-0.2.58.apk",
-  "release_notes": "红果短剧 v0.2.58\n\n- 侧边栏展开宽度缩小至 200px，为剧集内容留出更多空间。\n- 设置页新增“侧边栏显示”，可选择“展开显示”或“仅显示图标”；默认展开，选择后立即生效，重启后保留。\n- 图标模式使用更大的导航图标，遥控器焦点和页面切换保持正常。\n- 调整设置页焦点滚动和上下移动，避免底部按钮高亮被遮挡；账号操作不会禁用侧边栏设置。\n\n标准版：`hongguo-tv-0.2.58.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.58.apk`\n\n两版均支持 Android 6 及以上。同版 APK 可直接覆盖升级，账号、收藏和历史保留。标准版使用 WebView → Media3，MPV 版使用独立 MPV 播放路径。",
-  "published_at": "2026-10-13T07:53:26.236626+00:00"
+  "size": 35292224,
+  "sha256": "af97ac196c30e8cf33e9a739ac5ba091f117c1be1171a35b7708ee60daef12a9",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.60/hongguo-tv-mpv-0.2.60.apk",
+  "release_notes": "# 红果短剧 v0.2.60\n\n- Android TV 标准版与 MPV 版同步更新到同一版本号，安装后名称统一为“红果短剧”。\n- 桌面版继续使用 macOS 通用包和 Windows x64 包，应用显示名称统一为“红果短剧”；内部启动文件名保持兼容已有 ZIP 更新。\n- 桌面版与 Android TV 使用独立更新渠道，按平台和已安装版本选择对应文件。\n\n标准版 APK 使用 WebView/Media3 播放；MPV 版使用 MPV 播放路径。两版最低支持 Android 6。",
+  "published_at": "2026-10-13T11:57:53.383480+00:00"
 }
