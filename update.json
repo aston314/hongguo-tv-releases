@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 57,
-  "version_name": "0.2.55",
+  "version_code": 58,
+  "version_name": "0.2.56",
   "min_sdk": 23,
-  "size": 17526621,
-  "sha256": "e6d8d906430bda1a70953b5846128d819295d8596bcfc2d4d053e4a4666b9eab",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.55/hongguo-tv-0.2.55.apk",
-  "release_notes": "红果短剧 v0.2.55\n\n- 修复 MPV 版自动切换下一集后继承上一集暂停状态、导致下一集加载但不自动播放的问题。\n- 新集加载完成后会重新应用当前的播放意图；用户主动暂停和应用进入后台时仍保持暂停。\n- 标准版继续使用 WebView → Media3 播放路径，MPV 版继续使用独立的 MPV 播放路径。\n\n标准版：`hongguo-tv-0.2.55.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.55.apk`\n\n两版均支持 Android 6 及以上。已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。MPV 对应库源码随私有 Release 提供，公开下载仓库只提供 APK、更新清单和校验和。",
-  "published_at": "2026-10-12T17:05:46.094829+00:00"
+  "size": 17527279,
+  "sha256": "177dc2efc9dda1b911466ef364bf9f3228a3a345bead12b9cd1309b4a868aebd",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.56/hongguo-tv-0.2.56.apk",
+  "release_notes": "红果短剧 v0.2.56\n\n- 播放准备失败时，播放页面直接显示“重试播放”和“播放诊断”两个操作。\n- 默认焦点落在“重试播放”，按右键可以切换到“播放诊断”；即使还没有成功取得视频地址，也可以打开诊断窗口。\n- 播放恢复或切换到下一集后，失败操作会自动隐藏，不影响正常播放控制。\n- 标准版继续使用 WebView → Media3 播放路径，MPV 版继续使用独立的 MPV 播放路径。\n\n标准版：`hongguo-tv-0.2.56.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.56.apk`\n\n两版均支持 Android 6 及以上。已安装的同版 APK 可直接覆盖升级，账号、收藏和历史保留。MPV 对应库源码随私有 Release 提供，公开下载仓库只提供 APK、更新清单和校验和。",
+  "published_at": "2026-10-13T01:53:10.390158+00:00"
 }
