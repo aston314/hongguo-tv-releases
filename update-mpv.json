@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 15,
-  "version_name": "0.2.62",
+  "version_code": 16,
+  "version_name": "0.2.63",
   "min_sdk": 23,
-  "size": 35298566,
-  "sha256": "27b2dea45706e4db48e70c7ab407c28ecd30306c4f00c02ee603d3dcd668399c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.62/hongguo-tv-mpv-0.2.62.apk",
-  "release_notes": "# 红果短剧 v0.2.62\n\n- 修复 Android TV 搜索输入框在部分旧版 WebView/系统输入法上抢走窗口焦点后，遥控器上、下键无法离开输入框的问题。\n- 搜索框进入编辑态时，原生壳单独维护搜索编辑状态；上、下键继续交给网页焦点路由，左右键、删除、文字输入和确认键继续交给输入框。\n- 返回键优先关闭系统输入法，离开搜索框、切页、全屏切换和 Activity 生命周期结束时清理编辑状态，避免焦点跳到“检查更新”等无关按钮。\n- 增加对应的 Java 输入策略测试和浏览器遥控器回归测试；不按设备型号做黑名单，也不改变扫码输入和数字键盘路径。\n- 保留本分支已确认的播放相关修复：卡片换源生命周期隔离，以及从已进入播放页/推荐页全屏状态下用上、下键切换上一集/下一集、左右键快进或后退。\n- 标准版继续使用 WebView + Media3，MPV 版继续使用内置 MPV 播放路径；两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.62.apk`（versionCode 63）\n\nMPV 版：`hongguo-tv-mpv-0.2.62.apk`（versionCode 15）",
-  "published_at": "2026-10-14T01:29:43.132366+00:00"
+  "size": 35302825,
+  "sha256": "eb2b3aab1b96ad963f4b537adff9703bfbbf4b2397feaa56a792a8dd4a051379",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.63/hongguo-tv-mpv-0.2.63.apk",
+  "release_notes": "# 红果短剧 v0.2.63\n\n- 修复 MPV 版从找剧、搜索、排行榜、历史、收藏等页面打开卡片时，快速换源可能与旧播放会话的 native stop/事件回调竞争并导致闪退的问题。\n- MPV 切换播放源时先暂停并异步停止旧源，等待命令回复、旧源结束事件和事件队列排空后再打开新源；遇到超时或 Surface 被销毁时释放旧播放器，并拒绝超时后的迟到回复，避免旧 `ANativeWindow` 或回调污染新会话。\n- 保留会话代次校验，并让快速连续点选最终播放最新一部；切换边界内的暂停/继续意图也会应用到新会话。\n- 标准版仍使用 WebView + Media3，解码策略不变；MPV 版仍使用内置 MPV。两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.63.apk`（versionCode 64）\n\nMPV 版：`hongguo-tv-mpv-0.2.63.apk`（versionCode 16）",
+  "published_at": "2026-10-14T12:41:23.583499+00:00"
 }
