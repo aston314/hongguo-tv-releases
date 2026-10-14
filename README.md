@@ -45,3 +45,7 @@ macOS 解压后打开 **红果短剧.app**。Windows 请完整解压文件夹并
 
 MPV 版使用的 LGPL 库源码和构建资料保留在私有源码仓库的 Release 中，使用 APK 不需要下载源码附件。
 
+还有，抖音（douyin）你会喜欢的：
+
+- [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
+
