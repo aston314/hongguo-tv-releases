@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 64,
-  "version_name": "0.2.63",
+  "version_code": 65,
+  "version_name": "0.2.64",
   "min_sdk": 23,
-  "size": 17590219,
-  "sha256": "8e271b99b11632ffeb4ad139f0c5e79208061662839f22838bf143a5ec468ce3",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.63/hongguo-tv-0.2.63.apk",
-  "release_notes": "# 红果短剧 v0.2.63\n\n- 修复 MPV 版从找剧、搜索、排行榜、历史、收藏等页面打开卡片时，快速换源可能与旧播放会话的 native stop/事件回调竞争并导致闪退的问题。\n- MPV 切换播放源时先暂停并异步停止旧源，等待命令回复、旧源结束事件和事件队列排空后再打开新源；遇到超时或 Surface 被销毁时释放旧播放器，并拒绝超时后的迟到回复，避免旧 `ANativeWindow` 或回调污染新会话。\n- 保留会话代次校验，并让快速连续点选最终播放最新一部；切换边界内的暂停/继续意图也会应用到新会话。\n- 标准版仍使用 WebView + Media3，解码策略不变；MPV 版仍使用内置 MPV。两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.63.apk`（versionCode 64）\n\nMPV 版：`hongguo-tv-mpv-0.2.63.apk`（versionCode 16）",
-  "published_at": "2026-10-14T12:41:15.072297+00:00"
+  "size": 17650499,
+  "sha256": "29e79068d22324078490018243f84d3c3196f1f890939b33c79684a211464fd9",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.64/hongguo-tv-0.2.64.apk",
+  "release_notes": "# 红果短剧 v0.2.64\n\n- WebView 播放改为按需读取视频数据，减少切集前的整集下载等待；下一集预取只准备播放地址和索引，不预下载媒体内容。\n- Range 请求遇到短暂断网或连接中断时，从已接收位置继续请求；签名地址刷新后校验视频身份，避免接错内容。\n- 不支持按需读取的媒体、播放错误或持续卡住时，自动回退到标准完整文件播放。\n- 同剧切集保留当前画面；切换很快时不闪出加载提示，较慢时再显示。\n- 切换清晰度时清理旧的卡顿监测计时器，避免旧计时影响新画质。\n- MPV 版继续走原有完整文件播放路径。\n\n标准版：`hongguo-tv-0.2.64.apk`（versionCode 65）\n\nMPV 版：`hongguo-tv-mpv-0.2.64.apk`（versionCode 17）\n\n按需读取的 Android TV 真机验证仍需继续；遇到兼容问题时，前台播放会回退到标准模式。",
+  "published_at": "2026-10-14T19:14:44.738527+00:00"
 }
