@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 66,
-  "version_name": "0.2.65",
+  "version_code": 67,
+  "version_name": "0.2.66",
   "min_sdk": 23,
-  "size": 17650491,
-  "sha256": "d0db028eb037fcc8e899c6e659797a2d7a9c02f21ec8bdbef9624f1df8e3a2f5",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.65/hongguo-tv-0.2.65.apk",
-  "release_notes": "# 红果短剧 v0.2.65\n\n- 修复 MPV 播放期间 Surface 销毁后，已结束会话可能继续持有旧 Surface 的生命周期问题。\n- MPV 切换播放源时，如果 Surface 正在销毁，待播会话会等新 Surface 有效后再安装，避免把新播放绑定到正在释放的画面层。\n- 这次改动针对已确认的 Surface 生命周期缺口；尚未在反馈闪退的设备上复现，不能据此确认 Issue #10 的根因已全部解决。\n\n标准版：`hongguo-tv-0.2.65.apk`（versionCode 66）\n\nMPV 版：`hongguo-tv-mpv-0.2.65.apk`（versionCode 18）",
-  "published_at": "2026-10-14T21:52:13.296239+00:00"
+  "size": 17651856,
+  "sha256": "d15e6bc26d4d7a7d48b0fd14aae25a7bb74919cf2a1835016e7d0c85ecc53914",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.66/hongguo-tv-0.2.66.apk",
+  "release_notes": "# 红果短剧 v0.2.66\n\n- 修复标准版连续播放下一集时，切换视频源可能短暂露出播放器占位图的问题。\n- Range 切集期间先保留当前画面；替换视频源时显示黑色遮罩，收到新源首帧后再显示视频。\n\n标准版：`hongguo-tv-0.2.66.apk`（versionCode 67）\n\nMPV 版：`hongguo-tv-mpv-0.2.66.apk`（versionCode 19）",
+  "published_at": "2026-10-14T22:37:54.253250+00:00"
 }
