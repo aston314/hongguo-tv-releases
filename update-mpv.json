@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 14,
-  "version_name": "0.2.61",
+  "version_code": 15,
+  "version_name": "0.2.62",
   "min_sdk": 23,
-  "size": 35294252,
-  "sha256": "24adc77402d0622d192ead8374d9c67a564caf5d558980319b9842c74edfee90",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.61/hongguo-tv-mpv-0.2.61.apk",
-  "release_notes": "# 红果短剧 v0.2.61\n\n- 修复 MPV 版从找剧、排行榜、新剧、历史、收藏和点赞卡片进入播放时的换源生命周期问题。\n- 切换播放源前先停止旧源，新源在收到 `FILE_LOADED` 后才开始播放，避免旧解码器和新源重叠。\n- 隔离旧会话的延迟回调，避免旧源的结束、错误或进度事件污染当前卡片。\n- 标准版继续使用 WebView + Media3，MPV 版继续使用内置 MPV 播放路径。\n- 两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.61.apk`\n\nMPV 版：`hongguo-tv-mpv-0.2.61.apk`",
-  "published_at": "2026-10-13T14:30:22.458954+00:00"
+  "size": 35298566,
+  "sha256": "27b2dea45706e4db48e70c7ab407c28ecd30306c4f00c02ee603d3dcd668399c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.62/hongguo-tv-mpv-0.2.62.apk",
+  "release_notes": "# 红果短剧 v0.2.62\n\n- 修复 Android TV 搜索输入框在部分旧版 WebView/系统输入法上抢走窗口焦点后，遥控器上、下键无法离开输入框的问题。\n- 搜索框进入编辑态时，原生壳单独维护搜索编辑状态；上、下键继续交给网页焦点路由，左右键、删除、文字输入和确认键继续交给输入框。\n- 返回键优先关闭系统输入法，离开搜索框、切页、全屏切换和 Activity 生命周期结束时清理编辑状态，避免焦点跳到“检查更新”等无关按钮。\n- 增加对应的 Java 输入策略测试和浏览器遥控器回归测试；不按设备型号做黑名单，也不改变扫码输入和数字键盘路径。\n- 保留本分支已确认的播放相关修复：卡片换源生命周期隔离，以及从已进入播放页/推荐页全屏状态下用上、下键切换上一集/下一集、左右键快进或后退。\n- 标准版继续使用 WebView + Media3，MPV 版继续使用内置 MPV 播放路径；两个版本最低支持 Android 6，应用名称统一为“红果短剧”。\n\n标准版：`hongguo-tv-0.2.62.apk`（versionCode 63）\n\nMPV 版：`hongguo-tv-mpv-0.2.62.apk`（versionCode 15）",
+  "published_at": "2026-10-14T01:29:43.132366+00:00"
 }
