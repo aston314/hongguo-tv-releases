@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 69,
-  "version_name": "0.2.68",
+  "version_code": 70,
+  "version_name": "0.2.69",
   "min_sdk": 23,
-  "size": 17875724,
-  "sha256": "178c48fd13d55feee71a949cab4616e28c708eff5838e069f0745fabd9ea8d7d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.68/hongguo-tv-0.2.68.apk",
-  "release_notes": "# 红果短剧 v0.2.68\n\n- 优化标准版同剧切集过渡：HTML5 播放切换上一集、下一集时，尽量保留上一集的最后一帧作为背景，新视频就绪后再切换，减少短暂黑屏。取帧失败时保留黑色遮罩兜底。\n- 新增完播相关推荐：从找剧、排行榜、历史等卡片进入播放，最后一集结束且没有可续播的下一季时，底部淡入本剧相关推荐卡片，可左右选择、横向滚动并确认观看；返回只收起推荐行。\n- 相关推荐沿用选集弹窗的本剧数据，优先处理续集、续季及预约；无数据时不弹空行，推荐频道保持原逻辑。\n- 本次最后帧优化适用于 HTML5 播放，不改变 MPV/Media3 原生播放器的切集画面。\n\n标准版：`hongguo-tv-0.2.68.apk`（versionCode 69）\n\nMPV 版：`hongguo-tv-mpv-0.2.68.apk`（versionCode 21）\n\n两版均可覆盖安装各自旧版本，无需卸载。自动化与浏览器场景验证通过，实体电视的切集观感与遥控效果请更新后体验。",
-  "published_at": "2026-10-15T07:34:54.261166+00:00"
+  "size": 17881239,
+  "sha256": "63dab715186f27057ea7eacf7a259b5af2c37a9ee975200de590cab731b50587",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.69/hongguo-tv-0.2.69.apk",
+  "release_notes": "# 红果短剧 v0.2.69\n\n- 修复完播相关推荐收起后的焦点：返回或关闭推荐行后显示底部控件，焦点高亮在“选集”按钮，保持当前播放页与全屏状态。\n- 新增相关推荐首卡 30 秒自动播放：推荐行展示就绪后，第一张卡片右上角显示紧凑的圆角数字倒计时；没有操作时自动播放第一张，沿用历史续播。\n- 移动焦点、手动浏览、返回或关闭推荐行都会取消倒计时，回到第一张也不重新计时。其他卡片仍由用户确认播放。\n- 切到后台、窗口失焦、切换页面/剧集/账号时取消自动播放，避免迟到事件或定时器误播。\n\n标准版：`hongguo-tv-0.2.69.apk`（versionCode 70）\n\nMPV 版：`hongguo-tv-mpv-0.2.69.apk`（versionCode 22）\n\n可覆盖安装对应旧版本，无需卸载。自动化与浏览器验证通过，电视遥控和实际观感请更新后体验。",
+  "published_at": "2026-10-15T08:14:54.146883+00:00"
 }
