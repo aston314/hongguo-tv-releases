@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.67",
-  "version_code": 6,
-  "release_notes": "红果短剧桌面版 0.2.67（macOS / Windows）\n\n- 选集弹窗的相关推荐现已能读取红果详情页延迟返回的数据；同时保留明确的空态提示。\n- 同步共享 Web UI 修复和内容更新。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
+  "version_name": "0.2.68",
+  "version_code": 7,
+  "release_notes": "红果短剧桌面版 0.2.68（macOS / Windows）\n\n- 优化 HTML5 同剧切集过渡：尽量保留上一集最后一帧，新视频就绪后再切换；取帧失败时保留黑色兜底。\n- 从卡片进入播放并看完最后一集后，在没有可续播下一季时，底部展示本剧相关推荐。支持鼠标点击、左右键选择和横向滚动，Escape 收起推荐行；保留预约与自动续播优先级。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.67-macos-universal.zip",
-      "size": 17514892,
-      "sha256": "66247dc6d6ac026c5770d8fef38af9204e1458ac8247a106f55ab55366dcd377",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.67/hongguo-desktop-0.2.67-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.68-macos-universal.zip",
+      "size": 17523419,
+      "sha256": "9eb381e2a994c4b645f04ddd95a32a2a909ccb1a765778254dcf7f7e1389e819",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.68/hongguo-desktop-0.2.68-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.67-windows-x64.zip",
-      "size": 9018558,
-      "sha256": "7d7c5dd7bc5c82c82be7b1f2ffbb9f86199240e6ed78676744293573ad22954c",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.67/hongguo-desktop-0.2.67-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.68-windows-x64.zip",
+      "size": 9023389,
+      "sha256": "8477ad402a372653eeadea427e1adbd22b7673683b5f4677857e448cca36001e",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.68/hongguo-desktop-0.2.68-windows-x64.zip"
     }
   }
 }
