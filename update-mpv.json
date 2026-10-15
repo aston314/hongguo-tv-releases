@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 20,
-  "version_name": "0.2.67",
+  "version_code": 21,
+  "version_name": "0.2.68",
   "min_sdk": 23,
-  "size": 35577928,
-  "sha256": "b7b8ea95abf1f5ed52ff883bef1bc7df140186505ac2d6b88e1b4db09b6f0729",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.67/hongguo-tv-mpv-0.2.67.apk",
-  "release_notes": "# 红果短剧 v0.2.67\n\n- MPV 切换播放源期间等待旧源 stop fence 完成后再处理 Surface 销毁，避免提前释放仍在停止中的播放器。\n- 切源期间延后 Surface 尺寸更新，并跳过重复布局变更，减少 Surface 重建与播放器绑定交错的机会。\n- 修复选集弹窗的相关推荐为空：解析红果详情页延迟返回的推荐数据，并补充真实数据预览入口和空态回归测试。\n- 该修复针对非推荐卡片播放路径的 Surface 生命周期风险；仍需在反馈设备上验证，不能据此确认所有闪退已解决。\n\n标准版：`hongguo-tv-0.2.67.apk`（versionCode 68）\n\nMPV 版：`hongguo-tv-mpv-0.2.67.apk`（versionCode 20）",
-  "published_at": "2026-10-15T04:09:19.790899+00:00"
+  "size": 35589395,
+  "sha256": "b5479c6c6ef6a40b5bc63f55d87ebb92f26dcf802568c3dde2c2dca8916d5a1e",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.68/hongguo-tv-mpv-0.2.68.apk",
+  "release_notes": "# 红果短剧 v0.2.68\n\n- 优化标准版同剧切集过渡：HTML5 播放切换上一集、下一集时，尽量保留上一集的最后一帧作为背景，新视频就绪后再切换，减少短暂黑屏。取帧失败时保留黑色遮罩兜底。\n- 新增完播相关推荐：从找剧、排行榜、历史等卡片进入播放，最后一集结束且没有可续播的下一季时，底部淡入本剧相关推荐卡片，可左右选择、横向滚动并确认观看；返回只收起推荐行。\n- 相关推荐沿用选集弹窗的本剧数据，优先处理续集、续季及预约；无数据时不弹空行，推荐频道保持原逻辑。\n- 本次最后帧优化适用于 HTML5 播放，不改变 MPV/Media3 原生播放器的切集画面。\n\n标准版：`hongguo-tv-0.2.68.apk`（versionCode 69）\n\nMPV 版：`hongguo-tv-mpv-0.2.68.apk`（versionCode 21）\n\n两版均可覆盖安装各自旧版本，无需卸载。自动化与浏览器场景验证通过，实体电视的切集观感与遥控效果请更新后体验。",
+  "published_at": "2026-10-15T07:35:02.842101+00:00"
 }
