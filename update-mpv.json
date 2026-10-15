@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 19,
-  "version_name": "0.2.66",
+  "version_code": 20,
+  "version_name": "0.2.67",
   "min_sdk": 23,
-  "size": 35365125,
-  "sha256": "188b8fdb50b5cb7402b2ab8db2e228f02dc10abbd84bc6760ab989ae68538572",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.66/hongguo-tv-mpv-0.2.66.apk",
-  "release_notes": "# 红果短剧 v0.2.66\n\n- 修复标准版连续播放下一集时，切换视频源可能短暂露出播放器占位图的问题。\n- Range 切集期间先保留当前画面；替换视频源时显示黑色遮罩，收到新源首帧后再显示视频。\n\n标准版：`hongguo-tv-0.2.66.apk`（versionCode 67）\n\nMPV 版：`hongguo-tv-mpv-0.2.66.apk`（versionCode 19）",
-  "published_at": "2026-10-14T22:38:03.367910+00:00"
+  "size": 35577928,
+  "sha256": "b7b8ea95abf1f5ed52ff883bef1bc7df140186505ac2d6b88e1b4db09b6f0729",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.67/hongguo-tv-mpv-0.2.67.apk",
+  "release_notes": "# 红果短剧 v0.2.67\n\n- MPV 切换播放源期间等待旧源 stop fence 完成后再处理 Surface 销毁，避免提前释放仍在停止中的播放器。\n- 切源期间延后 Surface 尺寸更新，并跳过重复布局变更，减少 Surface 重建与播放器绑定交错的机会。\n- 修复选集弹窗的相关推荐为空：解析红果详情页延迟返回的推荐数据，并补充真实数据预览入口和空态回归测试。\n- 该修复针对非推荐卡片播放路径的 Surface 生命周期风险；仍需在反馈设备上验证，不能据此确认所有闪退已解决。\n\n标准版：`hongguo-tv-0.2.67.apk`（versionCode 68）\n\nMPV 版：`hongguo-tv-mpv-0.2.67.apk`（versionCode 20）",
+  "published_at": "2026-10-15T04:09:19.790899+00:00"
 }
