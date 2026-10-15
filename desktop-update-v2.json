@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.68",
-  "version_code": 7,
-  "release_notes": "红果短剧桌面版 0.2.68（macOS / Windows）\n\n- 优化 HTML5 同剧切集过渡：尽量保留上一集最后一帧，新视频就绪后再切换；取帧失败时保留黑色兜底。\n- 从卡片进入播放并看完最后一集后，在没有可续播下一季时，底部展示本剧相关推荐。支持鼠标点击、左右键选择和横向滚动，Escape 收起推荐行；保留预约与自动续播优先级。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
+  "version_name": "0.2.69",
+  "version_code": 8,
+  "release_notes": "红果短剧桌面版 0.2.69（macOS / Windows）\n\n- 修复相关推荐关闭后的焦点：显示底部控件，并高亮“选集”按钮；保持当前播放页和全屏状态。\n- 相关推荐展示就绪后，首张卡片右上角显示纯数字的 30 秒倒计时，无操作则自动播放第一张并沿用历史续播。\n- 移焦、方向键、鼠标/触摸浏览、关闭或返回都会取消倒计时，回到首张不重启；切后台、窗口失焦、切页面/剧集/账号也会取消。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.68-macos-universal.zip",
-      "size": 17523419,
-      "sha256": "9eb381e2a994c4b645f04ddd95a32a2a909ccb1a765778254dcf7f7e1389e819",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.68/hongguo-desktop-0.2.68-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.69-macos-universal.zip",
+      "size": 17527208,
+      "sha256": "ea4d6a2895023429e612fca23b781e12bda04bf29d003aeed292dd109c484799",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.69/hongguo-desktop-0.2.69-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.68-windows-x64.zip",
-      "size": 9023389,
-      "sha256": "8477ad402a372653eeadea427e1adbd22b7673683b5f4677857e448cca36001e",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.68/hongguo-desktop-0.2.68-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.69-windows-x64.zip",
+      "size": 9024245,
+      "sha256": "b1fe0a5e0d253091497961cb6120642592436dbea5c5f124ae8fd159ce2abae6",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.69/hongguo-desktop-0.2.69-windows-x64.zip"
     }
   }
 }
