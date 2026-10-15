@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 71,
-  "version_name": "0.2.70",
+  "version_code": 72,
+  "version_name": "0.2.71",
   "min_sdk": 23,
-  "size": 17886054,
-  "sha256": "e78e01a91e0eeaecfaad8032730b36d84a7e35f37355966f25022ab08e4882e3",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.70/hongguo-tv-0.2.70.apk",
-  "release_notes": "# 红果短剧 v0.2.70\n\n- 修复上游 `video_model` 对设备标识一次性放行导致的播放失败。\n- 每次播放解析使用新的 `device_id/iid`，并让完整请求签名与本次设备身份保持一致。\n- 空响应最多使用新的设备身份重试 3 次；明确的 HTTP、JSON 或视频源错误不会被重复隐藏。\n- 标准版和 MPV 版共用同一套播放解析修复，保留原有解密、Range 和播放器路径。\n\n标准版：`hongguo-tv-0.2.70.apk`（versionCode 71）\n\nMPV 版：`hongguo-tv-mpv-0.2.70.apk`（versionCode 23）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
-  "published_at": "2026-10-15T12:43:10.325494+00:00"
+  "size": 17964398,
+  "sha256": "c04d0d26d3b5b6ccfc43eef4efd5fb43e7dff741905019bffb69043cf1392a3c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.71/hongguo-tv-0.2.71.apk",
+  "release_notes": "# 红果短剧 v0.2.71\n\n- 播放控制栏重新整理：弹幕开关移到全屏按钮左侧，两者保持同一组显示，不增加分隔线。\n- 弹幕按钮默认只显示图标，获得焦点时在右侧显示“弹幕开/弹幕关”，并用不同 SVG 表示开关状态。\n- 保留 v0.2.70 的播放解析修复和 Media3 1.8.0 更新：标准版继续 WebView 优先、Media3 回退；MPV 版保持独立播放路径。\n- 补齐旧 Android WebView 的控制栏间距兼容规则，保持遥控器焦点顺序为诊断 → 弹幕 → 全屏。\n\n标准版：`hongguo-tv-0.2.71.apk`（versionCode 72）\n\nMPV 版：`hongguo-tv-mpv-0.2.71.apk`（versionCode 24）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
+  "published_at": "2026-10-15T15:44:13.628896+00:00"
 }
