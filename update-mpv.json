@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 22,
-  "version_name": "0.2.69",
+  "version_code": 23,
+  "version_name": "0.2.70",
   "min_sdk": 23,
-  "size": 35594918,
-  "sha256": "86288b0b7a893e3d17c807c7c7f779e1f4e8460ba4d31dfe90c12ed948f8877a",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.69/hongguo-tv-mpv-0.2.69.apk",
-  "release_notes": "# 红果短剧 v0.2.69\n\n- 修复完播相关推荐收起后的焦点：返回或关闭推荐行后显示底部控件，焦点高亮在“选集”按钮，保持当前播放页与全屏状态。\n- 新增相关推荐首卡 30 秒自动播放：推荐行展示就绪后，第一张卡片右上角显示紧凑的圆角数字倒计时；没有操作时自动播放第一张，沿用历史续播。\n- 移动焦点、手动浏览、返回或关闭推荐行都会取消倒计时，回到第一张也不重新计时。其他卡片仍由用户确认播放。\n- 切到后台、窗口失焦、切换页面/剧集/账号时取消自动播放，避免迟到事件或定时器误播。\n\n标准版：`hongguo-tv-0.2.69.apk`（versionCode 70）\n\nMPV 版：`hongguo-tv-mpv-0.2.69.apk`（versionCode 22）\n\n可覆盖安装对应旧版本，无需卸载。自动化与浏览器验证通过，电视遥控和实际观感请更新后体验。",
-  "published_at": "2026-10-15T08:15:07.965302+00:00"
+  "size": 35599696,
+  "sha256": "0a9eae50167c28131d9c742aad3f6c3f5b6212eec20c8e28a2f891f6e2ea9ad1",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.70/hongguo-tv-mpv-0.2.70.apk",
+  "release_notes": "# 红果短剧 v0.2.70\n\n- 修复上游 `video_model` 对设备标识一次性放行导致的播放失败。\n- 每次播放解析使用新的 `device_id/iid`，并让完整请求签名与本次设备身份保持一致。\n- 空响应最多使用新的设备身份重试 3 次；明确的 HTTP、JSON 或视频源错误不会被重复隐藏。\n- 标准版和 MPV 版共用同一套播放解析修复，保留原有解密、Range 和播放器路径。\n\n标准版：`hongguo-tv-0.2.70.apk`（versionCode 71）\n\nMPV 版：`hongguo-tv-mpv-0.2.70.apk`（versionCode 23）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
+  "published_at": "2026-10-15T12:43:20.248017+00:00"
 }
