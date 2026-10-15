@@ -16,7 +16,7 @@
 </table>
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.68)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.69)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
 
@@ -50,12 +50,12 @@
 
 ## macOS / Windows 桌面版
 
-[桌面版 0.2.68 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.68)。无需安装 APK，选择对应平台的 ZIP：
+[桌面版 0.2.69 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.69)。无需安装 APK，选择对应平台的 ZIP：
 
 | 平台 | 下载文件 | 要求 |
 | --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.68-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.68-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
+| **macOS** | `hongguo-desktop-0.2.69-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
+| **Windows amd64 / x64** | `hongguo-desktop-0.2.69-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
 
 macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
 
