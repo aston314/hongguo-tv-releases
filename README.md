@@ -2,6 +2,19 @@
 
 此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
+## 应用界面
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/new-releases.jpg" width="480" alt="新剧推荐：浏览近期上新的短剧" /><br /><sub>新剧推荐</sub></td>
+    <td align="center"><img src="screenshots/search.jpg" width="480" alt="找剧：搜索并浏览短剧海报" /><br /><sub>搜索与海报浏览</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/ranking.jpg" width="480" alt="排行榜：查看不同榜单和热门短剧" /><br /><sub>热门榜单</sub></td>
+    <td align="center"><img src="screenshots/related.jpg" width="480" alt="相关推荐：在选集弹窗中发现相似短剧" /><br /><sub>选集与相关推荐</sub></td>
+  </tr>
+</table>
+
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
 - [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.67)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
