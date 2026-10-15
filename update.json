@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 72,
-  "version_name": "0.2.71",
+  "version_code": 73,
+  "version_name": "0.2.72",
   "min_sdk": 23,
-  "size": 17964398,
-  "sha256": "c04d0d26d3b5b6ccfc43eef4efd5fb43e7dff741905019bffb69043cf1392a3c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.71/hongguo-tv-0.2.71.apk",
-  "release_notes": "# 红果短剧 v0.2.71\n\n- 播放控制栏重新整理：弹幕开关移到全屏按钮左侧，两者保持同一组显示，不增加分隔线。\n- 弹幕按钮默认只显示图标，获得焦点时在右侧显示“弹幕开/弹幕关”，并用不同 SVG 表示开关状态。\n- 保留 v0.2.70 的播放解析修复和 Media3 1.8.0 更新：标准版继续 WebView 优先、Media3 回退；MPV 版保持独立播放路径。\n- 补齐旧 Android WebView 的控制栏间距兼容规则，保持遥控器焦点顺序为诊断 → 弹幕 → 全屏。\n\n标准版：`hongguo-tv-0.2.71.apk`（versionCode 72）\n\nMPV 版：`hongguo-tv-mpv-0.2.71.apk`（versionCode 24）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
-  "published_at": "2026-10-15T15:44:13.628896+00:00"
+  "size": 17967690,
+  "sha256": "9d97bde160f2b1e302a7b40bd791e5c5ce7e51fe130840155608d4567459077c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.72/hongguo-tv-0.2.72.apk",
+  "release_notes": "# 红果短剧 v0.2.72\n\n- 下一集预取在切集时直接交给前台播放器，避免预取成功后再次请求同一播放地址；预取最多等待 1.2 秒，超时自动回到正常取流。\n- 预取任务按剧集、VID、清晰度、播放代次和账号代次隔离，切剧、跳集、清晰度变化、账号切换和离开页面不会让迟到结果污染当前播放。\n- 标准版播放失败时最多自动刷新一次播放地址；刷新仍失败保持原有错误提示和手动重试。MPV 版不自动重建原生会话，避免增加 Surface/解码器生命周期风险。\n- 标准版继续 WebView 优先、Media3 回退；MPV 版保持独立原生播放路径。\n\n标准版：`hongguo-tv-0.2.72.apk`（versionCode 73）\n\nMPV 版：`hongguo-tv-mpv-0.2.72.apk`（versionCode 25）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
+  "published_at": "2026-10-15T18:40:02.955548+00:00"
 }
