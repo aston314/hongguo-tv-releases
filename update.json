@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 73,
-  "version_name": "0.2.72",
+  "version_code": 74,
+  "version_name": "0.2.73",
   "min_sdk": 23,
-  "size": 17967690,
-  "sha256": "9d97bde160f2b1e302a7b40bd791e5c5ce7e51fe130840155608d4567459077c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.72/hongguo-tv-0.2.72.apk",
-  "release_notes": "# 红果短剧 v0.2.72\n\n- 下一集预取在切集时直接交给前台播放器，避免预取成功后再次请求同一播放地址；预取最多等待 1.2 秒，超时自动回到正常取流。\n- 预取任务按剧集、VID、清晰度、播放代次和账号代次隔离，切剧、跳集、清晰度变化、账号切换和离开页面不会让迟到结果污染当前播放。\n- 标准版播放失败时最多自动刷新一次播放地址；刷新仍失败保持原有错误提示和手动重试。MPV 版不自动重建原生会话，避免增加 Surface/解码器生命周期风险。\n- 标准版继续 WebView 优先、Media3 回退；MPV 版保持独立原生播放路径。\n\n标准版：`hongguo-tv-0.2.72.apk`（versionCode 73）\n\nMPV 版：`hongguo-tv-mpv-0.2.72.apk`（versionCode 25）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
-  "published_at": "2026-10-15T18:40:02.955548+00:00"
+  "size": 18020529,
+  "sha256": "71058c64ecf0fef84ac8684794355b1652045c52972de324eacec8c72e29bc2d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.73/hongguo-tv-0.2.73.apk",
+  "release_notes": "# 红果短剧 v0.2.73\n\n- 排行榜增加榜单雷达：可切换红果榜、官方榜与飙升榜，查看综合/真人/AI/漫剧分类及热度、收藏增长数据；遥控器可直接切换，不必滚到榜单底部。\n- 预约成功状态改为以红果账号的待上线列表回读确认为准；请求已提交但云端尚未显示时，会明确提示尚未确认，避免把本地状态误报为跨设备同步成功。\n- 包含此前已发布的播放解析与播放器稳定性修复。\n\n标准版：`hongguo-tv-0.2.73.apk`（versionCode 74）\n\nMPV 版：`hongguo-tv-mpv-0.2.73.apk`（versionCode 26）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
+  "published_at": "2026-10-16T05:51:21.172891+00:00"
 }
