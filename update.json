@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 74,
-  "version_name": "0.2.73",
+  "version_code": 75,
+  "version_name": "0.2.74",
   "min_sdk": 23,
-  "size": 18020529,
-  "sha256": "71058c64ecf0fef84ac8684794355b1652045c52972de324eacec8c72e29bc2d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.73/hongguo-tv-0.2.73.apk",
-  "release_notes": "# 红果短剧 v0.2.73\n\n- 排行榜增加榜单雷达：可切换红果榜、官方榜与飙升榜，查看综合/真人/AI/漫剧分类及热度、收藏增长数据；遥控器可直接切换，不必滚到榜单底部。\n- 预约成功状态改为以红果账号的待上线列表回读确认为准；请求已提交但云端尚未显示时，会明确提示尚未确认，避免把本地状态误报为跨设备同步成功。\n- 包含此前已发布的播放解析与播放器稳定性修复。\n\n标准版：`hongguo-tv-0.2.73.apk`（versionCode 74）\n\nMPV 版：`hongguo-tv-mpv-0.2.73.apk`（versionCode 26）\n\n可覆盖安装对应旧版本，无需卸载。实际播放仍受上游可用性和设备解码能力影响。",
-  "published_at": "2026-10-16T05:51:21.172891+00:00"
+  "size": 18057839,
+  "sha256": "cdecf5d4712720e065061a5555b00334a74b493c86fa394183967a9d98325bb8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.74/hongguo-tv-0.2.74.apk",
+  "release_notes": "# 红果短剧 v0.2.74\n\n- 手机号登录支持中国大陆、中国香港、中国澳门、中国台湾及多个东南亚、日韩和阿联酋地区；国家/地区选择支持电视遥控器焦点和扫码输入，默认仍为中国大陆 `+86`。\n- 登录请求按所选地区规范化国际号码，并保留旧版中国大陆号码调用兼容；号码显示使用脱敏格式。\n- 排行榜中的演员入口可以打开演员作品列表，支持继续浏览和播放作品。\n- 保留上一版的连续切集、播放恢复、相关推荐和榜单雷达改进。\n\n标准版：`hongguo-tv-0.2.74.apk`（versionCode 75）\n\nMPV 版：`hongguo-tv-mpv-0.2.74.apk`（versionCode 27）\n\n桌面版：`hongguo-desktop-0.2.74-macos-universal.zip`、`hongguo-desktop-0.2.74-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.74-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
+  "published_at": "2026-10-16T16:23:28.458031+00:00"
 }
