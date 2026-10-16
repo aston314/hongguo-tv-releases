@@ -1,4 +1,4 @@
-# 红果短剧下载（Android TV / webOS / macOS / Windows）
+# 红果短剧下载（Android TV / macOS / Windows）
 
 此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
@@ -16,8 +16,7 @@
 </table>
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.72-test.1)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.72)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.73)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
 
@@ -49,31 +48,14 @@
 
 测试 MPV 时，建议用同一集比较自动解码和软件解码的流畅度，并检查连续切集、暂停恢复和音画同步。解码设置会保存，下次播放或切集时生效；自动模式画面异常时可改为软件解码后重新播放。异常时请提供应用内“播放诊断”的截图，诊断会显示实际解码路径和可用的掉帧信息。
 
-## LG webOS 测试版
-
-[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.72-test.1)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.72-test.1.ipk`。这是面向 LG webOS TV 的早期测试包，不是 Android APK，也不属于正式稳定版。
-
-安装需要在电视上启用 **LG Developer Mode**，并通过 webOS 开发工具（例如 webOS CLI 的 `ares-install`）安装 `.ipk`。如果你不熟悉 Developer Mode 或命令行安装，建议先不要安装。
-
-目前已验证真实红果数据请求、签名、视频解密和本地媒体文件的 Range 读取；**尚未在 LG webOS 真机验证安装、页面运行、遥控器焦点或视频播放**。不同电视型号的 HEVC/AAC 支持也可能不同，暂时不能保证一定能播放。完整下载后解密再播放，起播时间和存储占用可能较高。
-
-测试后请在反馈中附上：
-
-- LG 电视型号和 webOS 版本
-- 应用是否成功安装、启动，首页是否显示内容
-- 播放是否有画面和声音；剧集、清晰度及横屏/竖屏情况
-- 卡住、黑屏、报错或退出时的具体表现和错误信息
-
-该测试版与 Android、桌面版的发布和更新渠道相互独立。
-
 ## macOS / Windows 桌面版
 
-[桌面版 0.2.72 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.72)。无需安装 APK，选择对应平台的 ZIP：
+[桌面版 0.2.73 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.73)。无需安装 APK，选择对应平台的 ZIP：
 
 | 平台 | 下载文件 | 要求 |
 | --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.72-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.72-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
+| **macOS** | `hongguo-desktop-0.2.73-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
+| **Windows amd64 / x64** | `hongguo-desktop-0.2.73-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
 
 macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
 
