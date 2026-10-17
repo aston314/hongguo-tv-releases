@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 33,
-  "version_name": "0.2.80",
+  "version_code": 34,
+  "version_name": "0.2.81",
   "min_sdk": 23,
-  "size": 35975161,
-  "sha256": "be1fec56f5facfdafceea8071016389bcf70a5c234bb77731bef1fe96d23aced",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.80/hongguo-tv-mpv-0.2.80.apk",
-  "release_notes": "# 红果短剧 v0.2.80\n\n- 增强手机号登录的失败兜底：短信验证码发送失败时，仍保留已注册的登录会话，允许用户从手机红果 App 获取验证码后回到电视或桌面端完成登录。\n- 保留大陆及其他地区的国家/地区号选择、手机号规范化和现有短信登录流程。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.80`。\n\n标准版：`hongguo-tv-0.2.80.apk`（versionCode 81）\n\nMPV 版：`hongguo-tv-mpv-0.2.80.apk`（versionCode 33）\n\n桌面版：`hongguo-desktop-0.2.80-macos-universal.zip`、`hongguo-desktop-0.2.80-windows-x64.zip`（desktop versionCode 19）。\n\nwebOS：`hongguo-webos-0.2.80-test.3.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n自动化测试通过。海外手机号登录的真实上游可用性仍需要对应国家/地区的真实设备和号码验证。",
-  "published_at": "2026-10-17T21:07:34.571508+00:00"
+  "size": 35987362,
+  "sha256": "ae04e300022b5447dc5bd464e90aec59b679233fd841dd8967acfa64db9d6e79",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.81/hongguo-tv-mpv-0.2.81.apk",
+  "release_notes": "# 红果短剧 v0.2.81\n\n- 优化手机号登录失败提示：同时显示具体错误原因、错误码和手机红果 App 取码说明，不再互相覆盖。服务端没有给出具体原因时明确提示，并保留可用错误码。\n- 修复繁体中文、日文下登录错误被简化为通用提示的问题，保留原始错误详情，方便排查。\n- 按 hongguo-player v1.2.4 实际 macOS 包核对并适配非大陆手机号的号码编码、独立签名和二次验证流程，修正部分地区号码长度限制。\n- 发码失败后保留验证码输入入口；可尝试使用手机红果 App 获取的同手机号验证码继续登录。\n\nAndroid 标准版：`hongguo-tv-0.2.81.apk`（versionCode 82）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.81.apk`（versionCode 34）。\n\nmacOS / Windows：`hongguo-desktop-0.2.81-macos-universal.zip`、`hongguo-desktop-0.2.81-windows-x64.zip`（desktop versionCode 20）。\n\nwebOS：`hongguo-webos-0.2.81-test.3.ipk`，同步共享界面，仍为实验包；目前不提供账号登录，尚未完成 LG 真机验证。\n\n自动化与浏览器隔离测试用于验证请求和交互。尚无真实境外号码完成收码、提交验证码和获取会话的端到端成功记录，不能保证所有地区或从其他设备获取的验证码都被上游接受。",
+  "published_at": "2026-10-17T21:59:50.754334+00:00"
 }
