@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 79,
-  "version_name": "0.2.78",
+  "version_code": 80,
+  "version_name": "0.2.79",
   "min_sdk": 23,
-  "size": 18255051,
-  "sha256": "fe5d26340e58b1ff4da6d87082880a3a76ae1b437ff22de47e41a9f94bc2f03e",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.78/hongguo-tv-0.2.78.apk",
-  "release_notes": "# 红果短剧 v0.2.78\n\n- 修复部分旧版 Android TV WebView 从找剧、排行榜、历史、收藏等页面点击视频时的渲染进程闪退风险：播放加载面板延后一帧显示，避免与列表切换到播放布局同时提交。\n- loading 状态的快速切换会丢弃过期显示回调；失败提示仍即时显示。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.78`。\n\n标准版：`hongguo-tv-0.2.78.apk`（versionCode 79）\n\nMPV 版：`hongguo-tv-mpv-0.2.78.apk`（versionCode 31）\n\n桌面版：`hongguo-desktop-0.2.78-macos-universal.zip`、`hongguo-desktop-0.2.78-windows-x64.zip`（desktop versionCode 17）。\n\nwebOS：`hongguo-webos-0.2.78-test.2.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n本版本的自动化测试通过。修复针对报告中的旧版 WebView 闪退时序，仍需出问题的电视型号实机复测；不代表所有电视上的闪退都已解决。",
-  "published_at": "2026-10-17T11:19:14.162102+00:00"
+  "size": 18255528,
+  "sha256": "17574bf6c0c2543c8bc6bebf023397ef0177f095ea6badab5e792dc79acf54f9",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.79/hongguo-tv-0.2.79.apk",
+  "release_notes": "# 红果短剧 v0.2.79\n\n- 修复旧版 Android TV WebView 对禁用页面标题按钮使用原生白色外观，导致从左侧导航进入页面时左上角出现白块的问题。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.79`。\n\n标准版：`hongguo-tv-0.2.79.apk`（versionCode 80）\n\nMPV 版：`hongguo-tv-mpv-0.2.79.apk`（versionCode 32）\n\n桌面版：`hongguo-desktop-0.2.79-macos-universal.zip`、`hongguo-desktop-0.2.79-windows-x64.zip`（desktop versionCode 18）。\n\nwebOS：`hongguo-webos-0.2.79-test.2.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n自动化测试通过。旧版 WebView 的白块修复仍建议在反馈问题的电视型号上复测。",
+  "published_at": "2026-10-17T13:05:28.054451+00:00"
 }
