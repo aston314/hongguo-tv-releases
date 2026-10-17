@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 30,
-  "version_name": "0.2.77",
+  "version_code": 31,
+  "version_name": "0.2.78",
   "min_sdk": 23,
-  "size": 35970935,
-  "sha256": "d500585a986104056fe0329e712b3f4158029189b4912591ef669210fe191d4d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.77/hongguo-tv-mpv-0.2.77.apk",
-  "release_notes": "# 红果短剧 v0.2.77\n\n- 恢复选集弹窗中的剧集详情、海报和演员列表；演员可进入作品列表，返回键可回到播放界面。\n- 修复详情弹窗关闭按钮位置，避免被收藏和追更操作挤到下方。\n- 修复收藏、追更成功后弹窗内状态不能立即刷新的问题。\n- 修复繁体中文和日文切换后的核心服务状态文案刷新问题，并保留选集页的本地化布局。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包使用同一版本号。\n\n标准版：`hongguo-tv-0.2.77.apk`（versionCode 78）\n\nMPV 版：`hongguo-tv-mpv-0.2.77.apk`（versionCode 30）\n\n桌面版：`hongguo-desktop-0.2.77-macos-universal.zip`、`hongguo-desktop-0.2.77-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.77-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
-  "published_at": "2026-10-17T05:39:56.106893+00:00"
+  "size": 35971506,
+  "sha256": "5d3cc17699f78628af3631a482ca5e0591bbcf6d22b1834a7ca991616b5b16f8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.78/hongguo-tv-mpv-0.2.78.apk",
+  "release_notes": "# 红果短剧 v0.2.78\n\n- 修复部分旧版 Android TV WebView 从找剧、排行榜、历史、收藏等页面点击视频时的渲染进程闪退风险：播放加载面板延后一帧显示，避免与列表切换到播放布局同时提交。\n- loading 状态的快速切换会丢弃过期显示回调；失败提示仍即时显示。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.78`。\n\n标准版：`hongguo-tv-0.2.78.apk`（versionCode 79）\n\nMPV 版：`hongguo-tv-mpv-0.2.78.apk`（versionCode 31）\n\n桌面版：`hongguo-desktop-0.2.78-macos-universal.zip`、`hongguo-desktop-0.2.78-windows-x64.zip`（desktop versionCode 17）。\n\nwebOS：`hongguo-webos-0.2.78-test.2.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n本版本的自动化测试通过。修复针对报告中的旧版 WebView 闪退时序，仍需出问题的电视型号实机复测；不代表所有电视上的闪退都已解决。",
+  "published_at": "2026-10-17T11:19:24.197377+00:00"
 }
