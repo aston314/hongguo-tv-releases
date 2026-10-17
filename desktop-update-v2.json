@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.78",
-  "version_code": 17,
-  "release_notes": "红果短剧桌面版 0.2.78（macOS / Windows）\n\n- 恢复选集弹窗中的剧集详情、海报和演员列表；演员可进入作品列表，返回键可回到播放界面。\n- 修复详情弹窗关闭按钮位置，以及收藏、追更成功后的即时状态刷新。\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切，完整显示焦点高亮。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- 调整播放加载面板的显示时序，避免播放布局切换和面板显示落在同一帧提交。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版使用系统 HTML5 播放，HEVC 视频是否能正常显示取决于系统与硬件。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
+  "version_name": "0.2.79",
+  "version_code": 18,
+  "release_notes": "红果短剧桌面版 0.2.79（macOS / Windows）\n\n- 恢复选集弹窗中的剧集详情、海报和演员列表；演员可进入作品列表，返回键可回到播放界面。\n- 修复详情弹窗关闭按钮位置，以及收藏、追更成功后的即时状态刷新。\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切，完整显示焦点高亮。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- 调整播放加载面板的显示时序，避免播放布局切换和面板显示落在同一帧提交。\n- 修复旧版 WebView 对禁用页面标题按钮使用原生白色外观，导致左上角出现白块的问题。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版使用系统 HTML5 播放，HEVC 视频是否能正常显示取决于系统与硬件。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.78-macos-universal.zip",
-      "size": 17729279,
-      "sha256": "4b01990aa63c26e2c50f4281d3c7f73f931c9a220e2dd666a6f829cba48175c9",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.78/hongguo-desktop-0.2.78-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.79-macos-universal.zip",
+      "size": 17729291,
+      "sha256": "def603e23f9dcf629b9f33aca7ce97dcb04a5dabaf71b3ebe6edf5ebbd381c4c",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.79/hongguo-desktop-0.2.79-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.78-windows-x64.zip",
-      "size": 9120066,
-      "sha256": "c3a5870f204a45df5bdefc349284b1bb7bfdc2442316b77b84fb440feea1b86e",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.78/hongguo-desktop-0.2.78-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.79-windows-x64.zip",
+      "size": 9120961,
+      "sha256": "3d256316bdf5733a1630826f6a331e88f4fb9b844b1e65df41f1ae66f0071011",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.79/hongguo-desktop-0.2.79-windows-x64.zip"
     }
   }
 }
