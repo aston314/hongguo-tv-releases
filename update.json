@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 77,
-  "version_name": "0.2.76",
+  "version_code": 78,
+  "version_name": "0.2.77",
   "min_sdk": 23,
-  "size": 18239228,
-  "sha256": "83226bb29cf73d6e52a6b321b17ac0cd30c1230e0f9742b6cdabff75a34bcd1e",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.76/hongguo-tv-0.2.76.apk",
-  "release_notes": "# 红果短剧 v0.2.76\n\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切；滚动导航为焦点缩放和描边留出空间。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包使用同一版本号。\n\n标准版：`hongguo-tv-0.2.76.apk`（versionCode 77）\n\nMPV 版：`hongguo-tv-mpv-0.2.76.apk`（versionCode 29）\n\n桌面版：`hongguo-desktop-0.2.76-macos-universal.zip`、`hongguo-desktop-0.2.76-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.76-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
-  "published_at": "2026-10-17T04:01:46.275269+00:00"
+  "size": 18254477,
+  "sha256": "1e0a73b355d88ec4ed7afcd3e9882bb3a3271bca87dfd76a0072451dbd33758c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.77/hongguo-tv-0.2.77.apk",
+  "release_notes": "# 红果短剧 v0.2.77\n\n- 恢复选集弹窗中的剧集详情、海报和演员列表；演员可进入作品列表，返回键可回到播放界面。\n- 修复详情弹窗关闭按钮位置，避免被收藏和追更操作挤到下方。\n- 修复收藏、追更成功后弹窗内状态不能立即刷新的问题。\n- 修复繁体中文和日文切换后的核心服务状态文案刷新问题，并保留选集页的本地化布局。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包使用同一版本号。\n\n标准版：`hongguo-tv-0.2.77.apk`（versionCode 78）\n\nMPV 版：`hongguo-tv-mpv-0.2.77.apk`（versionCode 30）\n\n桌面版：`hongguo-desktop-0.2.77-macos-universal.zip`、`hongguo-desktop-0.2.77-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.77-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
+  "published_at": "2026-10-17T05:39:47.390071+00:00"
 }
