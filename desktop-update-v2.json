@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.76",
-  "version_code": 15,
-  "release_notes": "红果短剧桌面版 0.2.76（macOS / Windows）\n\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切，完整显示焦点高亮。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版使用系统 HTML5 播放，HEVC 视频是否能正常显示取决于系统与硬件。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
+  "version_name": "0.2.77",
+  "version_code": 16,
+  "release_notes": "红果短剧桌面版 0.2.77（macOS / Windows）\n\n- 恢复选集弹窗中的剧集详情、海报和演员列表；演员可进入作品列表，返回键可回到播放界面。\n- 修复详情弹窗关闭按钮位置，以及收藏、追更成功后的即时状态刷新。\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切，完整显示焦点高亮。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- macOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n- 桌面版使用系统 HTML5 播放，HEVC 视频是否能正常显示取决于系统与硬件。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。\n- 桌面版通过独立更新清单检查并下载 ZIP，安装仍由用户手动替换程序文件。\n- 未做 Apple 公证或 Windows 代码签名。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.76-macos-universal.zip",
-      "size": 17718454,
-      "sha256": "918bb24bbd68ab50ee89bce927e9bd3373bd60e4c8958102f027c636be2308c7",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.76/hongguo-desktop-0.2.76-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.77-macos-universal.zip",
+      "size": 17728754,
+      "sha256": "7206d95adaa0e50390596a43f6b236f7ca5f1fb8b66bac5557fe293a3f0b37e8",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.77/hongguo-desktop-0.2.77-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.76-windows-x64.zip",
-      "size": 9114122,
-      "sha256": "c603f995b0fd74b6a7dc3257cc4e75f9683899f58d4aa3b6966efa7564b05ca2",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.76/hongguo-desktop-0.2.76-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.77-windows-x64.zip",
+      "size": 9119776,
+      "sha256": "8778f0558ea588de50e7fa83780b3346cd148c1bdf0722030316d2f44d4b264e",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.77/hongguo-desktop-0.2.77-windows-x64.zip"
     }
   }
 }
