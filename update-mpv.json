@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 28,
-  "version_name": "0.2.75",
+  "version_code": 29,
+  "version_name": "0.2.76",
   "min_sdk": 23,
-  "size": 35954695,
-  "sha256": "ca270522fe7ec45fb9dde26d660f768cc5f53432906624ade6e39cbe04eec978",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.75/hongguo-tv-mpv-0.2.75.apk",
-  "release_notes": "# 红果短剧 v0.2.75\n\n- 修复预约列表读取协议，使用红果账号页面的云端预约列表；同一账号在其它设备登录后可以读取已预约内容。\n- 修正预约分页游标：首页不携带 `session_id`，后续页面使用服务端返回的游标，避免预约列表与账号数据不一致。\n- 保留标准版与 MPV 版两条独立播放渠道，以及桌面版和 webOS 测试包的现有发布方式。\n\n标准版：`hongguo-tv-0.2.75.apk`（versionCode 76）\n\nMPV 版：`hongguo-tv-mpv-0.2.75.apk`（versionCode 28）\n\n桌面版：`hongguo-desktop-0.2.75-macos-universal.zip`、`hongguo-desktop-0.2.75-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.75-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
-  "published_at": "2026-10-17T00:11:01.290128+00:00"
+  "size": 35955688,
+  "sha256": "bb09e085bb194e3e410f401426d9983d09bc328b348359095a2fae15bac9332c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.76/hongguo-tv-mpv-0.2.76.apk",
+  "release_notes": "# 红果短剧 v0.2.76\n\n- 修复侧边栏顶部“推荐”项目的焦点框被裁切；滚动导航为焦点缩放和描边留出空间。\n- 修复切换繁体中文或日文后，顶部核心服务状态仍显示旧语言的问题。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包使用同一版本号。\n\n标准版：`hongguo-tv-0.2.76.apk`（versionCode 77）\n\nMPV 版：`hongguo-tv-mpv-0.2.76.apk`（versionCode 29）\n\n桌面版：`hongguo-desktop-0.2.76-macos-universal.zip`、`hongguo-desktop-0.2.76-windows-x64.zip`。\n\nwebOS：`hongguo-webos-0.2.76-test.1.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\nAndroid 两个 APK 可覆盖安装对应旧版本；标准版和 MPV 版保持独立更新渠道。桌面版 ZIP 需要完整替换程序目录，webOS 包需要通过 LG Developer Mode 安装。",
+  "published_at": "2026-10-17T04:01:54.993010+00:00"
 }
