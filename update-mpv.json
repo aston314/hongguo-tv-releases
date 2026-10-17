@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 32,
-  "version_name": "0.2.79",
+  "version_code": 33,
+  "version_name": "0.2.80",
   "min_sdk": 23,
-  "size": 35972075,
-  "sha256": "ad1a93f00e231dd6178de804205b5fa670676368b03fec443d5002b93fea8f5f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.79/hongguo-tv-mpv-0.2.79.apk",
-  "release_notes": "# 红果短剧 v0.2.79\n\n- 修复旧版 Android TV WebView 对禁用页面标题按钮使用原生白色外观，导致从左侧导航进入页面时左上角出现白块的问题。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.79`。\n\n标准版：`hongguo-tv-0.2.79.apk`（versionCode 80）\n\nMPV 版：`hongguo-tv-mpv-0.2.79.apk`（versionCode 32）\n\n桌面版：`hongguo-desktop-0.2.79-macos-universal.zip`、`hongguo-desktop-0.2.79-windows-x64.zip`（desktop versionCode 18）。\n\nwebOS：`hongguo-webos-0.2.79-test.2.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n自动化测试通过。旧版 WebView 的白块修复仍建议在反馈问题的电视型号上复测。",
-  "published_at": "2026-10-17T13:05:37.559658+00:00"
+  "size": 35975161,
+  "sha256": "be1fec56f5facfdafceea8071016389bcf70a5c234bb77731bef1fe96d23aced",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.80/hongguo-tv-mpv-0.2.80.apk",
+  "release_notes": "# 红果短剧 v0.2.80\n\n- 增强手机号登录的失败兜底：短信验证码发送失败时，仍保留已注册的登录会话，允许用户从手机红果 App 获取验证码后回到电视或桌面端完成登录。\n- 保留大陆及其他地区的国家/地区号选择、手机号规范化和现有短信登录流程。\n- Android 标准版和 MPV 版、macOS / Windows 桌面版及 webOS 测试包统一使用 `0.2.80`。\n\n标准版：`hongguo-tv-0.2.80.apk`（versionCode 81）\n\nMPV 版：`hongguo-tv-mpv-0.2.80.apk`（versionCode 33）\n\n桌面版：`hongguo-desktop-0.2.80-macos-universal.zip`、`hongguo-desktop-0.2.80-windows-x64.zip`（desktop versionCode 19）。\n\nwebOS：`hongguo-webos-0.2.80-test.3.ipk`，仍为实验包，尚未完成 LG 真机播放验证。\n\n自动化测试通过。海外手机号登录的真实上游可用性仍需要对应国家/地区的真实设备和号码验证。",
+  "published_at": "2026-10-17T21:07:34.571508+00:00"
 }
