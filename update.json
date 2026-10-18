@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 86,
-  "version_name": "0.2.85",
+  "version_code": 87,
+  "version_name": "0.2.86",
   "min_sdk": 23,
-  "size": 18308529,
-  "sha256": "cb1d6d0c73e61f41fad2e48974eb85338815bffb9c6e439a0a4d90819ad96107",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.85/hongguo-tv-0.2.85.apk",
-  "release_notes": "# 红果短剧 v0.2.85\n\n- Android TV 首页频道播放等待账号状态初始化完成后再启动，避免误报“账号已切换，请重试播放”。\n- 离开播放页后隐藏暂停的原生视频层，避免它残留在其他内容页面顶部。\n\nAndroid 标准版：`hongguo-tv-0.2.85.apk`（versionCode 86）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.85.apk`（versionCode 38）。\n\nmacOS / Windows：`hongguo-desktop-0.2.85-macos-universal.zip`、`hongguo-desktop-0.2.85-windows-x64.zip`（desktop versionCode 24）。桌面壳无专属功能变化，与本次统一版本线同步发布。\n\nwebOS：`hongguo-webos-0.2.85-test.7.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n自动化测试通过。Android TV、macOS、Windows 和 LG webOS 真机行为仍以各平台实际设备验证为准。",
-  "published_at": "2026-10-18T09:41:24.820709+00:00"
+  "size": 18311071,
+  "sha256": "34093abfa1635fd079264cd221a617a98341bb3754b66447df81a8b3d6743dfd",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.86/hongguo-tv-0.2.86.apk",
+  "release_notes": "# 红果短剧 v0.2.86\n\n- 修复从 Android TV 系统首页 Channel 卡片进入播放后，首帧出现时未按设置隐藏侧边栏的问题。\n- MPV 播放诊断增加打开请求、`FILE_LOADED` 与 `END_FILE` 阶段信息，便于定位卡片播放异常。\n\nAndroid 标准版：`hongguo-tv-0.2.86.apk`（versionCode 87）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.86.apk`（versionCode 39）。\n\nmacOS / Windows：`hongguo-desktop-0.2.86-macos-universal.zip`、`hongguo-desktop-0.2.86-windows-x64.zip`（desktop versionCode 25）。桌面壳无专属功能变化，与本次统一版本线同步发布。\n\nwebOS：`hongguo-webos-0.2.86-test.8.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n自动化测试通过。Android TV、macOS、Windows 和 LG webOS 真机行为仍以各平台实际设备验证为准。",
+  "published_at": "2026-10-18T12:58:51.800120+00:00"
 }
