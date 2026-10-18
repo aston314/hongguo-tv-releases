@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 41,
-  "version_name": "0.2.88",
+  "version_code": 42,
+  "version_name": "0.2.89",
   "min_sdk": 23,
-  "size": 36043814,
-  "sha256": "2f9970db88c5cc25dd18a5d0e64b1fd38b677b8e59f63910f18d693792e33e87",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.88/hongguo-tv-mpv-0.2.88.apk",
-  "release_notes": "# 红果短剧 v0.2.88\n\n- 修正预约下一季时使用的剧集 ID：使用该季 `series_id`，不再误用 `subscribe_item.item_id`。\n- 预约写入改为与 reading 接口一致的 gzip JSON、数字 `item_id` 和请求头，并继续以官方预约列表核验结果。\n- 未能在官方列表中核验时明确提示“暂不能确认是否生效”。\n\nAndroid 标准版：`hongguo-tv-0.2.88.apk`（versionCode 89）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.88.apk`（versionCode 41）。\n\nmacOS / Windows：`hongguo-desktop-0.2.88-macos-universal.zip`、`hongguo-desktop-0.2.88-windows-x64.zip`（desktop versionCode 27）。桌面版同步共享预约协议修正。\n\nwebOS：`hongguo-webos-0.2.88-test.10.ipk`，仍为实验包；当前不支持账号预约，且尚未完成 LG 真机验证。\n\n请求格式与季 ID 自动化测试、Go race tests 和 vet 通过。真实红果账号跨设备预约同步及各平台真机行为尚未验证。",
-  "published_at": "2026-10-18T16:34:57.155050+00:00"
+  "size": 36040636,
+  "sha256": "e2f6e37c507bc5e36e2c860c478d96fccb6154c4b1c05380f25ae913a1c57c64",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.89/hongguo-tv-mpv-0.2.89.apk",
+  "release_notes": "# 红果短剧 v0.2.89\n\n- 预约写入成功后不再连续读取预约列表等待确认，避免按钮长时间等待。\n- 界面区分“红果已接受预约请求”和“预约列表已显示该剧”；未出现在列表时提示稍后刷新核对，不把未确认结果显示成成功，也不提前改本地预约状态。\n- 增加简体中文、繁体中文和日文的待核实提示。\n\nAndroid 标准版：`hongguo-tv-0.2.89.apk`（versionCode 90）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.89.apk`（versionCode 42）。\n\nmacOS / Windows：`hongguo-desktop-0.2.89-macos-universal.zip`、`hongguo-desktop-0.2.89-windows-x64.zip`（desktop versionCode 28）。桌面版同步共享核心的预约状态反馈。\n\nwebOS：`hongguo-webos-0.2.89-test.11.ipk`，仍为实验包；尚未接入账号预约，也未完成 LG 真机验证。\n\n自动化测试覆盖预约写入不触发列表回读，以及请求已接受但列表尚未确认时不更新本地预约状态。跨设备预约同步仍需使用真实红果账号实测；本次发布不声称已查明 Android 与桌面端上游行为不同的根因。",
+  "published_at": "2026-10-18T17:22:54.580532+00:00"
 }
