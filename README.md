@@ -20,7 +20,6 @@
 - [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.84)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - Android 8.0/API 26 及以上设备可使用「红果精选」系统首页频道；Android 6/7.1 继续安装和使用应用，不提供该频道。
-- 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
 
 ## Android TV 下载哪个版本？
 
