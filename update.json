@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 82,
-  "version_name": "0.2.81",
+  "version_code": 83,
+  "version_name": "0.2.82",
   "min_sdk": 23,
-  "size": 18270909,
-  "sha256": "812b5b6f6bf3b243b45d2f6bbcbb18a89822a59416e33c62182e3356ddab8424",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.81/hongguo-tv-0.2.81.apk",
-  "release_notes": "# 红果短剧 v0.2.81\n\n- 优化手机号登录失败提示：同时显示具体错误原因、错误码和手机红果 App 取码说明，不再互相覆盖。服务端没有给出具体原因时明确提示，并保留可用错误码。\n- 修复繁体中文、日文下登录错误被简化为通用提示的问题，保留原始错误详情，方便排查。\n- 按 hongguo-player v1.2.4 实际 macOS 包核对并适配非大陆手机号的号码编码、独立签名和二次验证流程，修正部分地区号码长度限制。\n- 发码失败后保留验证码输入入口；可尝试使用手机红果 App 获取的同手机号验证码继续登录。\n\nAndroid 标准版：`hongguo-tv-0.2.81.apk`（versionCode 82）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.81.apk`（versionCode 34）。\n\nmacOS / Windows：`hongguo-desktop-0.2.81-macos-universal.zip`、`hongguo-desktop-0.2.81-windows-x64.zip`（desktop versionCode 20）。\n\nwebOS：`hongguo-webos-0.2.81-test.3.ipk`，同步共享界面，仍为实验包；目前不提供账号登录，尚未完成 LG 真机验证。\n\n自动化与浏览器隔离测试用于验证请求和交互。尚无真实境外号码完成收码、提交验证码和获取会话的端到端成功记录，不能保证所有地区或从其他设备获取的验证码都被上游接受。",
-  "published_at": "2026-10-17T21:59:41.963523+00:00"
+  "size": 18298856,
+  "sha256": "836654587b40bbea5ec005a6f868e75d83cbdbe6ea3dc46c95f1b47e19c4e118",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.82/hongguo-tv-0.2.82.apk",
+  "release_notes": "# 红果短剧 v0.2.82\n\n- Android 8.0/API 26 及以上会在系统电视桌面提供「红果精选」频道，同步最多 20 条当前推荐；点击节目卡片进入对应剧集，并由应用现有播放流程解析视频源。\n- APK 最低安装版本仍为 Android 6/API 23。Android 6、7 和 7.1 继续安装和使用应用，但不显示系统首页频道，也不提供旧式推荐行。\n- 频道节目只保存剧集 ID、标题、简介和封面，不保存签名播放地址。用户从桌面移除的节目会被本机抑制，不会在后续同步时自动重新加入。\n- 标准版和 MPV 版各自拥有独立频道；两版同时安装时系统桌面可能显示两条「红果精选」。设备厂商桌面可以隐藏或不支持第三方频道。\n- macOS、Windows 与 webOS 同步更新发行版本号；本次功能改动仅适用于 Android TV。\n\nAndroid 标准版：`hongguo-tv-0.2.82.apk`（versionCode 83）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.82.apk`（versionCode 35）。\n\nmacOS / Windows：`hongguo-desktop-0.2.82-macos-universal.zip`、`hongguo-desktop-0.2.82-windows-x64.zip`（desktop versionCode 21；桌面功能无变化）。\n\nwebOS：`hongguo-webos-0.2.82-test.4.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n频道实际显示取决于 Android TV 系统桌面和 TV Provider。APK 构建与自动化测试不能代替目标电视上的显示、封面加载和遥控器点击验收。",
+  "published_at": "2026-10-18T03:17:16.696900+00:00"
 }
