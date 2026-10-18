@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 39,
-  "version_name": "0.2.86",
+  "version_code": 40,
+  "version_name": "0.2.87",
   "min_sdk": 23,
-  "size": 36029467,
-  "sha256": "eb583fd8f9cdf070be40e2523747f61d3f84bc7dc4213ff480c647cc7519cb53",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.86/hongguo-tv-mpv-0.2.86.apk",
-  "release_notes": "# 红果短剧 v0.2.86\n\n- 修复从 Android TV 系统首页 Channel 卡片进入播放后，首帧出现时未按设置隐藏侧边栏的问题。\n- MPV 播放诊断增加打开请求、`FILE_LOADED` 与 `END_FILE` 阶段信息，便于定位卡片播放异常。\n\nAndroid 标准版：`hongguo-tv-0.2.86.apk`（versionCode 87）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.86.apk`（versionCode 39）。\n\nmacOS / Windows：`hongguo-desktop-0.2.86-macos-universal.zip`、`hongguo-desktop-0.2.86-windows-x64.zip`（desktop versionCode 25）。桌面壳无专属功能变化，与本次统一版本线同步发布。\n\nwebOS：`hongguo-webos-0.2.86-test.8.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n自动化测试通过。Android TV、macOS、Windows 和 LG webOS 真机行为仍以各平台实际设备验证为准。",
-  "published_at": "2026-10-18T12:59:02.417353+00:00"
+  "size": 36034315,
+  "sha256": "32c25c6b98218813cf36e63dda653d3dd7868334ae3f1fb686dbcc3c337fc942",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.87/hongguo-tv-mpv-0.2.87.apk",
+  "release_notes": "# 红果短剧 v0.2.87\n\n- 完善短信验证码获取失败后的备用登录指引：境外号码会在获取验证码附近看到提示；发送失败时显示具体原因，并说明如何通过手机红果短剧 App 获取验证码，再回到本应用输入并登录。\n- 设备注册失败等早期请求错误也会保留验证码登录入口；此流程不代表已验证所有地区的真实短信送达或登录成功。\n\nAndroid 标准版：`hongguo-tv-0.2.87.apk`（versionCode 88）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.87.apk`（versionCode 40）。\n\nmacOS / Windows：`hongguo-desktop-0.2.87-macos-universal.zip`、`hongguo-desktop-0.2.87-windows-x64.zip`（desktop versionCode 26）。桌面壳无专属功能变化，与统一版本线同步发布。\n\nwebOS：`hongguo-webos-0.2.87-test.9.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n自动化测试通过。Android TV、macOS、Windows 和 LG webOS 真机行为仍以各平台实际设备验证为准。",
+  "published_at": "2026-10-18T15:02:49.067318+00:00"
 }
