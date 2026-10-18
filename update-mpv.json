@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 35,
-  "version_name": "0.2.82",
+  "version_code": 36,
+  "version_name": "0.2.83",
   "min_sdk": 23,
-  "size": 36017459,
-  "sha256": "bb769aa6ec3a4eb84da26110b2b643d86befcdfd4e64d4ffd85ff2be8febe275",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.82/hongguo-tv-mpv-0.2.82.apk",
-  "release_notes": "# 红果短剧 v0.2.82\n\n- Android 8.0/API 26 及以上会在系统电视桌面提供「红果精选」频道，同步最多 20 条当前推荐；点击节目卡片进入对应剧集，并由应用现有播放流程解析视频源。\n- APK 最低安装版本仍为 Android 6/API 23。Android 6、7 和 7.1 继续安装和使用应用，但不显示系统首页频道，也不提供旧式推荐行。\n- 频道节目只保存剧集 ID、标题、简介和封面，不保存签名播放地址。用户从桌面移除的节目会被本机抑制，不会在后续同步时自动重新加入。\n- 标准版和 MPV 版各自拥有独立频道；两版同时安装时系统桌面可能显示两条「红果精选」。设备厂商桌面可以隐藏或不支持第三方频道。\n- macOS、Windows 与 webOS 同步更新发行版本号；本次功能改动仅适用于 Android TV。\n\nAndroid 标准版：`hongguo-tv-0.2.82.apk`（versionCode 83）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.82.apk`（versionCode 35）。\n\nmacOS / Windows：`hongguo-desktop-0.2.82-macos-universal.zip`、`hongguo-desktop-0.2.82-windows-x64.zip`（desktop versionCode 21；桌面功能无变化）。\n\nwebOS：`hongguo-webos-0.2.82-test.4.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n频道实际显示取决于 Android TV 系统桌面和 TV Provider。APK 构建与自动化测试不能代替目标电视上的显示、封面加载和遥控器点击验收。",
-  "published_at": "2026-10-18T03:17:26.845365+00:00"
+  "size": 36025685,
+  "sha256": "8f5f5e7343041f630f93ddd2baf90353aa2593aa78fc5f7b22289353f8624007",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.83/hongguo-tv-mpv-0.2.83.apk",
+  "release_notes": "# 红果短剧 v0.2.83\n\n- 播放到最后一集后，符合条件的剧集可先追更，再浏览相关推荐；遥控器焦点、返回和自动播放倒计时按用户操作正确收起。\n- Android TV 和 webOS 从卡片进入单剧播放时默认在首帧后自动全屏，可在设置中关闭；推荐页播放不受影响。桌面端保持手动全屏。\n- 修正侧栏焦点高亮边框在顶部和底部被裁切的问题。短屏继续使用滚动容纳菜单，图标、文字和行高保持统一尺寸。\n\nAndroid 标准版：`hongguo-tv-0.2.83.apk`（versionCode 84）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.83.apk`（versionCode 36）。\n\nmacOS / Windows：`hongguo-desktop-0.2.83-macos-universal.zip`、`hongguo-desktop-0.2.83-windows-x64.zip`（desktop versionCode 22）。\n\nwebOS：`hongguo-webos-0.2.83-test.5.ipk`，仍为实验包；不提供账号登录，尚未完成 LG 真机验证。\n\n自动化测试通过。Android TV、macOS、Windows 和 LG webOS 真机行为仍以各平台实际设备验证为准。",
+  "published_at": "2026-10-18T06:32:08.681964+00:00"
 }
