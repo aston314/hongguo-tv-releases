@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.84",
-  "version_code": 23,
-  "release_notes": "红果短剧桌面版 0.2.84（macOS / Windows）\n\n- 版本号与 Android、webOS 发行线同步。共享界面更新了播放结束后的追更与相关推荐流程、侧栏焦点显示和短屏滚动；桌面端仍保持手动全屏。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
+  "version_name": "0.2.85",
+  "version_code": 24,
+  "release_notes": "红果短剧桌面版 0.2.85（macOS / Windows）\n\n- 版本号与 Android、webOS 发行线同步。桌面外壳和播放交互无专属功能变化；本次主要修复 Android TV 首页频道播放状态。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.84-macos-universal.zip",
-      "size": 17748221,
-      "sha256": "9d4cae053860b9e22b8609b50426a8ee26a925fae8e4efaf5b9d10b5abba7c2a",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.84/hongguo-desktop-0.2.84-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.85-macos-universal.zip",
+      "size": 17748511,
+      "sha256": "33ee093ca506c6cf2ffe2611093772a1dcdc1555abe0df14f409b05954d1ec4e",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.85/hongguo-desktop-0.2.85-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.84-windows-x64.zip",
-      "size": 9128599,
-      "sha256": "70f493d34faa7f52bab3a27bde2c58d9c8cfd8120da39653491c7282dab9fe21",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.84/hongguo-desktop-0.2.84-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.85-windows-x64.zip",
+      "size": 9128087,
+      "sha256": "c4d05d8c12cbd14c3f3644c9e806bbf1113ed511d2f8a0fe56d11f15d1fec0c6",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.85/hongguo-desktop-0.2.85-windows-x64.zip"
     }
   }
 }
