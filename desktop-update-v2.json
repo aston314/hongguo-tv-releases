@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.89",
-  "version_code": 28,
-  "release_notes": "红果短剧桌面版 0.2.89（macOS / Windows）\n\n- 版本号与 Android、webOS 发行线同步。预约写入后不再同步轮询列表；界面会区分“请求已提交”和“预约列表已确认”，减少等待并避免把未确认状态显示为成功。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
+  "version_name": "0.2.90",
+  "version_code": 29,
+  "release_notes": "红果短剧桌面版 0.2.90（macOS / Windows）\n\n- 版本号与 Android、webOS 发行线同步。预约写入后不再同步轮询列表；界面会区分“请求已提交”和“预约列表已确认”，减少等待并避免把未确认状态显示为成功。\n- MPV 播放使用可恢复的 Range/CENC 媒体代理，并在适用时预取紧邻下一集的开头；不支持 Range 或预取失败时保留完整文件兜底。\n- MPV 切集过渡使用上游返回的本集封面，减少切集时的空白过渡。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.89-macos-universal.zip",
-      "size": 17756559,
-      "sha256": "89b4660103ce26a198f8dabdb5acc9a661b63e3c4cce8284285f700cfbf4d7bf",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.89/hongguo-desktop-0.2.89-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.90-macos-universal.zip",
+      "size": 17766331,
+      "sha256": "853530f0004e96926ee8c2367788ea50c4481323ffb7e74144033acb90c16ed9",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.90/hongguo-desktop-0.2.90-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.89-windows-x64.zip",
-      "size": 9134131,
-      "sha256": "7fa9782989f5efcf6f40a9cb782f0e06ea122316cd3d4b6c5f99286c93fbbc05",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.89/hongguo-desktop-0.2.89-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.90-windows-x64.zip",
+      "size": 9140236,
+      "sha256": "59fdb2491f13a3edbae10ce6c5038059871ae20d007f5fa74bf9e972d5d83549",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.90/hongguo-desktop-0.2.90-windows-x64.zip"
     }
   }
 }
