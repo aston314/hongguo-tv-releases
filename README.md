@@ -16,8 +16,8 @@
 </table>
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.91-test.13)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.91)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.92-test.14)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.92)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - Android 8.0/API 26 及以上设备可使用「红果精选」系统首页频道；Android 6/7.1 继续安装和使用应用，不提供该频道。
 - 从 0.2.7 起支持应用内检查更新；默认使用 ghfast 加速下载，失败时尝试直连。
@@ -35,7 +35,7 @@
 | **标准版** | **`hongguo-tv-版本号.apk`**（文件名不含 `mpv`） | WebView 播放，失败时使用 Media3 兼容回退 |
 | **MPV 版** | **`hongguo-tv-mpv-版本号.apk`**（文件名含 `mpv`） | MPV 自动解码，可手动选择软件解码 |
 
-例如当前标准版是 `hongguo-tv-0.2.91.apk`；MPV 版是 `hongguo-tv-mpv-0.2.91.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
+例如当前标准版是 `hongguo-tv-0.2.92.apk`；MPV 版是 `hongguo-tv-mpv-0.2.92.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
 
 两版安装后的名称均为 **红果短剧**；升级时请按原先安装的版本选择对应 APK，或使用应用内检查更新。
 
@@ -52,7 +52,7 @@
 
 ## LG webOS 测试版
 
-[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.91-test.13)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.91-test.13.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
+[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.92-test.14)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.92-test.14.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
 
 安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`。目前已完成真实数据请求、签名、解密和本地媒体代理的文件级验证，尚未在 LG 真机验证安装、遥控焦点或视频播放；不同型号的 HEVC/AAC 支持可能不同，不能保证一定能播放。
 
@@ -60,12 +60,12 @@
 
 ## macOS / Windows 桌面版
 
-[桌面版 0.2.91 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.91)。无需安装 APK，选择对应平台的 ZIP：
+[桌面版 0.2.92 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.92)。无需安装 APK，选择对应平台的 ZIP：
 
 | 平台 | 下载文件 | 要求 |
 | --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.91-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.91-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
+| **macOS** | `hongguo-desktop-0.2.92-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
+| **Windows amd64 / x64** | `hongguo-desktop-0.2.92-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
 
 macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
 
