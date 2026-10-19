@@ -1,5 +1,9 @@
 # 红果短剧下载（Android TV / webOS / macOS / Windows）
 
+抖音TV版（douyin）你会喜欢的：
+
+- [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
+
 追求极致的观影体验，此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
 ## 应用界面
@@ -94,6 +98,3 @@ macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文�
 
 MPV 版所需的 LGPL 库源码、依赖、许可声明、补丁及构建和替换工具随私有源码 Release 提供。使用 APK 无需下载源码附件；应用“设置 → 开源许可”也可离线查看许可信息。
 
-还有，抖音（douyin）你会喜欢的：
-
-- [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
