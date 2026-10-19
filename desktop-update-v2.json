@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.90",
-  "version_code": 29,
-  "release_notes": "红果短剧桌面版 0.2.90（macOS / Windows）\n\n- 版本号与 Android、webOS 发行线同步。预约写入后不再同步轮询列表；界面会区分“请求已提交”和“预约列表已确认”，减少等待并避免把未确认状态显示为成功。\n- MPV 播放使用可恢复的 Range/CENC 媒体代理，并在适用时预取紧邻下一集的开头；不支持 Range 或预取失败时保留完整文件兜底。\n- MPV 切集过渡使用上游返回的本集封面，减少切集时的空白过渡。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
+  "version_name": "0.2.91",
+  "version_code": 30,
+  "release_notes": "红果短剧桌面版 0.2.91（macOS / Windows）\n\n- 推荐频道支持继续分页加载，预取下一页，并动态显示当前已加载位置和数量。\n- 搜索框输入时显示匹配建议，可直接选择建议进入对应剧集。\n- 原生播放器重新打开历史剧集时恢复已保存的观看进度。\n- 更新打赏页中的微信和支付宝收款码图片。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.90-macos-universal.zip",
-      "size": 17766331,
-      "sha256": "853530f0004e96926ee8c2367788ea50c4481323ffb7e74144033acb90c16ed9",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.90/hongguo-desktop-0.2.90-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.91-macos-universal.zip",
+      "size": 18021631,
+      "sha256": "4c9106fa3fc60c94cbcf76db0f76e159219a65d2bf5715183781a1b4f8651082",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.91/hongguo-desktop-0.2.91-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.90-windows-x64.zip",
-      "size": 9140236,
-      "sha256": "59fdb2491f13a3edbae10ce6c5038059871ae20d007f5fa74bf9e972d5d83549",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.90/hongguo-desktop-0.2.90-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.91-windows-x64.zip",
+      "size": 9264888,
+      "sha256": "94d239f9ab7d1ec0c7269e4f0e7526de0f9a612400905b42855b23a609f1463f",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.91/hongguo-desktop-0.2.91-windows-x64.zip"
     }
   }
 }
