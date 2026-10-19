@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 44,
-  "version_name": "0.2.91",
+  "version_code": 45,
+  "version_name": "0.2.92",
   "min_sdk": 23,
-  "size": 36440346,
-  "sha256": "a1a65d6c42569b7b14e061f662ef46da68f6c30a46d65bfff6972340f8128b48",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.91/hongguo-tv-mpv-0.2.91.apk",
-  "release_notes": "# 红果短剧 v0.2.91\n\n- 推荐频道现在会继续加载后续页面，并预取一页数据；计数会随浏览更新，在分页尚未结束时明确显示为已加载数量。\n- 搜索时会显示实时匹配建议，可直接选择剧集。\n- 原生播放器重新打开历史剧集时会恢复保存的观看进度。\n- 更新微信和支付宝打赏收款码图片。\n\nAndroid 标准版：`hongguo-tv-0.2.91.apk`（versionCode 92）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.91.apk`（versionCode 44）。\n\nmacOS / Windows：`hongguo-desktop-0.2.91-macos-universal.zip`、`hongguo-desktop-0.2.91-windows-x64.zip`（desktop versionCode 30）。\n\nwebOS：`hongguo-webos-0.2.91-test.13.ipk`，仍为实验包；尚未完成 LG 真机验证。",
-  "published_at": "2026-10-19T11:52:03.177921+00:00"
+  "size": 36439631,
+  "sha256": "264259b7f6a3aee3656cabeb73f54a3b35a4ead9348e125efcd9370ff256b6ab",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.92/hongguo-tv-mpv-0.2.92.apk",
+  "release_notes": "# 红果短剧 v0.2.92\n\n- 打赏页暂时只显示微信收款码；支付宝二维码和相关说明已隐藏，也不会进入焦点导航。\n\nAndroid 标准版：`hongguo-tv-0.2.92.apk`（versionCode 93）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.92.apk`（versionCode 45）。\n\nmacOS / Windows：`hongguo-desktop-0.2.92-macos-universal.zip`、`hongguo-desktop-0.2.92-windows-x64.zip`（desktop versionCode 31）。\n\nwebOS：`hongguo-webos-0.2.92-test.14.ipk`，仍为实验包；尚未完成 LG 真机验证。",
+  "published_at": "2026-10-19T13:14:18.268509+00:00"
 }
