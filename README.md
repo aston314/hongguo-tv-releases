@@ -1,6 +1,6 @@
 # 红果短剧下载（Android TV / webOS / macOS / Windows）
 
-抖音TV版（douyin）你会喜欢的：
+推荐 抖音TV版（douyin）你会喜欢的：
 
 - [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
 
