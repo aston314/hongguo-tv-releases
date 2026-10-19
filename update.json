@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 91,
-  "version_name": "0.2.90",
+  "version_code": 92,
+  "version_name": "0.2.91",
   "min_sdk": 23,
-  "size": 18342136,
-  "sha256": "3dd60b05d4778ed04681a242d3ac40b6e30f98c408281b9797e4f5e714b6fac1",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.90/hongguo-tv-0.2.90.apk",
-  "release_notes": "# 红果短剧 v0.2.90\n\n- MPV 播放使用可恢复的 Range/CENC 媒体代理，并在适用时预取紧邻下一集的开头；Range 不可用、媒体错误或预取失败时，在真正播放时保留完整文件下载/解密兜底。\n- MPV 切集过渡使用上游返回的本集封面，减少切集时的空白过渡。\n- 增加播放准备、预取交接、Range 初始化和 MPV 切集时序诊断，便于定位不同设备上的等待时间；这些字段记录时序，不代表已证明某个设备存在掉帧或卡顿。\n\nAndroid 标准版：`hongguo-tv-0.2.90.apk`（versionCode 91）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.90.apk`（versionCode 43）。\n\nmacOS / Windows：`hongguo-desktop-0.2.90-macos-universal.zip`、`hongguo-desktop-0.2.90-windows-x64.zip`（desktop versionCode 29）。\n\nwebOS：`hongguo-webos-0.2.90-test.12.ipk`，仍为实验包；尚未完成 LG 真机验证。\n\n自动化测试覆盖 Range 播放策略、预取失败回退、MPV 切集封面过渡和时序诊断。真实设备上的 MPV 弹幕性能仍需设备数据验证。",
-  "published_at": "2026-10-19T05:52:41.402138+00:00"
+  "size": 18721475,
+  "sha256": "5ae94e5036bccdb5e87002a66a7c54f8d90625b7aab14dbb8ad6c2f059f4b4f1",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.91/hongguo-tv-0.2.91.apk",
+  "release_notes": "# 红果短剧 v0.2.91\n\n- 推荐频道现在会继续加载后续页面，并预取一页数据；计数会随浏览更新，在分页尚未结束时明确显示为已加载数量。\n- 搜索时会显示实时匹配建议，可直接选择剧集。\n- 原生播放器重新打开历史剧集时会恢复保存的观看进度。\n- 更新微信和支付宝打赏收款码图片。\n\nAndroid 标准版：`hongguo-tv-0.2.91.apk`（versionCode 92）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.91.apk`（versionCode 44）。\n\nmacOS / Windows：`hongguo-desktop-0.2.91-macos-universal.zip`、`hongguo-desktop-0.2.91-windows-x64.zip`（desktop versionCode 30）。\n\nwebOS：`hongguo-webos-0.2.91-test.13.ipk`，仍为实验包；尚未完成 LG 真机验证。",
+  "published_at": "2026-10-19T11:51:54.592627+00:00"
 }
