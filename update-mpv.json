@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 47,
-  "version_name": "0.2.94",
+  "version_code": 49,
+  "version_name": "0.2.96",
   "min_sdk": 23,
-  "size": 36445746,
-  "sha256": "b3cda4fcc3022ddf107d8eb626069ed467b5359e2f70fbb8b44cce6a82c05177",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.94/hongguo-tv-mpv-0.2.94.apk",
-  "release_notes": "# 红果短剧 v0.2.94\n\n- 同一部剧切换集数时，使用目标集首帧图作为 loading 底图；MPV、Media3 和 HTML5 播放共用该过渡效果，真实视频画面就绪后撤掉底图。\n- 接口未返回首帧图、图片加载失败或请求失效时，沿用黑色过渡，不影响播放首帧和声音交接。\n\nAndroid 标准版：`hongguo-tv-0.2.94.apk`（versionCode 95）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.94.apk`（versionCode 47）。\n\nmacOS / Windows：`hongguo-desktop-0.2.94-macos-universal.zip`、`hongguo-desktop-0.2.94-windows-x64.zip`（desktop versionCode 33）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.94-test.1`；仅验证 Ubuntu 24.04 和 Debian 12 容器环境，依赖系统 WebKitGTK/GStreamer，不能代表所有发行版或实体硬件。\n\nwebOS：`hongguo-webos-0.2.94-test.16.ipk`，仍为实验包；尚未完成 LG 真机验证。",
-  "published_at": "2026-10-20T04:47:54.342104+00:00"
+  "size": 36963374,
+  "sha256": "f0ba79c90c6f1d64036c2cf4ff5178eb472ac00063098b6c5fa45d9881b3f54f",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.96/hongguo-tv-mpv-0.2.96.apk",
+  "release_notes": "# 红果短剧 v0.2.96\n\n- 修复标准版同剧切换集数时的黑屏间隙：保留当前已加载的剧集底图，直到目标集图片加载并解码完成后再替换。\n- 修正 Android 版本更新结果接收器的注册方式，明确设为应用内接收，兼容 Android 14 目标 SDK lint 要求。\n- MPV 的现有 Range 切集过渡保持不变。\n\nAndroid 标准版：`hongguo-tv-0.2.96.apk`（versionCode 97）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.96.apk`（versionCode 49）。\n\nmacOS / Windows：`hongguo-desktop-0.2.96-macos-universal.zip`、`hongguo-desktop-0.2.96-windows-x64.zip`（desktop versionCode 35）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.96-test.1`；仍依赖系统 WebKitGTK/GStreamer，并沿用 Ubuntu 24.04 与 Debian 12 容器验证边界。\n\nwebOS：`hongguo-webos-0.2.96-test.18.ipk`，仍为实验包；尚未完成 LG 真机验证。",
+  "published_at": "2026-10-20T08:26:27.697603+00:00"
 }
