@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 98,
-  "version_name": "0.2.97",
+  "version_code": 99,
+  "version_name": "0.2.98",
   "min_sdk": 23,
-  "size": 19249975,
-  "sha256": "0badb90bb8a782382dae576a72b0b3e9b0b4b577582c8bd5175197297e17ff09",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.97/hongguo-tv-0.2.97.apk",
-  "release_notes": "# 红果短剧 v0.2.97\n\n- 优化收藏与预约列表的页内标签，并修正宽视口下的搜索联想布局。\n- 修正 Android 6 旧 WebView 下播放控制组的左右布局，弹幕和全屏按钮保持在右侧。\n\nAndroid 标准版：`hongguo-tv-0.2.97.apk`（versionCode 98）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.97.apk`（versionCode 50）。\n\nmacOS / Windows：`hongguo-desktop-0.2.97-macos-universal.zip`、`hongguo-desktop-0.2.97-windows-x64.zip`（desktop versionCode 36）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.97-test.1`；仍依赖系统 WebKitGTK/GStreamer，并沿用 Ubuntu 24.04 与 Debian 12 容器验证边界。\n\nwebOS：`hongguo-webos-0.2.97-test.19.ipk`，仍为实验包；尚未完成 LG 真机验证。",
-  "published_at": "2026-10-20T11:05:24.186482+00:00"
+  "size": 19252890,
+  "sha256": "1c5e5d8ea8294fef7221fe9fbf664dfdd57d80d65bf522eeb4b4a5737ab268f4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.98/hongguo-tv-0.2.98.apk",
+  "release_notes": "# 红果短剧 v0.2.98\n\n- 修复旧版 WebView 下的侧栏、搜索联想、榜单表格和列表间距兼容问题。\n- 标准播放切集时，无法取得上一帧则继续显示海报遮罩，减少过渡黑屏；MPV 切集逻辑保持不变。\n- 打赏页恢复微信与支付宝二维码并排显示。\n- 补充 Windows HEVC 系统解码扩展的安装说明。\n\nAndroid 标准版：`hongguo-tv-0.2.98.apk`（versionCode 99）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.98.apk`（versionCode 51）。\n\nmacOS / Windows：`hongguo-desktop-0.2.98-macos-universal.zip`、`hongguo-desktop-0.2.98-windows-x64.zip`（desktop versionCode 37）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.98-test.1`；发布前需通过 Ubuntu 24.04 与 Debian 12 容器中的播放验证。\n\nwebOS：`hongguo-webos-0.2.98-test.20.ipk`，仍为实验包；尚未完成 LG 真机验证。",
+  "published_at": "2026-10-20T13:09:09.854173+00:00"
 }
