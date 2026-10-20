@@ -1,4 +1,4 @@
-# 红果短剧下载（Android TV / webOS / macOS / Windows）
+# 红果短剧（Android TV / webOS / macOS / Windows）
 
 此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
