@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 45,
-  "version_name": "0.2.92",
+  "version_code": 46,
+  "version_name": "0.2.93",
   "min_sdk": 23,
-  "size": 36439631,
-  "sha256": "264259b7f6a3aee3656cabeb73f54a3b35a4ead9348e125efcd9370ff256b6ab",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.92/hongguo-tv-mpv-0.2.92.apk",
-  "release_notes": "# 红果短剧 v0.2.92\n\n- 打赏页暂时只显示微信收款码；支付宝二维码和相关说明已隐藏，也不会进入焦点导航。\n\nAndroid 标准版：`hongguo-tv-0.2.92.apk`（versionCode 93）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.92.apk`（versionCode 45）。\n\nmacOS / Windows：`hongguo-desktop-0.2.92-macos-universal.zip`、`hongguo-desktop-0.2.92-windows-x64.zip`（desktop versionCode 31）。\n\nwebOS：`hongguo-webos-0.2.92-test.14.ipk`，仍为实验包；尚未完成 LG 真机验证。",
-  "published_at": "2026-10-19T13:14:18.268509+00:00"
+  "size": 36445385,
+  "sha256": "54686304d9cff5c1438b620ae7b4910162bdb93cfa7f8b58e03419d29ca9d1fe",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.93/hongguo-tv-mpv-0.2.93.apk",
+  "release_notes": "# 红果短剧 v0.2.93\n\n- 大视口电视布局适度放大左侧导航和右侧重要内容的文字、图标与行高；按视口断点统一适配，不按平台名称写死。\n\nAndroid 标准版：`hongguo-tv-0.2.93.apk`（versionCode 94）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.93.apk`（versionCode 46）。\n\nmacOS / Windows：`hongguo-desktop-0.2.93-macos-universal.zip`、`hongguo-desktop-0.2.93-windows-x64.zip`（desktop versionCode 32）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.93-test.1`；仅验证 Ubuntu 24.04 和 Debian 12 容器环境，依赖系统 WebKitGTK/GStreamer，不能代表所有发行版或实体硬件。\n\nwebOS：`hongguo-webos-0.2.93-test.15.ipk`，仍为实验包；尚未完成 LG 真机验证。",
+  "published_at": "2026-10-20T03:35:54.429828+00:00"
 }
