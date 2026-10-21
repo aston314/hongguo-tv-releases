@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 102,
-  "version_name": "0.2.101",
+  "version_code": 103,
+  "version_name": "0.2.102",
   "min_sdk": 23,
-  "size": 19080778,
-  "sha256": "f9c987ad03921f67cce9218198ee4eec47911e56659cba165dc69efae9817fe3",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.101/hongguo-tv-0.2.101.apk",
-  "release_notes": "# 红果短剧 v0.2.101\n\n- 修复 Media3 切集时回退到 WebView 准备下一集期间旧剧集海报重新出现的问题。实际切集空白时长仍可能因设备和视频源不同而异。\n- 修复部分 Android TV 搜索输入框无法恢复渲染层焦点的问题，并抑制软键盘收起后的短时焦点回声。\n- 调整宽视口搜索联想面板，使其按当前可见的搜索控件区域显示；修正 Android 6 联想列表中的图标资源和尺寸。\n- 修复 webOS 构建脚本对未声明 `rg` 命令的依赖。\n\nAndroid 标准版：`hongguo-tv-0.2.101.apk`（versionCode 102）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.101.apk`（versionCode 54）。\n\nmacOS / Windows：`hongguo-desktop-0.2.101-macos-universal.zip`、`hongguo-desktop-0.2.101-windows-x64.zip`（desktop versionCode 40）。Windows HEVC 播放需要安装 HEVC Video Extensions；未在 Windows 实机验证播放。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.101-test.1`；使用同一 AppImage 在 Ubuntu 24.04 与 Debian 12 容器验证播放，依赖系统 WebKitGTK/GStreamer，不代表实体硬件或其他发行版。\n\nwebOS：`hongguo-webos-0.2.101-test.23.ipk`，仍为实验包。尚未完成 LG 真机上的数据连接和播放验证。",
-  "published_at": "2026-10-21T13:36:25.576678+00:00"
+  "size": 19081635,
+  "sha256": "15b7658f303d4e239fbb5c1a63c76f03aefaeba4405640300dc9d573695700a1",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.102/hongguo-tv-0.2.102.apk",
+  "release_notes": "# 红果短剧 v0.2.102\n\n- 修复 Android 搜索框输入结束后，搜索联想列表无法继续用遥控器方向键移动或确认选择的问题。\n- 保留输入框编辑和系统输入法的按键处理；焦点回到页面导航目标后，将方向键和确认键交给现有页面焦点路由。\n\nAndroid 标准版：`hongguo-tv-0.2.102.apk`（versionCode 103）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.102.apk`（versionCode 55）。\n\nmacOS / Windows：`hongguo-desktop-0.2.102-macos-universal.zip`、`hongguo-desktop-0.2.102-windows-x64.zip`（desktop versionCode 41）。桌面端无额外行为变化。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.102-test.1`；依赖系统 WebKitGTK/GStreamer，沿用 Ubuntu 24.04 与 Debian 12 容器播放验证，不代表实体硬件或其他发行版。\n\nwebOS：`hongguo-webos-0.2.102-test.24.ipk`，仍为实验包。尚未完成 LG 真机上的数据连接和播放验证。",
+  "published_at": "2026-10-21T14:31:22.093875+00:00"
 }
