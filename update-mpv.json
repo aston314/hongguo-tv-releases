@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 52,
-  "version_name": "0.2.99",
+  "version_code": 53,
+  "version_name": "0.2.100",
   "min_sdk": 23,
-  "size": 36792653,
-  "sha256": "d3879ee0cca71ec8e4bf3e027a0fe6c4694013cba1bc89933447f83585ffd103",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.99/hongguo-tv-mpv-0.2.99.apk",
-  "release_notes": "# 红果短剧 v0.2.99\n\n- Media3 切集时继续显示目标集首帧图，直到视频时间实际推进，再用约 180ms 淡出，避免首帧回调早于电视实际显示画面而短暂黑屏。\n- 统一观看历史、收藏、点赞和追更标题与说明的间距，并避免 Android 6 下剧集简介末行被裁切。\n- 更新微信与支付宝打赏二维码图片，并隐藏支付宝码中的个人信息。\n\nAndroid 标准版：`hongguo-tv-0.2.99.apk`（versionCode 100）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.99.apk`（versionCode 52）。\n\nmacOS / Windows：`hongguo-desktop-0.2.99-macos-universal.zip`、`hongguo-desktop-0.2.99-windows-x64.zip`（desktop versionCode 38）。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.99-test.1`；发布前通过 Ubuntu 24.04 与 Debian 12 容器中的播放验证。\n\nwebOS：`hongguo-webos-0.2.99-test.21.ipk`，仍为实验包；尚未完成 LG 真机验证。",
-  "published_at": "2026-10-20T15:09:22.076802+00:00"
+  "size": 36792628,
+  "sha256": "f3e3e3013e3b550d73f596decfc6319a4e68a7214160eb710b7626eea60371f8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.100/hongguo-tv-mpv-0.2.100.apk",
+  "release_notes": "# 红果短剧 v0.2.100\n\n- 修复匿名分类请求缺少签名导致的上游空响应；空响应会使用新的临时设备身份重试。\n- 调整宽视口下的搜索联想面板，使其与搜索框和扫描按钮组成的控制区同宽。\n- Media3 切换剧集时隐藏剧集海报，避免切集过渡中再次闪出海报。新视频首帧前是否仍有黑屏，仍需在目标设备上确认。\n- webOS 测试包包含主应用 API 覆盖及 Range/CENC 按需媒体代理实现；仍未完成 LG 真机播放验证。\n\nAndroid 标准版：`hongguo-tv-0.2.100.apk`（versionCode 101）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.100.apk`（versionCode 53）。\n\nmacOS / Windows：`hongguo-desktop-0.2.100-macos-universal.zip`、`hongguo-desktop-0.2.100-windows-x64.zip`（desktop versionCode 39）。Windows HEVC 播放还需安装 HEVC Video Extensions；未在 Windows 实机验证播放。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.100-test.1`；沿用 Ubuntu 24.04 与 Debian 12 容器播放验证，依赖系统 WebKitGTK/GStreamer，不代表实体硬件或其他发行版。\n\nwebOS：`hongguo-webos-0.2.100-test.22.ipk`，仍为实验包。Simulator 与 LG 真机上的数据连接和播放尚未完成验证。",
+  "published_at": "2026-10-21T09:32:30.344962+00:00"
 }
