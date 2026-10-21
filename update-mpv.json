@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 56,
-  "version_name": "0.2.103",
+  "version_code": 58,
+  "version_name": "0.2.105",
   "min_sdk": 23,
-  "size": 36798683,
-  "sha256": "a022dafa2fda38e903f86d759b04089e06fefac1f1264a4ff658157ffa704605",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.103/hongguo-tv-mpv-0.2.103.apk",
-  "release_notes": "# 红果短剧 v0.2.103\n\n## 修复\n\n- 修复 Android 搜索输入法接管焦点后，遥控器方向键无法继续操作联想搜索列表的问题。\n- 修复搜索联想交互中的返回键被输入法或系统吞掉、导致直接离开应用的问题；现在优先在应用内完成编辑退出和页面返回。\n\n## 平台包\n\n- Android 标准版与 MPV 版\n- macOS 与 Windows 桌面版\n- Linux x86_64 AppImage 测试版\n- LG webOS 实验版\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 已在 Ubuntu 24.04 与 Debian 12 容器中验证真实数据和视频播放；其他发行版及本地硬件解码仍取决于系统运行库与设备。\n\nwebOS 包仍是实验版，尚未通过 LG 真机验证。",
-  "published_at": "2026-10-21T15:28:04.436904+00:00"
+  "size": 36800941,
+  "sha256": "c1b5ab576f219e984f3fd8f59a1dda0865041d69bed49b5a87b9ed938b61af4f",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.105/hongguo-tv-mpv-0.2.105.apk",
+  "release_notes": "# 红果短剧 v0.2.105\n\n## 修复\n\n- 修复 Android 搜索输入法交接后，遥控器方向键无法继续操作搜索联想列表的问题。\n- 修复搜索联想面板与系统返回键交互异常的问题；键盘收起后会恢复联想项焦点，返回操作留在应用内处理。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.105.apk`（versionCode 106）\n- Android MPV 版：`hongguo-tv-mpv-0.2.105.apk`（versionCode 58）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.105-macos-universal.zip`、`hongguo-desktop-0.2.105-windows-x64.zip`（versionCode 44）\n- Linux x86_64 AppImage 测试版\n- LG webOS 实验版\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 在 Ubuntu 24.04 与 Debian 12 容器中验证真实数据和视频播放；其他发行版及本地硬件解码仍取决于系统运行库与设备。\n\nwebOS 包仍是实验版，尚未通过 LG 真机验证。",
+  "published_at": "2026-10-21T16:56:18.500883+00:00"
 }
