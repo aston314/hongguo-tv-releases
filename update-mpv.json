@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 53,
-  "version_name": "0.2.100",
+  "version_code": 54,
+  "version_name": "0.2.101",
   "min_sdk": 23,
-  "size": 36792628,
-  "sha256": "f3e3e3013e3b550d73f596decfc6319a4e68a7214160eb710b7626eea60371f8",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.100/hongguo-tv-mpv-0.2.100.apk",
-  "release_notes": "# 红果短剧 v0.2.100\n\n- 修复匿名分类请求缺少签名导致的上游空响应；空响应会使用新的临时设备身份重试。\n- 调整宽视口下的搜索联想面板，使其与搜索框和扫描按钮组成的控制区同宽。\n- Media3 切换剧集时隐藏剧集海报，避免切集过渡中再次闪出海报。新视频首帧前是否仍有黑屏，仍需在目标设备上确认。\n- webOS 测试包包含主应用 API 覆盖及 Range/CENC 按需媒体代理实现；仍未完成 LG 真机播放验证。\n\nAndroid 标准版：`hongguo-tv-0.2.100.apk`（versionCode 101）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.100.apk`（versionCode 53）。\n\nmacOS / Windows：`hongguo-desktop-0.2.100-macos-universal.zip`、`hongguo-desktop-0.2.100-windows-x64.zip`（desktop versionCode 39）。Windows HEVC 播放还需安装 HEVC Video Extensions；未在 Windows 实机验证播放。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.100-test.1`；沿用 Ubuntu 24.04 与 Debian 12 容器播放验证，依赖系统 WebKitGTK/GStreamer，不代表实体硬件或其他发行版。\n\nwebOS：`hongguo-webos-0.2.100-test.22.ipk`，仍为实验包。Simulator 与 LG 真机上的数据连接和播放尚未完成验证。",
-  "published_at": "2026-10-21T09:32:30.344962+00:00"
+  "size": 36797647,
+  "sha256": "99090b8c97a7a40f9730422106569882d19f5fab52b0cbf17eb7a4b2783a65db",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.101/hongguo-tv-mpv-0.2.101.apk",
+  "release_notes": "# 红果短剧 v0.2.101\n\n- 修复 Media3 切集时回退到 WebView 准备下一集期间旧剧集海报重新出现的问题。实际切集空白时长仍可能因设备和视频源不同而异。\n- 修复部分 Android TV 搜索输入框无法恢复渲染层焦点的问题，并抑制软键盘收起后的短时焦点回声。\n- 调整宽视口搜索联想面板，使其按当前可见的搜索控件区域显示；修正 Android 6 联想列表中的图标资源和尺寸。\n- 修复 webOS 构建脚本对未声明 `rg` 命令的依赖。\n\nAndroid 标准版：`hongguo-tv-0.2.101.apk`（versionCode 102）。\n\nAndroid MPV 版：`hongguo-tv-mpv-0.2.101.apk`（versionCode 54）。\n\nmacOS / Windows：`hongguo-desktop-0.2.101-macos-universal.zip`、`hongguo-desktop-0.2.101-windows-x64.zip`（desktop versionCode 40）。Windows HEVC 播放需要安装 HEVC Video Extensions；未在 Windows 实机验证播放。\n\nLinux x86_64 AppImage 测试版：见公开下载仓库的 `linux-v0.2.101-test.1`；使用同一 AppImage 在 Ubuntu 24.04 与 Debian 12 容器验证播放，依赖系统 WebKitGTK/GStreamer，不代表实体硬件或其他发行版。\n\nwebOS：`hongguo-webos-0.2.101-test.23.ipk`，仍为实验包。尚未完成 LG 真机上的数据连接和播放验证。",
+  "published_at": "2026-10-21T13:36:36.545363+00:00"
 }
