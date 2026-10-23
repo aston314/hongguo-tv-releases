@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.110",
-  "version_code": 49,
-  "release_notes": "红果短剧桌面版 0.2.110（macOS / Windows）\n\n- 本次桌面版随统一发布线更新版本号；Android TV 播放页菜单键现在兼容标准菜单键和 TV 专用菜单键，播放菜单引导文字在大视口下保持可读大小；详情弹窗演员列表的焦点环在旧版 Android WebView 上保持完整可见。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。Windows 播放 HEVC 还需要安装 HEVC Video Extensions；商店无法获取时，可参考 https://github.com/Ayx03/HEVCVideoExtension。Linux x86_64 AppImage 测试版在独立的 `linux-v0.2.110-test.1` 预发行版中提供，依赖系统 WebKitGTK 和 GStreamer。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
+  "version_name": "0.2.111",
+  "version_code": 50,
+  "release_notes": "红果短剧桌面版 0.2.111（macOS / Windows）\n\n- 本次桌面版随统一发布线更新；搜索页修复网页搜索结构变化导致的失败回退，并支持在桌面输入框中用 Esc 关闭联想浮层、方向键进入建议或搜索按钮。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。Windows 播放 HEVC 还需要安装 HEVC Video Extensions；商店无法获取时，可参考 https://github.com/Ayx03/HEVCVideoExtension。Linux x86_64 AppImage 测试版在独立的 `linux-v0.2.111-test.1` 预发行版中提供，依赖系统 WebKitGTK 和 GStreamer。\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.110-macos-universal.zip",
-      "size": 17946243,
-      "sha256": "6f426a964282d7d2258797f0002a801ebbb717dbf5fdf01c4444b65cf8232210",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.110/hongguo-desktop-0.2.110-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.111-macos-universal.zip",
+      "size": 17949447,
+      "sha256": "4c3d42748ff4128d97a30f9c3181031f5e4988b79f0a48c1467a63b6ae95c93f",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.111/hongguo-desktop-0.2.111-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.110-windows-x64.zip",
-      "size": 9225801,
-      "sha256": "78216c48ccebddfa3645685eb34a104dfc6447381536ca18b56c8dffc421a8b0",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.110/hongguo-desktop-0.2.110-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.111-windows-x64.zip",
+      "size": 9226463,
+      "sha256": "7ad8748f5a2afded59ed72327e3697eafc5e19ceb7b7fec5e6912685a8a5d59b",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.111/hongguo-desktop-0.2.111-windows-x64.zip"
     }
   }
 }
