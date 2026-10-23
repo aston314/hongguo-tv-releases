@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 111,
-  "version_name": "0.2.110",
+  "version_code": 112,
+  "version_name": "0.2.111",
   "min_sdk": 23,
-  "size": 19121602,
-  "sha256": "06cc46bba68665476498f913688edf9fbf910de27e5052565d2ff091ce8bc6f6",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.110/hongguo-tv-0.2.110.apk",
-  "release_notes": "# 红果短剧 v0.2.110\n\n## 修复\n\n- 修复 Android 播放时屏幕常亮状态只跟随单次播放回调的问题。\n- 播放进入后台时释放窗口常亮标志，返回前台时按仍在播放的状态自动恢复，避免短暂切后台后屏幕意外熄灭。\n- 标准版与 MPV 版统一在播放、暂停、结束、错误和切换播放源时同步屏幕常亮状态。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.110.apk`（versionCode 111）\n- Android MPV 版：`hongguo-tv-mpv-0.2.110.apk`（versionCode 63）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.110-macos-universal.zip`、`hongguo-desktop-0.2.110-windows-x64.zip`（versionCode 49）\n- Linux x86_64 AppImage 测试版\n- LG webOS 实验版\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 与 webOS 仍属于平台测试包，实际兼容性取决于目标设备运行库、解码能力和型号。",
-  "published_at": "2026-10-23T14:58:39.718539+00:00"
+  "size": 19125473,
+  "sha256": "8934679b09c654cc452239a72df988dc53935bec950c1f99f9db838ef9028ff5",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.111/hongguo-tv-0.2.111.apk",
+  "release_notes": "# 红果短剧 v0.2.111\n\n## 修复\n\n- 修复部分搜索请求返回空响应时错误进入网页解析，导致显示“页面缺少 `_ROUTER_DATA`”。\n- 搜索失败时优先使用红果搜索建议接口恢复可播放的短剧结果；只有建议接口没有可用作品时才继续尝试网页搜索。\n- 搜索失败后的“重试”按钮接入搜索输入、搜索操作和筛选区的焦点路径。\n- 桌面版联想浮层支持按 Esc 关闭；输入框可用方向键进入建议列表或搜索按钮，文字编辑中的左右方向键仍保留原生光标行为。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.111.apk`（versionCode 112）\n- Android MPV 版：`hongguo-tv-mpv-0.2.111.apk`（versionCode 64）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.111-macos-universal.zip`、`hongguo-desktop-0.2.111-windows-x64.zip`（versionCode 50）\n- Linux x86_64 AppImage 测试版\n- LG webOS 实验版\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 与 webOS 仍属于平台测试包，实际兼容性取决于目标设备运行库、解码能力和型号。",
+  "published_at": "2026-10-23T23:50:08.976451+00:00"
 }
