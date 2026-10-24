@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 65,
-  "version_name": "0.2.112",
+  "version_code": 67,
+  "version_name": "0.2.114",
   "min_sdk": 23,
-  "size": 36847254,
-  "sha256": "15de9fc7b80c19f0722a2bfe6cf0b1ce7bc6fb317c1e2ad7b112ea1bf8d8c036",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.112/hongguo-tv-mpv-0.2.112.apk",
-  "release_notes": "# 红果短剧 v0.2.112\n\n## 修复\n\n- 搜索结果统一使用红果 App 搜索接口；匿名搜索会先完成设备注册并保存会话，避免因未注册设备收到空响应。\n- 兼容搜索接口返回顶层 `search_tabs` 的新响应结构，保留搜索分页游标和多季结果，修复“加载失败：页面缺少 `_ROUTER_DATA`”。\n- 旧版 `/api/v1/search` 路由统一转发到新的搜索列表接口，避免桌面、Android、webOS 使用不同的搜索核心。\n- 搜索联想接口和联想浮层行为保持不变，本次没有改动搜索建议。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.112.apk`（versionCode 113）\n- Android MPV 版：`hongguo-tv-mpv-0.2.112.apk`（versionCode 65）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.112-macos-universal.zip`、`hongguo-desktop-0.2.112-windows-x64.zip`（desktop versionCode 51）\n- Linux x86_64 AppImage 测试版\n- LG webOS 实验版：`hongguo-webos-0.2.112-test.24.ipk`\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 与 webOS 仍属于平台测试包，实际兼容性取决于目标设备运行库、解码能力和型号。",
-  "published_at": "2026-10-24T02:01:55.623398+00:00"
+  "size": 36859189,
+  "sha256": "28e2a350dbc8b2fb5021a1f4778ee39904061809d8cc684bf28e96533de7198c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.114/hongguo-tv-mpv-0.2.114.apk",
+  "release_notes": "# 红果短剧 v0.2.114\n\n## 播放器回退\n\n- Android 标准版继续默认使用 HTML5；明确媒体错误或非自动播放策略类 `play()` 失败时，立即尝试 Media3。`NotAllowedError` 和播放中断不触发回退。\n- 没有明确错误时，HTML5 有可观察进展就继续等待；零进展 1.8 秒后切换。收到 `playing` 但仍未出首帧时，另等 3 秒再切换。这些时限是首轮验证值，后续按设备诊断调整。\n- 只有 HTML5 解码/格式失败，且 Media3 已真实渲染首帧后，才在本机记录 Media3 优先路径；记录 30 天有效，并在 WebView 版本变化时失效。网络错误和超时不会写入偏好。\n- Media3 失败时停止原播放器并从原位置回到 HTML5 重试；单集播放过程中最多自动切换一次。诊断显示播放器路径、切换原因和阶段耗时，不上传数据。\n- Android MPV 版继续使用 MPV 固定路径；桌面、Linux 和 webOS 的播放器选择不变。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.114.apk`（versionCode 115）\n- Android MPV 版：`hongguo-tv-mpv-0.2.114.apk`（versionCode 67）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.114-macos-universal.zip`、`hongguo-desktop-0.2.114-windows-x64.zip`（desktop versionCode 53）\n- Linux x86_64 AppImage 测试版：在 Ubuntu 24.04 和 Debian 12 对本次产物重新验证\n- LG webOS 实验版：`hongguo-webos-0.2.114-test.25.ipk`\n\nWindows 播放 HEVC 视频需要安装 HEVC Video Extensions：<https://github.com/Ayx03/HEVCVideoExtension>。\n\nLinux AppImage 和 webOS 仍是平台测试包；容器或文件级验证不等同于所有目标设备上的真机播放验证。",
+  "published_at": "2026-10-24T04:07:18.677667+00:00"
 }
