@@ -117,3 +117,4 @@ MPV 版所需的 LGPL 库源码、依赖、许可声明、补丁及构建和替�
 还有，抖音（douyin）你会喜欢的：
 
 - [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
+- [体育赛事直播TV版](https://github.com/aston314/kafeizhibo-tv/releases)
