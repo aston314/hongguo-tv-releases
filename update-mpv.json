@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 68,
-  "version_name": "0.2.115",
+  "version_code": 69,
+  "version_name": "0.2.116",
   "min_sdk": 23,
-  "size": 36859887,
-  "sha256": "a91e24b65ee7d304195e4dd7a12bb1f9171b8474552248a4908872bc2b6967ab",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.115/hongguo-tv-mpv-0.2.115.apk",
-  "release_notes": "# 红果短剧 v0.2.115\n\n## Android 标准版 HEVC 回退\n\n- 当 Media3 选中的 HEVC 轨道超出设备解码能力且尚未显示首帧时，Android 标准版会在当前播放会话内尝试平台软件 HEVC 解码器。\n- 回退只针对当前播放会话，不会修改全局解码设置；诊断区分回退请求与实际初始化的软件解码器。\n- Android MPV、桌面、Linux 和 webOS 的播放逻辑没有改变；各平台仍按统一发布线重新构建。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.115.apk`（versionCode 116）\n- Android MPV 版：`hongguo-tv-mpv-0.2.115.apk`（versionCode 68）\n- macOS / Windows 桌面版：`hongguo-desktop-0.2.115-macos-universal.zip`、`hongguo-desktop-0.2.115-windows-x64.zip`\n- Linux x86_64 AppImage 测试版：独立预发行包\n- LG webOS 实验版：`hongguo-webos-0.2.115-test.25.ipk`\n\nWindows 播放 HEVC 视频需要安装 [HEVC Video Extensions](https://github.com/Ayx03/HEVCVideoExtension)。Linux AppImage 和 webOS 仍是平台测试包，发布包不代表已在所有目标设备上完成实机播放验证。",
-  "published_at": "2026-10-24T09:57:19.594125+00:00"
+  "size": 36869020,
+  "sha256": "1fb2de9cb20c041f2e44e62bd9bc9f4a12e6d38e28dbbbfd2956055efddc1fd6",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.116/hongguo-tv-mpv-0.2.116.apk",
+  "release_notes": "# 红果短剧 v0.2.116\n\n## 搜索连接与分页\n\n- 修复首次设备注册连接失败时，搜索直接报错、无法使用备用接口的问题（Issue #52）。Android 标准版、MPV 版及 macOS、Windows、Linux 的共享 Go 核心现在会在首屏注册或 App 搜索失败后，尝试官网免登录 JSON 搜索。\n- 官网备用搜索支持连续翻页，不再依赖搜索页面中的 `_ROUTER_DATA`，也不再把联想建议当作完整搜索结果。后续页固定使用首屏选定的来源；翻页失败保留已加载卡片，重试同一页。\n- 官网网络或 HTTP 5xx 失败最多重试一次；需要图形验证、返回错误页面等情况会明确报错。联想建议、输入焦点和播放器逻辑保持原样。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.116.apk`（versionCode 117）\n- Android MPV 版：`hongguo-tv-mpv-0.2.116.apk`（versionCode 69）\n- macOS / Windows：`hongguo-desktop-0.2.116-macos-universal.zip`、`hongguo-desktop-0.2.116-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.116-test.1` 预发行版\n- LG webOS：`webos-v0.2.116-test.25` 实验版；其独立 JavaScript 服务此次仅同步版本并重建，不包含上述 Go 搜索修复。\n\n验证包含真实匿名官网搜索连续两页及注册失败回退回归，尚未在 Issue #52 用户的 Linux 机器上复测。官网仍可能因网络或验证要求而暂时不可用。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Linux 和 webOS 仍是平台测试包。Issue #54 的 HEVC 硬解右缘绿条本次尚未修改，可继续使用已验证有效的 MPV 软件解码设置。",
+  "published_at": "2026-10-25T10:22:02.332191+00:00"
 }
