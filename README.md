@@ -74,7 +74,15 @@ AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及�
 
 [下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.117-test.25)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.117-test.25.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
 
-安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`。本版修复 Service 启动、加载层/静音及缓存积累问题。真实视频第 1、2 集、方向键切集与 seek 已在 LG Simulator 中经 HTTP 直连通过；缓存也经过暂停时清理和恢复播放验证。电视端 Luna IPC 和 LG 真机仍未验证，不同型号的 HEVC/AAC 支持可能不同。
+**已有 LG 真机验证通过。** 用户在 [Issue #57](https://github.com/aston314/hongguo-tv-releases/issues/57) 回报：安装、启动、1080P 视频画面、声音、账号登录及原生遥控器滚轮均正常。
+
+| 已验证电视 | 固件 | webOS SDK 版本 | 应用版本 |
+| --- | --- | --- | --- |
+| LG OLED65C5PTA（台湾版） | 43.21.77 | 11.2.0 | 0.2.117-test.25 |
+
+安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`；该用户使用 webOS Dev Manager 1.99.20 安装。当前下载仍为测试版，欢迎其他型号补充实测反馈。
+
+本版修复 Service 启动、加载层/静音及缓存积累问题；另有 Simulator 中的真实视频连续切集与 seek 验证，以及暂停时缓存清理、恢复播放回归。
 
 测试反馈请附上 LG 电视型号、webOS 版本、安装/启动结果、播放画面和声音情况，以及具体错误现象。
 
