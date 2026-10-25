@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 117,
-  "version_name": "0.2.116",
+  "version_code": 118,
+  "version_name": "0.2.117",
   "min_sdk": 23,
-  "size": 19152313,
-  "sha256": "5ecd6a589d0dc732dc20a1a86d1aa4a2cab16884325e7c3e3226e5b649c47d1a",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.116/hongguo-tv-0.2.116.apk",
-  "release_notes": "# 红果短剧 v0.2.116\n\n## 搜索连接与分页\n\n- 修复首次设备注册连接失败时，搜索直接报错、无法使用备用接口的问题（Issue #52）。Android 标准版、MPV 版及 macOS、Windows、Linux 的共享 Go 核心现在会在首屏注册或 App 搜索失败后，尝试官网免登录 JSON 搜索。\n- 官网备用搜索支持连续翻页，不再依赖搜索页面中的 `_ROUTER_DATA`，也不再把联想建议当作完整搜索结果。后续页固定使用首屏选定的来源；翻页失败保留已加载卡片，重试同一页。\n- 官网网络或 HTTP 5xx 失败最多重试一次；需要图形验证、返回错误页面等情况会明确报错。联想建议、输入焦点和播放器逻辑保持原样。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.116.apk`（versionCode 117）\n- Android MPV 版：`hongguo-tv-mpv-0.2.116.apk`（versionCode 69）\n- macOS / Windows：`hongguo-desktop-0.2.116-macos-universal.zip`、`hongguo-desktop-0.2.116-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.116-test.1` 预发行版\n- LG webOS：`webos-v0.2.116-test.25` 实验版；其独立 JavaScript 服务此次仅同步版本并重建，不包含上述 Go 搜索修复。\n\n验证包含真实匿名官网搜索连续两页及注册失败回退回归，尚未在 Issue #52 用户的 Linux 机器上复测。官网仍可能因网络或验证要求而暂时不可用。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Linux 和 webOS 仍是平台测试包。Issue #54 的 HEVC 硬解右缘绿条本次尚未修改，可继续使用已验证有效的 MPV 软件解码设置。",
-  "published_at": "2026-10-25T10:21:51.435376+00:00"
+  "size": 19152687,
+  "sha256": "4f9a76e29281ebb60a5c084ad8e661d7aa3b8152fe1d8102ba01e98180d0abbc",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.117/hongguo-tv-0.2.117.apk",
+  "release_notes": "# 红果短剧 v0.2.117\n\n本次主要修复 LG webOS 的服务启动、视频显示与缓存积累问题（Issue #55）。Android、macOS、Windows 和 Linux 同步统一版本，未新增播放或搜索行为。\n\n## webOS 修复\n\n- 修复电视通过 bootstrap 加载 JavaScript Service 时没有启动服务、无法连接本机数据接口的问题。\n- 修复本机媒体路径转为绝对地址后，首帧判断失配，导致视频仍被加载层遮挡或持续静音的问题；不同集和错误来源的事件仍会被拒绝。\n- 媒体缓存增加 512 MiB 总预算、闲置 2 小时清理和最近最少使用淘汰，启动时清理中断下载的临时文件。\n- 暂停、缓冲和拖动进度时保留当前视频缓存；正在下载、读取或等待播放器接入的文件也受到保护。下载在写入前检查空间，不足时明确报错并保留当前视频。\n\n## 验证范围\n\n重新安装 LG Simulator 后，真实红果视频第 1、2 集、方向键切集和 seek 已通过 HTTP 直连验证；加载层退出且静音解除。新增缓存通过自动化，以及真实视频暂停期间容量清理、seek 和恢复播放验证。\n\n这些结果不等同于 LG 真机或电视端 Luna IPC 验证。webOS 继续作为实验版发布；无强 ETag 时保留整集下载回退，倍速声音和上游 `player/stats` 错误未在本次修复。防待机功能留待后续讨论，本次没有加入。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.117.apk`（versionCode 118）\n- Android MPV 版：`hongguo-tv-mpv-0.2.117.apk`（versionCode 70）\n- macOS / Windows：`hongguo-desktop-0.2.117-macos-universal.zip`、`hongguo-desktop-0.2.117-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.117-test.1` 预发行版\n- LG webOS：`webos-v0.2.117-test.25` 实验版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-25T12:46:41.129855+00:00"
 }
