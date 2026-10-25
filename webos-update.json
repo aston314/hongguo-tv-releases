@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "platform": "webos",
+  "app_id": "com.aston314.hongguo.webos",
+  "version_name": "0.2.117",
+  "release_tag": "webos-v0.2.117-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.117-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.117\n\n- 修复电视 bootstrap 加载时未启动本机 JavaScript Service 的问题。\n- 修复媒体相对/绝对路径比较失配造成的加载层不消失、持续静音问题。\n- 缓存总预算 512 MiB，闲置 2 小时清理；容量不足时淘汰未占用的旧缓存，启动时清理残留临时文件。\n- 保护当前播放、暂停、下载、读取及播放器接入期间的缓存，避免清理破坏继续播放或 seek；存储不足明确报错。\n\nLG Simulator 中真实红果第 1、2 集、切集与 seek 已通过 HTTP 直连验证。缓存另外通过真实视频暂停时容量清理、seek 和恢复播放验证，以及自动化回归。\n\n这是实验版，以上不代表电视端 Luna IPC 或 LG 真机验证通过。仍保留无强 ETag 时的整集下载回退；倍速声音、上游统计错误和防待机不在本次修复范围。\n\n安装需启用电视 Developer Mode，使用 webOS 开发工具安装 `.ipk`。反馈请提供 LG 型号、webOS 版本、连接状态、播放画面/声音及具体错误信息。",
+  "artifact_name": "hongguo-webos-0.2.117-test.25.ipk",
+  "artifact_size": 1044112,
+  "artifact_sha256": "48661d322449464bfcb6ea2a5f63a9f512da08b84790254c1a21205cf1acb84c"
+}
