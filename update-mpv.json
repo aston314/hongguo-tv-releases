@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 70,
-  "version_name": "0.2.117",
+  "version_code": 71,
+  "version_name": "0.2.118",
   "min_sdk": 23,
-  "size": 36869410,
-  "sha256": "91fb814df01a6429ff76331bdaafa6dcb01694d05ed330ae113b639bbe4bc4d5",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.117/hongguo-tv-mpv-0.2.117.apk",
-  "release_notes": "# 红果短剧 v0.2.117\n\n本次主要修复 LG webOS 的服务启动、视频显示与缓存积累问题（Issue #55）。Android、macOS、Windows 和 Linux 同步统一版本，未新增播放或搜索行为。\n\n## webOS 修复\n\n- 修复电视通过 bootstrap 加载 JavaScript Service 时没有启动服务、无法连接本机数据接口的问题。\n- 修复本机媒体路径转为绝对地址后，首帧判断失配，导致视频仍被加载层遮挡或持续静音的问题；不同集和错误来源的事件仍会被拒绝。\n- 媒体缓存增加 512 MiB 总预算、闲置 2 小时清理和最近最少使用淘汰，启动时清理中断下载的临时文件。\n- 暂停、缓冲和拖动进度时保留当前视频缓存；正在下载、读取或等待播放器接入的文件也受到保护。下载在写入前检查空间，不足时明确报错并保留当前视频。\n\n## 验证范围\n\n重新安装 LG Simulator 后，真实红果视频第 1、2 集、方向键切集和 seek 已通过 HTTP 直连验证；加载层退出且静音解除。新增缓存通过自动化，以及真实视频暂停期间容量清理、seek 和恢复播放验证。\n\n这些结果不等同于 LG 真机或电视端 Luna IPC 验证。webOS 继续作为实验版发布；无强 ETag 时保留整集下载回退，倍速声音和上游 `player/stats` 错误未在本次修复。防待机功能留待后续讨论，本次没有加入。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.117.apk`（versionCode 118）\n- Android MPV 版：`hongguo-tv-mpv-0.2.117.apk`（versionCode 70）\n- macOS / Windows：`hongguo-desktop-0.2.117-macos-universal.zip`、`hongguo-desktop-0.2.117-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.117-test.1` 预发行版\n- LG webOS：`webos-v0.2.117-test.25` 实验版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
-  "published_at": "2026-10-25T12:46:51.028240+00:00"
+  "size": 36872520,
+  "sha256": "0c9e0284364d73371d67e08052de1407501763e0e0bf8ba83bf928e2437222e9",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.118/hongguo-tv-mpv-0.2.118.apk",
+  "release_notes": "# 红果短剧 v0.2.118\n\n本次为 LG webOS 加入在线版本检查与手动安装指引，Android、macOS、Windows 和 Linux 同步统一版本。\n\n## webOS 更新\n\n- 设置中新增“检查更新”，展示当前版本、新版本说明、发布页地址和 webOS Dev Manager 安装方法。\n- 每天最多自动检查一次；发现新版时在非播放状态提醒，同一版本只提醒一次，操作焦点保持不变。\n- 支持内置代理线路，全部失败后回退 GitHub 直连；检查失败可手动重试，并保留已知的新版本信息。\n- 仅检查并提示，不会自动下载或安装 IPK。旧版用户需先手动安装 0.2.118，才可检查后续新版本。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.118.apk`（versionCode 119）\n- Android MPV 版：`hongguo-tv-mpv-0.2.118.apk`（versionCode 71）\n- macOS / Windows：`hongguo-desktop-0.2.118-macos-universal.zip`、`hongguo-desktop-0.2.118-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.118-test.1` 预发行版\n- LG webOS：`webos-v0.2.118-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-25T15:52:35.172650+00:00"
 }
