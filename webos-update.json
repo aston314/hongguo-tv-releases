@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.117",
-  "release_tag": "webos-v0.2.117-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.117-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.117\n\n- 修复电视 bootstrap 加载时未启动本机 JavaScript Service 的问题。\n- 修复媒体相对/绝对路径比较失配造成的加载层不消失、持续静音问题。\n- 缓存总预算 512 MiB，闲置 2 小时清理；容量不足时淘汰未占用的旧缓存，启动时清理残留临时文件。\n- 保护当前播放、暂停、下载、读取及播放器接入期间的缓存，避免清理破坏继续播放或 seek；存储不足明确报错。\n\nLG Simulator 中真实红果第 1、2 集、切集与 seek 已通过 HTTP 直连验证。缓存另外通过真实视频暂停时容量清理、seek 和恢复播放验证，以及自动化回归。\n\n这是实验版，以上不代表电视端 Luna IPC 或 LG 真机验证通过。仍保留无强 ETag 时的整集下载回退；倍速声音、上游统计错误和防待机不在本次修复范围。\n\n安装需启用电视 Developer Mode，使用 webOS 开发工具安装 `.ipk`。反馈请提供 LG 型号、webOS 版本、连接状态、播放画面/声音及具体错误信息。",
-  "artifact_name": "hongguo-webos-0.2.117-test.25.ipk",
-  "artifact_size": 1044112,
-  "artifact_sha256": "48661d322449464bfcb6ea2a5f63a9f512da08b84790254c1a21205cf1acb84c"
+  "version_name": "0.2.118",
+  "release_tag": "webos-v0.2.118-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.118-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.118\n\n- 设置中新增“检查更新”，显示当前版本、新版本说明、发布页地址与 webOS Dev Manager 手动安装指引。\n- 启动后每天最多后台检查一次；发现新版时在非播放状态提醒，同一版本只提醒一次，保留当前焦点。\n- 内置多条代理线路，失败后回退 GitHub 直连；检查失败可以手动重试，并保留已知的新版本信息。\n- 仅检查并提示，不会自动下载或安装 IPK。\n\n保留上一版服务启动、播放加载层/静音与缓存清理修复。0.2.117 已有 LG OLED65C5PTA（台湾版）真机回报：安装、启动、1080P 画面、声音、账号登录及原生遥控器滚轮均正常，见 [真机报告 #57](https://github.com/aston314/hongguo-tv-releases/issues/57)。本次版本检查通过自动化与真实更新清单交互验证。\n\nwebOS 继续作为测试版发布；安装和更新需启用电视 Developer Mode，使用 webOS Dev Manager 或 webOS 开发工具安装 `.ipk`。0.2.117 用户需先手动安装 0.2.118，才可使用此版本检查功能。",
+  "artifact_name": "hongguo-webos-0.2.118-test.25.ipk",
+  "artifact_size": 1047882,
+  "artifact_sha256": "edfef09c5e8e0733d05c901ea19bc5c9cd82fad7d7377a946c629bfd7745bf15"
 }
