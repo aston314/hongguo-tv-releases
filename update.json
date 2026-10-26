@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 121,
-  "version_name": "0.2.120",
+  "version_code": 122,
+  "version_name": "0.2.121",
   "min_sdk": 23,
-  "size": 19161829,
-  "sha256": "74b6ccae1160cf5f895911f316c155cfbf6117cddf8e3e6ccbf1b6fa615c9df4",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.120/hongguo-tv-0.2.120.apk",
-  "release_notes": "# 红果短剧 v0.2.120\n\n本次新增 webOS 有声倍速实验选项，默认关闭；Android、macOS、Windows 和 Linux 同步统一主线版本。\n\n## webOS 有声倍速（实验）\n\n- 仍只提供一个 IPK。可在 **设置 → 有声倍速（实验）** 开启，选项位于“版本更新”上方，仅在支持的 webOS 设备显示。\n- 开启后，选择非 1 倍速时批量读取当前集音轨，以 Web Audio 和 Worker 中的 WSOLA 独立处理声音、保持音调。视频沿用现有 Range 播放与切集机制，不增加整集视频预下载。\n- 声音准备期间保持有声 1 倍速并显示提示，首段声音可输出后再接管。准备失败、超时或处理跟不上时恢复有声 1 倍速。\n- 补齐暂停、定位、切集、音量/静音、前后台和关闭选项的声音同步与取消；迟到声音重新对齐，交接补偿声音设备输出延迟，避免旧声音播放到新一集。\n- 关闭选项时恢复原有视频属性与正常速度。默认关闭时不启动独立声音处理，也不发起音轨请求。\n\n有声倍速会增加 CPU、内存和额外音频流量。真实接口、浏览器播放链路、自动化与实际 IPK 检查已通过；LG 真机上的性能、听感与长时间同步仍需实测，因此保持默认关闭。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.120.apk`（versionCode 121）\n- Android MPV 版：`hongguo-tv-mpv-0.2.120.apk`（versionCode 73）\n- macOS / Windows：`hongguo-desktop-0.2.120-macos-universal.zip`、`hongguo-desktop-0.2.120-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.120-test.1` 预发行版\n- LG webOS：`webos-v0.2.120-test.25` 测试版，通过 webOS Dev Manager 手动更新 IPK。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
-  "published_at": "2026-10-26T06:17:17.301565+00:00"
+  "size": 19161801,
+  "sha256": "2704f46dcaa884fb82993abe48e6cdc968aabd7a8dab8e177d3abff44848ab23",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.121/hongguo-tv-0.2.121.apk",
+  "release_notes": "# 红果短剧 v0.2.121\n\n修复 webOS 视频 Range 响应未结束的问题：客户端收到一段数据后，复用同一 HTTP 连接的后续媒体请求可能被阻塞，导致播放停住。\n\n- 视频范围数据写完后正确结束响应，恢复连接复用与在途读取保护的释放，保留现有边下载、边解密、边播放机制。\n- 新增连续六次复用同一连接的实际 HTTP 回归，覆盖前缀探测、CENC 解密、HEAD、完整响应、多块背压和后续尾段读取。正式 0.2.120 IPK 可复现阻塞，修复后的压缩 IPK 回归通过。\n- webOS 有声倍速实验选项继续默认关闭。LG C1 用户“卡在第一帧”的实际改善仍待新版电视测试。\n- Android、macOS、Windows 和 Linux 同步统一主线版本。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.121.apk`（versionCode 122）\n- Android MPV 版：`hongguo-tv-mpv-0.2.121.apk`（versionCode 74）\n- macOS / Windows：`hongguo-desktop-0.2.121-macos-universal.zip`、`hongguo-desktop-0.2.121-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.121-test.1` 预发行版\n- LG webOS：`webos-v0.2.121-test.25` 测试版，通过 webOS Dev Manager 手动更新 IPK。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-26T06:53:21.420630+00:00"
 }
