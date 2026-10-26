@@ -16,7 +16,7 @@
 </table>
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.122-test.25)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.123-test.25)
 - [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.120-test.1)
 - [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.122)
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
@@ -72,7 +72,7 @@ AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及�
 
 ## LG webOS 测试版
 
-[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.122-test.25)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.122-test.25.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
+[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.123-test.25)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.123-test.25.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
 
 **已有 LG 真机验证通过。** 用户在 [Issue #57](https://github.com/aston314/hongguo-tv-releases/issues/57) 回报：安装、启动、1080P 视频画面、声音、账号登录及原生遥控器滚轮均正常。
 
@@ -82,9 +82,9 @@ AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及�
 
 安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`；该用户使用 webOS Dev Manager 1.99.20 安装。当前下载仍为测试版，欢迎其他型号补充实测反馈。
 
-0.2.122 修复视频 Range 响应未结束、连接复用时可能阻塞后续媒体请求的问题，保留边下载边播放。该修复已通过真实 HTTP 与压缩 IPK 回归；C1 停在首帧的反馈仍待更新后实测。
+0.2.123 在 0.2.122 的 Range/切集恢复基础上，播放稳定约 1.5 秒后预热下一集；切集时接管已预热的 HTML5 video，减少重复加载、黑屏和长时间等待。LG 真机的新版改善仍待安装后实测。
 
-自 0.2.120 起，在同一个 IPK 内提供 **设置 → 有声倍速（实验）**，位于版本更新上方，默认关闭。开启后，选择非 1 倍速时会额外读取当前集音频，以独立声音处理保持音调；准备期间按有声 1 倍速播放，失败或处理跟不上时恢复正常速度。该选项会增加内存、CPU 和音频流量，倍速声音在 LG 真机上的性能、听感与长时间同步仍待验证。
+有声倍速实验代码暂时保留，但 0.2.123 已从 webOS 播放控制和设置中隐藏，当前固定使用正常 1 倍速，待 LG 真机验证完成后再恢复入口。
 
 0.2.119 的下一集预取重试、过期刷新、准备任务复用和 Chrome 79 请求兼容继续保留。0.2.118 起支持设置内在线检查更新和内置代理线路；应用只提示新版与手动安装方法，需通过 webOS Dev Manager 等开发工具更新。
 
