@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 119,
-  "version_name": "0.2.118",
+  "version_code": 120,
+  "version_name": "0.2.119",
   "min_sdk": 23,
-  "size": 19155802,
-  "sha256": "9ebe2cf10725bd961817df529be049ebc2878ea3f0680663e80e83a2b6698d06",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.118/hongguo-tv-0.2.118.apk",
-  "release_notes": "# 红果短剧 v0.2.118\n\n本次为 LG webOS 加入在线版本检查与手动安装指引，Android、macOS、Windows 和 Linux 同步统一版本。\n\n## webOS 更新\n\n- 设置中新增“检查更新”，展示当前版本、新版本说明、发布页地址和 webOS Dev Manager 安装方法。\n- 每天最多自动检查一次；发现新版时在非播放状态提醒，同一版本只提醒一次，操作焦点保持不变。\n- 支持内置代理线路，全部失败后回退 GitHub 直连；检查失败可手动重试，并保留已知的新版本信息。\n- 仅检查并提示，不会自动下载或安装 IPK。旧版用户需先手动安装 0.2.118，才可检查后续新版本。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.118.apk`（versionCode 119）\n- Android MPV 版：`hongguo-tv-mpv-0.2.118.apk`（versionCode 71）\n- macOS / Windows：`hongguo-desktop-0.2.118-macos-universal.zip`、`hongguo-desktop-0.2.118-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.118-test.1` 预发行版\n- LG webOS：`webos-v0.2.118-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
-  "published_at": "2026-10-25T15:52:27.460962+00:00"
+  "size": 19159150,
+  "sha256": "b34f1d3f0bebb40b116e53daa7c24b2b528dfffca70cdddc7c81592b5ef5f0b3",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.119/hongguo-tv-0.2.119.apk",
+  "release_notes": "# 红果短剧 v0.2.119\n\n本次主要优化 LG webOS 的切集准备与旧版浏览器兼容，Android、macOS、Windows 和 Linux 同步统一主线版本及共享播放诊断。\n\n## webOS 更新\n\n- 下一集预取失败后，在稳定播放时隔至少 3 秒重试一次；长集剩余 30 秒以内可刷新过期准备结果，与失败重试共用一次额外尝试额度。\n- 前台播放与后台预取共用取源和 Range 初始化任务，减少切集时重复准备；超过 2 分钟的准备结果重新解析、校验。\n- 修复 webOS 6 / Chrome 79 缓存会话请求的 keepalive 跨域预检错误。\n- 播放诊断显示接口解析、Range 索引、完整文件回退下载和解密耗时；切集仍保留上一集画面时，读取当前前台准备信息。\n\nwebOS 继续优先使用 Range 按需下载、解密和播放，并保留兼容性回退。真实接口的并发准备复用、缓存命中和视频分段读取检查已通过；新包在 LG 电视上的切集耗时需要实机反馈。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.119.apk`（versionCode 120）\n- Android MPV 版：`hongguo-tv-mpv-0.2.119.apk`（versionCode 72）\n- macOS / Windows：`hongguo-desktop-0.2.119-macos-universal.zip`、`hongguo-desktop-0.2.119-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.119-test.1` 预发行版\n- LG webOS：`webos-v0.2.119-test.25` 测试版；支持检查新版提示，通过 webOS Dev Manager 手动安装 IPK。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-26T00:49:23.251621+00:00"
 }
