@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.122",
-  "release_tag": "webos-v0.2.122-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.122-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.122\n\n修复播放接手后台预加载时，上游临时取源失败会直接显示无法播放、需要手动重试的问题。\n\n- 播放正在等待后台预加载且遇到临时错误时，自动恢复一次，并发请求共享结果。\n- 离开播放或取消等待时停止恢复；明确的鉴权、参数错误不重试，持续失败仍正常报错。\n- 保留现有 Range 按需下载、解密、切集及 HTTP 响应修复。\n- 15 项回归覆盖真实 HTTP 断连、页面 1.2 秒预加载接手、并发、取消及重试上限，压缩 IPK 回归通过。\n\nLG 真机实际改善仍待新版测试。“有声倍速（实验）”继续默认关闭，可在设置中、版本更新上方开启；LG 真机上的倍速声音性能、听感和长时间同步仍待验证。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.122-test.25.ipk",
-  "artifact_size": 1063716,
-  "artifact_sha256": "f2e916b9f44cf6fd46e5a3d89a66310e83e73e6517b9e490c0bf9465b3ee18e2"
+  "version_name": "0.2.123",
+  "release_tag": "webos-v0.2.123-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.123-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.123\n\n本版把 Mac 播放器验证过的“下一集提前准备”思路移植到 webOS HTML5 播放路径，减少切集时重复加载、黑屏和长时间等待。\n\n- 播放稳定约 1.5 秒后，后台获取下一集并用隐藏、静音的 HTML5 video 预热媒体。\n- 切集时接管已经预热的 video，保留已有缓冲，不重复设置 `src` 或调用 `load()`。\n- 预热失败、取消或长时间未使用时自动清理隐藏播放器，不持续占用资源。\n- 保留现有 Range 按需下载、解密、切集、重试、缓存和 HTTP 响应修复。\n- webOS 有声倍速实验继续隐藏并固定为 1 倍速，避免影响播放稳定性。\n- 17 项回归覆盖预热接管、失败清理、真实 HTTP 断连、并发、取消及重试上限，压缩 IPK 回归通过。\n\nLG 真机实际改善仍待新版测试。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.123-test.25.ipk",
+  "artifact_size": 1064954,
+  "artifact_sha256": "73bcd107655f9d9b7014a56d894402928df272ebd5b7a5dc242dfcad9b10d870"
 }
