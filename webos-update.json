@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.120",
-  "release_tag": "webos-v0.2.120-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.120-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.120\n\n同一个 IPK 内新增 **设置 → 有声倍速（实验）**，位于“版本更新”上方，默认关闭，仅在支持的设备显示。\n\n- 开启后，非 1 倍速会批量读取当前集音轨，通过 Web Audio 与 Worker 中的 WSOLA 独立处理声音并保持音调。\n- 视频继续沿用现有 Range 边下载、边解密、边播放和切集机制，不新增整集视频预下载。\n- 声音准备期间按有声 1 倍速播放，首段可输出后再接管；失败、超时或处理跟不上时恢复有声 1 倍速。\n- 补齐暂停、拖动、切集、静音、前后台及关闭时的声音同步和取消，交接时补偿声音输出延迟，丢弃过期声音。\n- 关闭选项后恢复原有播放路径；默认关闭时不请求音轨、不启动独立声音处理。\n\n该选项会增加 CPU、内存和额外音频流量。真实接口、浏览器播放链路、自动化和实际 IPK 检查已通过；LG 真机上的性能、听感与长时间同步仍需实测，因此保持默认关闭。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.120-test.25.ipk",
-  "artifact_size": 1061736,
-  "artifact_sha256": "dfaae09bc13952e354f9ca3de9d6067d33b991cc532f1e18bdcf7927ade77f0c"
+  "version_name": "0.2.121",
+  "release_tag": "webos-v0.2.121-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.121-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.121\n\n修复视频 Range 服务发送完请求范围后没有结束 HTTP 响应的问题。客户端复用同一连接继续读取媒体时，后续响应可能被堵住，使播放停在开头画面。\n\n- 范围数据全部写完后正确结束响应，并释放该次在途读取保护。\n- 保留原有 Range 按需下载、解密及切集机制。\n- 实际 HTTP 连续请求与压缩 IPK 回归通过，覆盖 CENC、HEAD、完整响应、多块背压及后续范围读取。\n\nLG C1 用户反馈的实际改善仍待新版电视实测。原有“有声倍速（实验）”选项继续默认关闭，可在设置中、版本更新上方开启；LG 真机上的倍速声音性能、听感和长时间同步仍待验证。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.121-test.25.ipk",
+  "artifact_size": 1061690,
+  "artifact_sha256": "f2e41ad14230916f3c37e20194f71a26362c26b22e1011de969cf8256d0e09df"
 }
