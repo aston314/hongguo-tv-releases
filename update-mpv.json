@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 75,
-  "version_name": "0.2.122",
+  "version_code": 76,
+  "version_name": "0.2.125",
   "min_sdk": 23,
-  "size": 36878552,
-  "sha256": "c75e9f6cfa8f9691d823ad2e20391f79d5f0f34486d92d9c55441dd3cd310d0f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.122/hongguo-tv-mpv-0.2.122.apk",
-  "release_notes": "# 红果短剧 v0.2.122\n\n修复 webOS 播放接手后台预加载时，上游临时请求失败会直接显示无法播放、需要手动重试的问题。\n\n- 当播放正在等待同一集的后台预加载、且遇到临时取源错误时，自动恢复一次；同一集的并发请求共享恢复结果，避免重复请求。\n- 离开播放页或取消等待时停止恢复；鉴权、参数等明确错误不自动重试，持续失败仍正常报告错误。\n- webOS 搜索优先使用 App 搜索接口，首屏失败时回退官网 JSON；两种来源的分页游标独立，避免跨来源错页。\n- webOS 服务搜索路由补齐完整查询参数；系列剧下一季切换增加官方季关系反向确认，未确认时不自动跨季。\n- 前台播放源遇到临时网络错误最多自动重试两次，预加载仍保持单次请求并交给现有恢复流程处理。\n- 保留现有 Range/CENC 边下载、边解密、边播放方式及上一版 HTTP 响应修复；有声倍速实验选项继续默认关闭。\n- 新增回归覆盖 App/官网搜索分页、季关系确认、真实 HTTP 断连、页面 1.2 秒预加载接手、并发、取消及重试上限；修复后的压缩 IPK 回归通过，LG 真机实际改善待新版测试。\n- Android、macOS 和 Windows 同步统一主线版本，本轮未修改这些平台的播放逻辑。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.122.apk`（versionCode 123）\n- Android MPV 版：`hongguo-tv-mpv-0.2.122.apk`（versionCode 75）\n- macOS / Windows：`hongguo-desktop-0.2.122-macos-universal.zip`、`hongguo-desktop-0.2.122-windows-x64.zip`\n- Linux x86_64 AppImage：继续提供 `linux-v0.2.120-test.1`；新包仅在 Ubuntu 24.04 与 Debian 12 验证通过后发布。\n- LG webOS：`webos-v0.2.122-test.25` 测试版，通过 webOS Dev Manager 手动更新 IPK。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
-  "published_at": "2026-10-26T13:14:57.577715+00:00"
+  "size": 36907796,
+  "sha256": "8047e7ab5336f968f00f66ba33b01b7fe3d4e70675e49814f8f03880002c0870",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.125/hongguo-tv-mpv-0.2.125.apk",
+  "release_notes": "# 红果短剧 v0.2.125\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。播放取源改用已验证的匿名注册设备和新的多集片源接口，修复部分集数无法取得播放源的问题。\n\n- 播放首次使用匿名设备注册，当前运行期复用设备身份；注册失败后点击重试即可重新注册，不需要重启应用。\n- Go 核心和 webOS Service 使用 `/novel/player/multi_video_model/v1/`，兼容清晰度对象/数组格式、备用片源地址和旧格式 `fallback_api`。\n- 备用接口仅允许 HTTPS 及红果受信任域名，并限制响应大小、重定向次数和请求时长。\n- 保留 Range/CENC 按需读取、边播边下、媒体缓存和 webOS 单播放器预取交接逻辑。\n- 浏览器真实数据环境已验证切集和换片可正常播放；Android、桌面和 webOS 的自动化回归及构建检查通过。LG 实机解码仍需在目标电视上验收。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.125.apk`（versionCode 124）\n- Android MPV 版：`hongguo-tv-mpv-0.2.125.apk`（versionCode 76）\n- macOS / Windows：`hongguo-desktop-0.2.125-macos-universal.zip`、`hongguo-desktop-0.2.125-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.125-test.1` 预发行版\n- LG webOS：`webos-v0.2.125-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-27T09:13:58.885549+00:00"
 }
