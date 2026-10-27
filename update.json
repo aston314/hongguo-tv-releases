@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 124,
-  "version_name": "0.2.125",
+  "version_code": 125,
+  "version_name": "0.2.126",
   "min_sdk": 23,
-  "size": 19191085,
-  "sha256": "833373c24bd78125ec0088dd4e5481472fe5f6b407ef357c0634b4419c2606cd",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.125/hongguo-tv-0.2.125.apk",
-  "release_notes": "# 红果短剧 v0.2.125\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。播放取源改用已验证的匿名注册设备和新的多集片源接口，修复部分集数无法取得播放源的问题。\n\n- 播放首次使用匿名设备注册，当前运行期复用设备身份；注册失败后点击重试即可重新注册，不需要重启应用。\n- Go 核心和 webOS Service 使用 `/novel/player/multi_video_model/v1/`，兼容清晰度对象/数组格式、备用片源地址和旧格式 `fallback_api`。\n- 备用接口仅允许 HTTPS 及红果受信任域名，并限制响应大小、重定向次数和请求时长。\n- 保留 Range/CENC 按需读取、边播边下、媒体缓存和 webOS 单播放器预取交接逻辑。\n- 浏览器真实数据环境已验证切集和换片可正常播放；Android、桌面和 webOS 的自动化回归及构建检查通过。LG 实机解码仍需在目标电视上验收。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.125.apk`（versionCode 124）\n- Android MPV 版：`hongguo-tv-mpv-0.2.125.apk`（versionCode 76）\n- macOS / Windows：`hongguo-desktop-0.2.125-macos-universal.zip`、`hongguo-desktop-0.2.125-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.125-test.1` 预发行版\n- LG webOS：`webos-v0.2.125-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
-  "published_at": "2026-10-27T09:13:48.020348+00:00"
+  "size": 19197511,
+  "sha256": "bbafa1ad51dac67bee44a4f2707f026bc9691e68d2d83028d4e7c3c26ca9a425",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.126/hongguo-tv-0.2.126.apk",
+  "release_notes": "# 红果短剧 v0.2.126\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。桌面版新增播放区鼠标操作与短暂操作提示，并保留当前主线的 HTML5 切集过渡、匿名注册设备和多集片源播放逻辑。\n\n- 桌面版中央单击播放/暂停，左右播放区域双击快退/快进 10 秒，空白区单击显示或隐藏控制项；操作提示不抢焦点，支持减少动态效果设置。\n- 标准版与 MPV 版继续保持独立包名、签名和更新渠道。\n- 保留 Range/CENC 按需读取、边播边下、Media3/MPV 播放路径及 webOS 单播放器预取交接逻辑。\n- Linux AppImage 继续要求系统提供 WebKitGTK、GStreamer 和对应解码插件；Windows 播放 HEVC 需要系统 HEVC Video Extensions。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.126.apk`（versionCode 125）\n- Android MPV 版：`hongguo-tv-mpv-0.2.126.apk`（versionCode 77）\n- macOS / Windows：`hongguo-desktop-0.2.126-macos-universal.zip`、`hongguo-desktop-0.2.126-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.126-test.1` 预发行版\n- LG webOS：`webos-v0.2.126-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。Android 标准版和 MPV 版保持各自原有包名、签名和更新渠道。",
+  "published_at": "2026-10-27T12:49:45.683271+00:00"
 }
