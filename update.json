@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 126,
-  "version_name": "0.2.127",
+  "version_code": 127,
+  "version_name": "0.2.128",
   "min_sdk": 23,
-  "size": 19204146,
-  "sha256": "2315ea4d9a9a0c1bf3cd5390fb865caff89f4a86e00c66f8a99c9c61f11531f9",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.127/hongguo-tv-0.2.127.apk",
-  "release_notes": "# 红果短剧 v0.2.127\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。当前版本包含紧邻下一集的有限播放准备：播放稳定后只准备下一集的播放信息和受限的 Range 开头数据，不下载整集，也不改变现有边播边下路径。\n\n- 标准版、MPV 版、桌面版和 webOS 共用同一主线的相邻集预取协调逻辑，并按平台保留各自播放器适配器。\n- 预取只覆盖紧邻下一集；取消、切剧、切清晰度、切账号、后台和播放上下文变化都会使任务失效，失败不会阻塞当前播放。\n- 标准版与 MPV 版继续保持独立包名、签名和更新渠道。\n- Linux AppImage 继续要求系统提供 WebKitGTK、GStreamer 和对应解码插件；Windows 播放 HEVC 需要系统 HEVC Video Extensions。\n- webOS 的有声倍速仍是默认关闭的实验入口，需要在设置中手动开启；不影响 Android、MPV 和桌面播放器。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.127.apk`（versionCode 126）\n- Android MPV 版：`hongguo-tv-mpv-0.2.127.apk`（versionCode 78）\n- macOS / Windows：`hongguo-desktop-0.2.127-macos-universal.zip`、`hongguo-desktop-0.2.127-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.127-test.1` 预发行版\n- LG webOS：`webos-v0.2.127-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
-  "published_at": "2026-10-28T00:57:48.154674+00:00"
+  "size": 19204790,
+  "sha256": "f177b7add564eee9ec7b1af79a8bedc52e582f55426a0f2dfb34ab245732e92c",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.128/hongguo-tv-0.2.128.apk",
+  "release_notes": "# 红果短剧 v0.2.128\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。此版本修复系列剧播放完一季后的续播判断，并继续保留紧邻下一集的有限播放准备。\n\n- 系列剧结束一季后以完整季列表为准选择下一季；待上线季保留预约入口，不跳过缺失或不可播放的季，也不使用不完整的关系响应猜测跳季。\n- 标准版、MPV 版、桌面版和 webOS 继续共用相邻集预取协调逻辑，并按平台保留各自播放器适配器。\n- 预取只覆盖紧邻下一集的播放信息和受限 Range 开头数据；取消、切剧、切清晰度、切账号、后台和播放上下文变化都会使任务失效，失败不会阻塞当前播放。\n- 保留 Range/CENC 按需读取和边播边下路径，不下载整集作为切集前置条件。\n- 标准版与 MPV 版继续保持独立包名、签名和更新渠道。webOS 有声倍速实验入口默认关闭。\n- Linux AppImage 继续要求系统提供 WebKitGTK、GStreamer 和对应解码插件；Windows 播放 HEVC 需要系统 HEVC Video Extensions。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.128.apk`（versionCode 127）\n- Android MPV 版：`hongguo-tv-mpv-0.2.128.apk`（versionCode 79）\n- macOS / Windows：`hongguo-desktop-0.2.128-macos-universal.zip`、`hongguo-desktop-0.2.128-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.128-test.1` 预发行版\n- LG webOS：`webos-v0.2.128-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
+  "published_at": "2026-10-28T06:32:13.442482+00:00"
 }
