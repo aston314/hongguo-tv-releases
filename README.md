@@ -19,6 +19,12 @@
 - [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.127-test.25)
 - [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.127-test.1)
 - [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.127)
+
+## 我的其他作品
+
+- [豆豆 TV｜看直播 TV 版](https://github.com/aston314/doudou-tv-releases/releases/latest)
+- [咖啡直播 TV｜体育赛事直播 TV 版](https://github.com/aston314/kafeizhibo-tv/releases)
+
 - 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
 - Android 8.0/API 26 及以上设备可使用「红果精选」系统首页频道；Android 6/7.1 继续安装和使用应用，不提供该频道。
 - 从 0.2.7 起支持应用内检查更新；当前版本由应用固定依次尝试多个公开更新线路，全部失败后再尝试 GitHub 直连。用户不需要也不能配置代理。
@@ -125,8 +131,3 @@ macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文�
 标准版使用 `update.json`，MPV 版使用 `update-mpv.json` 作为固定更新入口，各自只升级对应版本。每个 Release 提供两个 APK、两个更新清单和 `SHA256SUMS.txt`，用于核对下载文件。
 
 MPV 版所需的 LGPL 库源码、依赖、许可声明、补丁及构建和替换工具随私有源码 Release 提供。使用 APK 无需下载源码附件；应用“设置 → 开源许可”也可离线查看许可信息。
-
-还有，抖音（douyin）你会喜欢的：
-
-- [看直播TV版](https://github.com/aston314/doudou-tv-releases/releases/latest)
-- [体育赛事直播TV版](https://github.com/aston314/kafeizhibo-tv/releases)
