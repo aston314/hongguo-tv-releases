@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.126",
-  "release_tag": "webos-v0.2.126-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.126-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.126\n\n同步主线播放取源修复：Service 先注册匿名播放设备，再请求新的多集片源接口；返回旧格式时仍支持安全的备用片源地址解析。Range/CENC 边播边下、预取交接和唯一 HTML5 播放器逻辑继续保留。\n\n- 注册身份在当前 Service 生命周期内复用，注册失败后下一次播放会重新尝试，不要求重启应用。\n- 多集片源按清晰度解析 `video_list`，兼容数组和对象格式，并校验备用接口域名、HTTPS 和重定向。\n- 保留 0.2.124 的单播放器预取、临时失败恢复和 webOS 倍速入口隐藏策略。\n\n本包是 webOS 测试版，真实浏览器接口与 Service 回归已通过；不同 LG 机型仍需分别验证播放解码、连续切集和声音。\n\n上一版 0.2.124 的单播放器预取与交接行为继续保留：\n\n修正 0.2.123 在 LG C5 实测中出现的预取打断当前播放、自动下一集失败后需要手动重试的问题。\n\n- 移除第二个隐藏视频和替换播放器的预热方式，始终保留原来的唯一 HTML5 主视频元素。\n- 稳定播放 5 秒后，Service 提前准备下一集片源，并最多预读开头 2 MiB；切集直接复用缓存或正在下载的分块，不启动第二条视频解码管线。\n- 额外内存缓存最多保留两个源共 4 MiB，闲置 2 分钟失效，后台预读总期限 5 秒；预读失败不触发后台整集下载。\n- 临时取源失败时，页面使用现有的一次自动刷新预算恢复；持续失败保留手动重试，鉴权、参数、取消及过期请求不自动恢复。\n- 恢复使用目标集的待播放位置，避免带入上一集结尾时间；保留现有 Range/CENC 边播边下、缓存保护及有界重试。\n- webOS 播放倍速和设置中的有声倍速实验继续隐藏，正常使用有声 1 倍速。\n\n验证：479 项 JavaScript、42 项 Python、Go 测试及主线 CI 通过；完整 webOS 校验、IPK 结构与压缩模块回归通过。浏览器样片连续四次自动切集通过；真实上游验证了 2 MiB 预读及前台缓存复用。新版在 LG 电视上的效果仍待安装后实测。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.126-test.25.ipk",
-  "artifact_size": 1068796,
-  "artifact_sha256": "7ea3fa73c76224512d9d8eb3cffaec6f2f5a5a8ccb5b9a213d41f9086ed2bcef"
+  "version_name": "0.2.127",
+  "release_tag": "webos-v0.2.127-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.127-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.127\n\n同步主线播放取源修复：Service 先注册匿名播放设备，再请求新的多集片源接口；返回旧格式时仍支持安全的备用片源地址解析。Range/CENC 边播边下、紧邻下一集的有限预取交接和唯一 HTML5 播放器逻辑继续保留。\n\n- 注册身份在当前 Service 生命周期内复用，注册失败后下一次播放会重新尝试，不要求重启应用。\n- 多集片源按清晰度解析 `video_list`，兼容数组和对象格式，并校验备用接口域名、HTTPS 和重定向。\n- 保留 0.2.124 的单播放器预取和临时失败恢复；webOS 有声倍速继续以默认关闭的实验开关提供，开启后才显示播放器倍速入口。\n\n本包是 webOS 测试版，真实浏览器接口与 Service 回归已通过；不同 LG 机型仍需分别验证播放解码、连续切集和声音。\n\n上一版 0.2.124 的单播放器预取与交接行为继续保留：\n\n修正 0.2.123 在 LG C5 实测中出现的预取打断当前播放、自动下一集失败后需要手动重试的问题。\n\n- 移除第二个隐藏视频和替换播放器的预热方式，始终保留原来的唯一 HTML5 主视频元素。\n- 稳定播放 5 秒后，Service 提前准备下一集片源，并最多预读开头 2 MiB；切集直接复用缓存或正在下载的分块，不启动第二条视频解码管线。\n- 额外内存缓存最多保留两个源共 4 MiB，闲置 2 分钟失效，后台预读总期限 5 秒；预读失败不触发后台整集下载。\n- 临时取源失败时，页面使用现有的一次自动刷新预算恢复；持续失败保留手动重试，鉴权、参数、取消及过期请求不自动恢复。\n- 恢复使用目标集的待播放位置，避免带入上一集结尾时间；保留现有 Range/CENC 边播边下、缓存保护及有界重试。\n- webOS 设置中的“有声倍速（实验）”默认关闭。支持 AudioContext、OfflineAudioContext 和 Worker 的设备可手动开启，开启后显示播放器倍速按钮；准备或同步失败时恢复有声 1 倍速。安卓、MPV 和桌面播放器路径不受影响。\n\n验证：479 项 JavaScript、42 项 Python、Go 测试及主线 CI 通过；完整 webOS 校验、IPK 结构与压缩模块回归通过。浏览器样片连续四次自动切集通过；真实上游验证了 2 MiB 预读及前台缓存复用。新版在 LG 电视上的效果仍待安装后实测。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.127-test.25.ipk",
+  "artifact_size": 1073602,
+  "artifact_sha256": "6b1fe06eff96f3520b3a728044b02d82a987b0765f1d43e16b3314e8d5fbd838"
 }
