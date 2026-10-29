@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 128,
-  "version_name": "0.2.129",
+  "version_code": 130,
+  "version_name": "0.2.131",
   "min_sdk": 23,
-  "size": 19213740,
-  "sha256": "d9a45a97c82ed5f2f86ed16aab04d8cd8c9d63bba3bd1f779b94b66450416aa1",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.129/hongguo-tv-0.2.129.apk",
-  "release_notes": "# 红果短剧 v0.2.129\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。此版本修复系列剧播放完一季后的续播判断，并继续保留紧邻下一集的有限播放准备。\n\n- 系列剧结束一季后以完整季列表为准选择下一季；待上线季保留预约入口，不跳过缺失或不可播放的季，也不使用不完整的关系响应猜测跳季。\n- 标准版、MPV 版和桌面版支持在设置中选择“边播边下”或“整集预下载”；webOS 继续固定使用边播边下，并按平台保留各自播放器适配器。\n- 默认边播边下只覆盖紧邻下一集的播放信息和受限 Range 开头数据；选择整集预下载时，仅在当前集稳定播放后准备紧邻下一集，未完成任务不会阻塞当前播放。取消、切剧、切清晰度、切账号、后台和播放上下文变化都会使任务失效。\n- 保留 Range/CENC 按需读取和边播边下路径；整集预下载是可选的后台策略，未完成时仍回到正常前台准备。\n- 标准版与 MPV 版继续保持独立包名、签名和更新渠道。webOS 有声倍速实验入口默认关闭。\n- 设置页将“版本更新”移至设置列表末尾，原有设置项与焦点导航保持可用。\n- Linux AppImage 继续要求系统提供 WebKitGTK、GStreamer 和对应解码插件；Windows 播放 HEVC 需要系统 HEVC Video Extensions。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.129.apk`（versionCode 128）\n- Android MPV 版：`hongguo-tv-mpv-0.2.129.apk`（versionCode 80）\n- macOS / Windows：`hongguo-desktop-0.2.129-macos-universal.zip`、`hongguo-desktop-0.2.129-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.129-test.1` 预发行版\n- LG webOS：`webos-v0.2.129-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
-  "published_at": "2026-10-28T15:38:39.815434+00:00"
+  "size": 19232056,
+  "sha256": "0792d83e222deeeb4b34e4e156ce65ad4ae485f5507ae84d5d1872cedaa3861e",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.131/hongguo-tv-0.2.131.apk",
+  "release_notes": "# 红果短剧 v0.2.131\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。本版本修复 MPV 软件解码播放器复用的 Android 编译问题，并继续包含 MPV 播放稳定性、媒体缓存隔离、视频尺寸识别、片源能力筛选和推荐自动播放方向设置。\n\n- MPV 软件解码在连续切集时复用健康的播放器实例，减少重复创建和销毁解码器；硬件解码继续使用原有生命周期。\n- 推荐页自动起播会记住上一部成功播放的剧，下一次自动起播优先选择不同剧；手动播放、失败播放和历史续播不受影响。\n- 媒体准备缓存按播放器模式、读取模式和 codec 模式隔离，避免软件/硬件解码或 Range/整集准备误用不兼容缓存。\n- 播放信息向页面传递视频宽高；推荐自动播放可在设置中选择全部剧、仅横屏剧或仅竖屏剧。方向筛选只作用于推荐页自动起播和自动接播，尺寸未知时保留原逻辑，最多检查 8 个候选。\n- MPV 软件解码会过滤 bytevc1/bytevc2 不兼容片源；自动解码保留可交给硬件能力判断的候选，找不到兼容片源时返回明确错误。\n- Android 的推荐方向设置使用原生偏好桥接持久化；桌面、webOS 和浏览器预览沿用各自本地设置存储。\n- 继续保留标准版、MPV 版和桌面版的下一集预取设置；webOS 继续固定使用边播边下。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.131.apk`（versionCode 130）\n- Android MPV 版：`hongguo-tv-mpv-0.2.131.apk`（versionCode 82）\n- macOS / Windows：`hongguo-desktop-0.2.131-macos-universal.zip`、`hongguo-desktop-0.2.131-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.131-test.1` 预发行版\n- LG webOS：`webos-v0.2.131-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
+  "published_at": "2026-10-29T05:16:33.346703+00:00"
 }
