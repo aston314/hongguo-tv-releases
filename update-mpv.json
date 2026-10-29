@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 82,
-  "version_name": "0.2.131",
+  "version_code": 83,
+  "version_name": "0.2.132",
   "min_sdk": 23,
-  "size": 36949801,
-  "sha256": "1e2226c887f681b5fbdd44f489afc43024e02f52dd6732cde98fec83e0376b96",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.131/hongguo-tv-mpv-0.2.131.apk",
-  "release_notes": "# 红果短剧 v0.2.131\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。本版本修复 MPV 软件解码播放器复用的 Android 编译问题，并继续包含 MPV 播放稳定性、媒体缓存隔离、视频尺寸识别、片源能力筛选和推荐自动播放方向设置。\n\n- MPV 软件解码在连续切集时复用健康的播放器实例，减少重复创建和销毁解码器；硬件解码继续使用原有生命周期。\n- 推荐页自动起播会记住上一部成功播放的剧，下一次自动起播优先选择不同剧；手动播放、失败播放和历史续播不受影响。\n- 媒体准备缓存按播放器模式、读取模式和 codec 模式隔离，避免软件/硬件解码或 Range/整集准备误用不兼容缓存。\n- 播放信息向页面传递视频宽高；推荐自动播放可在设置中选择全部剧、仅横屏剧或仅竖屏剧。方向筛选只作用于推荐页自动起播和自动接播，尺寸未知时保留原逻辑，最多检查 8 个候选。\n- MPV 软件解码会过滤 bytevc1/bytevc2 不兼容片源；自动解码保留可交给硬件能力判断的候选，找不到兼容片源时返回明确错误。\n- Android 的推荐方向设置使用原生偏好桥接持久化；桌面、webOS 和浏览器预览沿用各自本地设置存储。\n- 继续保留标准版、MPV 版和桌面版的下一集预取设置；webOS 继续固定使用边播边下。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.131.apk`（versionCode 130）\n- Android MPV 版：`hongguo-tv-mpv-0.2.131.apk`（versionCode 82）\n- macOS / Windows：`hongguo-desktop-0.2.131-macos-universal.zip`、`hongguo-desktop-0.2.131-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.131-test.1` 预发行版\n- LG webOS：`webos-v0.2.131-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
-  "published_at": "2026-10-29T05:16:45.373403+00:00"
+  "size": 36966429,
+  "sha256": "156f6331c03c30e70f5866d6d3d5fe676d33fb8724562e49144befa9d9fbcdee",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.132/hongguo-tv-mpv-0.2.132.apk",
+  "release_notes": "# 红果短剧 v0.2.132\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。本版本包含播放切集过渡和追更提醒界面修复。\n\n- 桌面 HTML5 同剧切换不再显示当前剧海报，保留播放器过渡状态，等待目标集真实画面接管。\n- Android 推荐切换到另一部短剧时直接准备目标剧封面，避免先闪回当前剧海报。\n- MPV 软件解码在健康的连续切集时复用播放器实例，硬件解码路径保持原有生命周期。\n- webOS 为 HEIC 封面补充官网 JPEG CDN 回退地址，保留原签名封面地址。\n- 更新提醒改为接近排行榜的可播放卡片，显示封面、集数、简介和热度信息；支持直接播放或打开详情。\n- 更新提醒卡片使用独立的播放/详情焦点动作，方向键切换时会自动保持卡片完整可见，刷新后恢复原焦点。\n- 更新提醒本地记录仅保存卡片展示和播放所需的元数据，不持久化完整媒体集数或视频源列表。\n- webOS 继续使用原有 HTML5 播放和边播边下策略；本次切集封面改动不改变 webOS 播放路径。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.132.apk`（versionCode 131）\n- Android MPV 版：`hongguo-tv-mpv-0.2.132.apk`（versionCode 83）\n- macOS / Windows：`hongguo-desktop-0.2.132-macos-universal.zip`、`hongguo-desktop-0.2.132-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.132-test.1` 预发行版\n- LG webOS：`webos-v0.2.132-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
+  "published_at": "2026-10-29T17:26:30.815626+00:00"
 }
