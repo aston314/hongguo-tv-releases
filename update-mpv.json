@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 83,
-  "version_name": "0.2.132",
+  "version_code": 84,
+  "version_name": "0.2.133",
   "min_sdk": 23,
-  "size": 36966429,
-  "sha256": "156f6331c03c30e70f5866d6d3d5fe676d33fb8724562e49144befa9d9fbcdee",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.132/hongguo-tv-mpv-0.2.132.apk",
-  "release_notes": "# 红果短剧 v0.2.132\n\n统一发布 Android、macOS、Windows、Linux AppImage 和 LG webOS 测试包。本版本包含播放切集过渡和追更提醒界面修复。\n\n- 桌面 HTML5 同剧切换不再显示当前剧海报，保留播放器过渡状态，等待目标集真实画面接管。\n- Android 推荐切换到另一部短剧时直接准备目标剧封面，避免先闪回当前剧海报。\n- MPV 软件解码在健康的连续切集时复用播放器实例，硬件解码路径保持原有生命周期。\n- webOS 为 HEIC 封面补充官网 JPEG CDN 回退地址，保留原签名封面地址。\n- 更新提醒改为接近排行榜的可播放卡片，显示封面、集数、简介和热度信息；支持直接播放或打开详情。\n- 更新提醒卡片使用独立的播放/详情焦点动作，方向键切换时会自动保持卡片完整可见，刷新后恢复原焦点。\n- 更新提醒本地记录仅保存卡片展示和播放所需的元数据，不持久化完整媒体集数或视频源列表。\n- webOS 继续使用原有 HTML5 播放和边播边下策略；本次切集封面改动不改变 webOS 播放路径。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.132.apk`（versionCode 131）\n- Android MPV 版：`hongguo-tv-mpv-0.2.132.apk`（versionCode 83）\n- macOS / Windows：`hongguo-desktop-0.2.132-macos-universal.zip`、`hongguo-desktop-0.2.132-windows-x64.zip`\n- Linux x86_64 AppImage：`linux-v0.2.132-test.1` 预发行版\n- LG webOS：`webos-v0.2.132-test.25` 测试版\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
-  "published_at": "2026-10-29T17:26:30.815626+00:00"
+  "size": 37077506,
+  "sha256": "61f58ad64d4b69ec17d0d42837018e671d2df3c9941cb6e9f0bfe04207a4f977",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.133/hongguo-tv-mpv-0.2.133.apk",
+  "release_notes": "# 红果短剧 v0.2.133\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包，包含本次已整合到主线的扫码登录、追更焦点与播放体验修改。\n\n- Android、桌面及 webOS 新增手机红果 App 扫码登录，账号页默认显示二维码，手机号验证码、上行短信与 MFA 登录方式保留。登录后沿用原有账号保存和云同步。\n- 修复 MPV 自动解码路径误选 bytevc2 片源的兼容回归，避免在受影响盒子上使用该不兼容片源；不改变软件解码选择。\n- MPV 音频优先使用 AudioTrack，并在播放器内重采样到 48 kHz；所有 MPV 设备默认声音延后 100 毫秒。播放诊断显示实际音频补偿值。\n- 修复追更、返回追更及更新提醒之间的方向键焦点往返；更新提醒以整行外框高亮，仅列表区域滚动，标题和返回按钮保持可见。\n- Android 标准版、MPV 版及桌面版在下一集已完成整集预下载并成功复用时，切集暂时隐藏中央圆圈和集数，优先使用已就绪的下一集预览图；800 毫秒仍未出画时显示“正在准备播放…”。预下载未完成或复用失败时继续使用常规加载提示。\n- 上述平台未保存设置时默认使用整集预下载；已有的边播边下或整集预下载选择保留。webOS 继续固定使用边播边下，不启用本次完整预下载过渡优化。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.133.apk`（versionCode 132）\n- Android MPV 版：`hongguo-tv-mpv-0.2.133.apk`（versionCode 84）\n- macOS / Windows：`hongguo-desktop-0.2.133-macos-universal.zip`、`hongguo-desktop-0.2.133-windows-x64.zip`（桌面更新版本码 70）\n- Linux x86_64 AppImage：`linux-v0.2.133-test.1` 预发行版\n- LG webOS：`webos-v0.2.133-test.25` 测试版\n\n扫码真实账号登录和会话恢复已在 Go 核心及 webOS JS Service 中验证；共享界面与两种 Android 包通过自动化检查。音频默认值来自盒子对照测试，未对所有设备逐一验证；LG 实机扫码及各设备的连续播放仍需实测。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
+  "published_at": "2026-10-30T09:24:45.006628+00:00"
 }
