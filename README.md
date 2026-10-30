@@ -16,9 +16,9 @@
 </table>
 
 - [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.132-test.25)
-- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.132-test.1)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.132)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.133-test.25)
+- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.133-test.1)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.133)
 
 ## 我的其他作品
 
@@ -42,7 +42,11 @@
 | **标准版** | **`hongguo-tv-版本号.apk`**（文件名不含 `mpv`） | WebView 播放，失败时使用 Media3 兼容回退 |
 | **MPV 版** | **`hongguo-tv-mpv-版本号.apk`**（文件名含 `mpv`） | MPV 自动解码，可手动选择软件解码 |
 
-例如当前标准版是 `hongguo-tv-0.2.132.apk`；MPV 版是 `hongguo-tv-mpv-0.2.132.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
+例如当前标准版是 `hongguo-tv-0.2.133.apk`；MPV 版是 `hongguo-tv-mpv-0.2.133.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
+
+0.2.133 修复 MPV 自动解码路径误选 bytevc2 片源的兼容问题，并改为优先 AudioTrack、48 kHz 音频输出及默认声音延后 100 毫秒。该补偿应用于所有 MPV 设备，具体听感仍受设备与音频链路影响。
+
+Android 标准版、MPV 版和桌面版在未保存预取设置时，默认使用 **整集预下载**；已有的边播边下或整集预下载选择会保留。只有下一集已完整预下载且成功复用时，切集才暂时隐藏中央圆圈和集数，优先使用已就绪的下一集预览图；800 毫秒仍未出画时显示“正在准备播放…”。webOS 保持边播边下。
 
 两版安装后的名称均为 **红果短剧**；升级时请按原先安装的版本选择对应 APK，或使用应用内检查更新。
 
@@ -59,7 +63,7 @@
 
 ## Linux 桌面版测试包
 
-[下载 Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.132-test.1)，在 **Assets** 中下载 `hongguo-desktop-0.2.132-x86_64.AppImage`。当前只提供 64 位 x86_64 包。
+[下载 Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.133-test.1)，在 **Assets** 中下载 `hongguo-desktop-0.2.133-x86_64.AppImage`。当前只提供 64 位 x86_64 包。
 
 此包依赖系统 WebKitGTK 4.1、GTK 3、GStreamer 和 HEVC/AAC 解码插件。在 Ubuntu 24.04 或 Debian 12 安装运行依赖：
 
@@ -70,15 +74,15 @@ sudo apt-get install libwebkit2gtk-4.1-0 gstreamer1.0-libav gstreamer1.0-plugins
 下载后运行：
 
 ```sh
-chmod +x hongguo-desktop-0.2.132-x86_64.AppImage
-./hongguo-desktop-0.2.132-x86_64.AppImage --appimage-extract-and-run
+chmod +x hongguo-desktop-0.2.133-x86_64.AppImage
+./hongguo-desktop-0.2.133-x86_64.AppImage --appimage-extract-and-run
 ```
 
 AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及播放验证；CI 使用 Xvfb 和软件解码，尚未验证实体显卡、扬声器、Wayland 或其他发行版。Linux 不提供应用内更新，下载新版后退出应用并手动替换 AppImage。Linux 鼠标焦点高亮与 macOS/Windows 共用同一套桌面 UI 实现，Linux 实体桌面交互仍待用户反馈。
 
 ## LG webOS 测试版
 
-[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.132-test.25)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.132-test.25.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
+[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.133-test.25)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.133-test.25.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
 
 **已有 LG 真机验证通过。** 用户在 [Issue #57](https://github.com/aston314/hongguo-tv-releases/issues/57) 回报：安装、启动、1080P 视频画面、声音、账号登录及原生遥控器滚轮均正常。
 
@@ -88,9 +92,9 @@ AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及�
 
 安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`；该用户使用 webOS Dev Manager 1.99.20 安装。当前下载仍为测试版，欢迎其他型号补充实测反馈。
 
-0.2.132 在 0.2.129 的单播放器预取和自动续播恢复基础上，继续统一使用匿名注册设备和新的多集片源接口；推荐页自动起播优先避开上一部成功自动播放的剧，并新增全部剧、仅横屏剧和仅竖屏剧设置；Android 标准版、MPV 版和桌面版可在设置中选择边播边下或整集预下载，webOS 仍固定边播边下；系列剧结束一季后按完整季列表继续播放，待上线季保留预约，不跳过缺失或不可播放的季；保留 Range/CENC 边播边下。备用片源地址仅允许受信任的 HTTPS 域名，注册失败时点击重试即可重新注册。新增 MPV 软件解码健康切集复用、桌面切集旧海报隐藏、Android 推荐切剧目标封面直出，以及可直接播放的排行榜式追更提醒；webOS HEIC 封面增加官网 JPEG CDN 回退地址。LG 真机的新版改善仍待安装后实测。
+0.2.133 增加红果 App 扫码登录，账号页默认显示二维码，原手机号登录保留；Android、桌面版和 webOS 共用原有账号保存及云同步入口。修复追更与更新提醒的焦点往返、整行外框高亮和列表滚动时标题被移出的问题。webOS 扫码已完成真实账号登录、会话恢复与只读云同步验证，LG 实机扫码与生命周期仍待验证；播放继续保留唯一 HTML5 视频、Range/CENC 边播边下和原有有限预取。
 
-有声倍速实验代码随 0.2.132 保留在 webOS 设置中，默认关闭；当前仍建议先使用正常 1 倍速，开启实验入口后再反馈设备兼容性。
+有声倍速实验代码随 0.2.133 保留在 webOS 设置中，默认关闭；当前仍建议先使用正常 1 倍速，开启实验入口后再反馈设备兼容性。
 
 0.2.119 的下一集预取重试、过期刷新、准备任务复用和 Chrome 79 请求兼容继续保留。0.2.118 起支持设置内在线检查更新和内置代理线路；应用只提示新版与手动安装方法，需通过 webOS Dev Manager 等开发工具更新。
 
@@ -98,16 +102,16 @@ AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及�
 
 ## macOS / Windows 桌面版
 
-[桌面版 0.2.132 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.132)。无需安装 APK，选择对应平台的 ZIP：
+[桌面版 0.2.133 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.133)。无需安装 APK，选择对应平台的 ZIP：
 
 | 平台 | 下载文件 | 要求 |
 | --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.132-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.132-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
+| **macOS** | `hongguo-desktop-0.2.133-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
+| **Windows amd64 / x64** | `hongguo-desktop-0.2.133-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
 
 macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
 
-桌面版使用系统 HTML5 播放，HEVC 视频还需要 Windows 安装相应的系统解码扩展。优先从 Microsoft Store 安装 **HEVC Video Extensions**；商店无法获取时，可参考用户提供的[第三方离线扩展仓库](https://github.com/Ayx03/HEVCVideoExtension)。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。桌面版支持直接键盘输入和粘贴，不提供扫码输入。
+桌面版使用系统 HTML5 播放，HEVC 视频还需要 Windows 安装相应的系统解码扩展。优先从 Microsoft Store 安装 **HEVC Video Extensions**；商店无法获取时，可参考用户提供的[第三方离线扩展仓库](https://github.com/Ayx03/HEVCVideoExtension)。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。桌面版支持直接键盘输入和粘贴；账号登录支持使用手机红果 App 扫码，也保留手机号登录。
 
 ### 桌面版怎么更新？
 
