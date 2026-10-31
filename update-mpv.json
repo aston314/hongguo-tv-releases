@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 86,
-  "version_name": "0.2.135",
+  "version_code": 87,
+  "version_name": "0.2.136",
   "min_sdk": 23,
-  "size": 37085634,
-  "sha256": "135cbc0df275a1bd07dbb28a3cc3e3c6e63fd183dff94653899ba0603ddd8662",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.135/hongguo-tv-mpv-0.2.135.apk",
-  "release_notes": "# 红果短剧 v0.2.135\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- 修复部分旧版 WebView 虽有查询参数 API、却不支持对象参数输入，导致播放请求丢失剧集 ID 和视频 ID、无法完成准备的问题。根据实际编码能力启用兼容处理，覆盖标准版与 MPV 版共用的界面请求。\n- 补齐缺少原生参数 API 的旧环境在切换清晰度、回退播放时需要的参数设置方法；保留中文、特殊字符、重复参数和可用的原生方法。\n- 公开下载仓库新增“播放问题”“其他问题”“功能建议”反馈表单，README 提供直接入口。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.135.apk`（versionCode 134）\n- Android MPV 版：`hongguo-tv-mpv-0.2.135.apk`（versionCode 86）\n- macOS / Windows：`hongguo-desktop-0.2.135-macos-universal.zip`、`hongguo-desktop-0.2.135-windows-x64.zip`（桌面更新版本码 72）\n- Linux x86_64 AppImage：`linux-v0.2.135-test.1` 预发行版\n- LG webOS：`webos-v0.2.135-test.25` 测试版\n\n保留现有播放器、解码和音频配置、同剧切集预览图、扫码/手机号登录及下一集预取设置。旧 WebView 参数编码修复已通过兼容模拟；具体电视型号的播放效果仍需实机验证。",
-  "published_at": "2026-10-31T07:43:44.921698+00:00"
+  "size": 37116869,
+  "sha256": "9dffc35bd44160c2bcec83775ee7223a4780bdaae506b69e9bad9088264fda1d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.136/hongguo-tv-mpv-0.2.136.apk",
+  "release_notes": "# 红果短剧 v0.2.136\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- Android、桌面及 Linux 的 Go 核心在连续 3 次收到 HTTP 200 空播放信息后，最多更换一次匿名播放身份再尝试。并发请求共享恢复过程，单次取源最多 6 次请求；不切换登录账号，普通网络、业务或解码错误不触发身份恢复。\n- 播放诊断补齐取源准备失败的具体阶段、错误码及实际可获得的上游状态，覆盖注册、获取播放信息、片源选择、Range 初始化、下载、解密和缓存写入；过期或已取消请求不会覆盖当前诊断。\n- 本机记录发送前，将简介和标签按已有保存规则裁剪，修复超长详情可能先触发请求大小限制的问题。Go 记录接口区分请求过大、字段类型错误等原因，保留账号归属校验和后续保存恢复能力。\n- webOS 同步共享页面的记录请求边界处理，继续使用独立 JS 服务及现有播放机制。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.136.apk`（versionCode 135）\n- Android MPV 版：`hongguo-tv-mpv-0.2.136.apk`（versionCode 87）\n- macOS / Windows：`hongguo-desktop-0.2.136-macos-universal.zip`、`hongguo-desktop-0.2.136-windows-x64.zip`（桌面更新版本码 73）\n- Linux x86_64 AppImage：`linux-v0.2.136-test.1` 预发行版\n- LG webOS：`webos-v0.2.136-test.25` 测试版\n\n本次不修改播放器、解码、音频补偿或下一集预取策略。自动化和隔离 HTTP 验证覆盖上述恢复与校验规则，具体设备反馈仍需使用新版复测。",
+  "published_at": "2026-10-31T09:45:07.032503+00:00"
 }
