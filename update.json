@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 133,
-  "version_name": "0.2.134",
+  "version_code": 134,
+  "version_name": "0.2.135",
   "min_sdk": 23,
-  "size": 19364340,
-  "sha256": "a0b5fa7754858e718a576c6e862076b1e66ed7d992a5b7a9c8463547652c5be7",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.134/hongguo-tv-0.2.134.apk",
-  "release_notes": "# 红果短剧 v0.2.134\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- 修复同一部剧切换上下集时再次显示整剧海报的问题，覆盖普通切集、连续快速选集和准备中再次选集；优先复用按目标 VID 匹配的下一集预览图，保留原有上一帧过渡及有界的加载提示。\n- Android 标准版根据当前片源的已知编码检测 WebView 支持情况；明确不支持时直接使用现有 Media3 播放，不再先等待 HTML5 失败。编码未知或支持情况不明确时保留原有流程，MPV、桌面和 webOS 不改变播放器选择。\n- 修复播放诊断沿用上一集、上一次播放路径或历史原生播放器告警的问题；诊断只关联当前播放会话，当前有效的解码告警仍保留。\n- webOS 获取播放信息遇到空响应时，最多请求 3 次，重试间隔为 250 毫秒、1000 毫秒，与临时 HTTP/网络错误共用次数预算；避免服务端恢复失败后页面再叠加一轮自动重试，手动重试仍可开启新一轮。\n- webOS 播放准备失败显示错误码，诊断补充当前请求的阶段、上游 HTTP 状态、响应字节数及尝试次数；预取和旧请求不再覆盖当前错误，取消预取不影响已有的前台等待。\n- Linux 打包工具使用固定版本和校验值，避免上游滚动构建变动导致下载校验失败。\n- Linux WebView 改为按需 GPU 合成，修复 Wails 默认禁用合成加速造成的播放 CPU 占用偏高；提供 `HONGGUO_WEBKIT_GPU_POLICY=never`（或 `2`）恢复原来的软件合成，兼容有问题的显卡驱动。仅调整 Linux 窗口合成，不修改解码策略或其他平台。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.134.apk`（versionCode 133）\n- Android MPV 版：`hongguo-tv-mpv-0.2.134.apk`（versionCode 85）\n- macOS / Windows：`hongguo-desktop-0.2.134-macos-universal.zip`、`hongguo-desktop-0.2.134-windows-x64.zip`（桌面更新版本码 71）\n- Linux x86_64 AppImage：`linux-v0.2.134-test.1` 预发行版\n- LG webOS：`webos-v0.2.134-test.25` 测试版\n\n保留现有扫码/手机号登录、下一集预取设置及 MPV 音频配置。webOS 继续使用唯一 HTML5 主视频元素与 Range 边播边下；有限重试不能解决持续的上游故障。Linux 包通过 Ubuntu 24.04 与 Debian 12 容器中的真实视频检查后发布；自动化构建与界面验证不代替各型号电视的实机验收。",
-  "published_at": "2026-10-31T05:40:24.358945+00:00"
+  "size": 19365582,
+  "sha256": "223f3c74ab1249c26fd7aab43c1b0392801920cbd624568989b759675dfd0802",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.135/hongguo-tv-0.2.135.apk",
+  "release_notes": "# 红果短剧 v0.2.135\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- 修复部分旧版 WebView 虽有查询参数 API、却不支持对象参数输入，导致播放请求丢失剧集 ID 和视频 ID、无法完成准备的问题。根据实际编码能力启用兼容处理，覆盖标准版与 MPV 版共用的界面请求。\n- 补齐缺少原生参数 API 的旧环境在切换清晰度、回退播放时需要的参数设置方法；保留中文、特殊字符、重复参数和可用的原生方法。\n- 公开下载仓库新增“播放问题”“其他问题”“功能建议”反馈表单，README 提供直接入口。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.135.apk`（versionCode 134）\n- Android MPV 版：`hongguo-tv-mpv-0.2.135.apk`（versionCode 86）\n- macOS / Windows：`hongguo-desktop-0.2.135-macos-universal.zip`、`hongguo-desktop-0.2.135-windows-x64.zip`（桌面更新版本码 72）\n- Linux x86_64 AppImage：`linux-v0.2.135-test.1` 预发行版\n- LG webOS：`webos-v0.2.135-test.25` 测试版\n\n保留现有播放器、解码和音频配置、同剧切集预览图、扫码/手机号登录及下一集预取设置。旧 WebView 参数编码修复已通过兼容模拟；具体电视型号的播放效果仍需实机验证。",
+  "published_at": "2026-10-31T07:43:34.330344+00:00"
 }
