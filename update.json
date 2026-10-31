@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 135,
-  "version_name": "0.2.136",
+  "version_code": 136,
+  "version_name": "0.2.137",
   "min_sdk": 23,
-  "size": 19396799,
-  "sha256": "a7d47d2cbb4c389518ef39f0df9c6ad83e6983663b2033e53e3cea631a2cc013",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.136/hongguo-tv-0.2.136.apk",
-  "release_notes": "# 红果短剧 v0.2.136\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- Android、桌面及 Linux 的 Go 核心在连续 3 次收到 HTTP 200 空播放信息后，最多更换一次匿名播放身份再尝试。并发请求共享恢复过程，单次取源最多 6 次请求；不切换登录账号，普通网络、业务或解码错误不触发身份恢复。\n- 播放诊断补齐取源准备失败的具体阶段、错误码及实际可获得的上游状态，覆盖注册、获取播放信息、片源选择、Range 初始化、下载、解密和缓存写入；过期或已取消请求不会覆盖当前诊断。\n- 本机记录发送前，将简介和标签按已有保存规则裁剪，修复超长详情可能先触发请求大小限制的问题。Go 记录接口区分请求过大、字段类型错误等原因，保留账号归属校验和后续保存恢复能力。\n- webOS 同步共享页面的记录请求边界处理，继续使用独立 JS 服务及现有播放机制。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.136.apk`（versionCode 135）\n- Android MPV 版：`hongguo-tv-mpv-0.2.136.apk`（versionCode 87）\n- macOS / Windows：`hongguo-desktop-0.2.136-macos-universal.zip`、`hongguo-desktop-0.2.136-windows-x64.zip`（桌面更新版本码 73）\n- Linux x86_64 AppImage：`linux-v0.2.136-test.1` 预发行版\n- LG webOS：`webos-v0.2.136-test.25` 测试版\n\n本次不修改播放器、解码、音频补偿或下一集预取策略。自动化和隔离 HTTP 验证覆盖上述恢复与校验规则，具体设备反馈仍需使用新版复测。",
-  "published_at": "2026-10-31T09:44:56.012216+00:00"
+  "size": 30830421,
+  "sha256": "36ebbde68061b0c35f2dbf24593205f4dfca4fbc167c76121454db733595afc6",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.137/hongguo-tv-0.2.137.apk",
+  "release_notes": "# 红果短剧 v0.2.137\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- Android 标准版改为 Media3 优先播放：平台解码器优先；首帧前遇到解码错误或轨道能力超限时，最多尝试一次 NextLib FFmpeg 软件解码，仍失败则回到 HTML5。MPV 版播放路径不变。\n- 标准版升级到 AndroidX Media3 1.11.1 和 NextLib Media3 Extensions 1.11.1-0.17.0。构建使用 compileSdk 36、targetSdk 35；最低 Android 6/API 23 不变。\n- 桌面及 Android 8/API 26 以上可选动态模糊背景延伸，默认保持黑色；webOS 和较旧 Android 继续使用黑边，不改变视频画面、解码器或预取策略。\n- webOS 对连续空播放响应使用有限预算的匿名身份恢复；不切换登录账号。Android、桌面和 Linux 保留已有的身份恢复策略。\n\nAndroid 标准版的 Media3/FFmpeg 路径通过远端 CI 编译、单元测试、lint 和 APK ABI/Flavor 隔离检查；这些自动检查不等同于 Android 8/9 盒子、Android 9/13 设备或普通手机的实机播放验证。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.137.apk`（versionCode 136）\n- Android MPV 版：`hongguo-tv-mpv-0.2.137.apk`（versionCode 88）\n- macOS / Windows：`hongguo-desktop-0.2.137-macos-universal.zip`、`hongguo-desktop-0.2.137-windows-x64.zip`（桌面更新版本码 74）\n- Linux x86_64 AppImage：`linux-v0.2.137-test.1` 预发行版\n- LG webOS：`webos-v0.2.137-test.25` 测试版\n\n切集、媒体范围读取及既有设置保持原有行为。新版本请按设备当前安装的版本选择相同渠道覆盖更新。",
+  "published_at": "2026-10-31T18:52:01.618535+00:00"
 }
