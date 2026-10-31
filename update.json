@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 132,
-  "version_name": "0.2.133",
+  "version_code": 133,
+  "version_name": "0.2.134",
   "min_sdk": 23,
-  "size": 19357516,
-  "sha256": "09028999074b4cfdff11914f46c980f7c83f7cdafdd57f199451df14ae29afc9",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.133/hongguo-tv-0.2.133.apk",
-  "release_notes": "# 红果短剧 v0.2.133\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包，包含本次已整合到主线的扫码登录、追更焦点与播放体验修改。\n\n- Android、桌面及 webOS 新增手机红果 App 扫码登录，账号页默认显示二维码，手机号验证码、上行短信与 MFA 登录方式保留。登录后沿用原有账号保存和云同步。\n- 修复 MPV 自动解码路径误选 bytevc2 片源的兼容回归，避免在受影响盒子上使用该不兼容片源；不改变软件解码选择。\n- MPV 音频优先使用 AudioTrack，并在播放器内重采样到 48 kHz；所有 MPV 设备默认声音延后 100 毫秒。播放诊断显示实际音频补偿值。\n- 修复追更、返回追更及更新提醒之间的方向键焦点往返；更新提醒以整行外框高亮，仅列表区域滚动，标题和返回按钮保持可见。\n- Android 标准版、MPV 版及桌面版在下一集已完成整集预下载并成功复用时，切集暂时隐藏中央圆圈和集数，优先使用已就绪的下一集预览图；800 毫秒仍未出画时显示“正在准备播放…”。预下载未完成或复用失败时继续使用常规加载提示。\n- 上述平台未保存设置时默认使用整集预下载；已有的边播边下或整集预下载选择保留。webOS 继续固定使用边播边下，不启用本次完整预下载过渡优化。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.133.apk`（versionCode 132）\n- Android MPV 版：`hongguo-tv-mpv-0.2.133.apk`（versionCode 84）\n- macOS / Windows：`hongguo-desktop-0.2.133-macos-universal.zip`、`hongguo-desktop-0.2.133-windows-x64.zip`（桌面更新版本码 70）\n- Linux x86_64 AppImage：`linux-v0.2.133-test.1` 预发行版\n- LG webOS：`webos-v0.2.133-test.25` 测试版\n\n扫码真实账号登录和会话恢复已在 Go 核心及 webOS JS Service 中验证；共享界面与两种 Android 包通过自动化检查。音频默认值来自盒子对照测试，未对所有设备逐一验证；LG 实机扫码及各设备的连续播放仍需实测。\n\nWindows 播放 HEVC 视频需要系统解码扩展；商店无法获取时可参考 [HEVC Video Extensions 第三方仓库](https://github.com/Ayx03/HEVCVideoExtension)。",
-  "published_at": "2026-10-30T09:24:36.464421+00:00"
+  "size": 19364340,
+  "sha256": "a0b5fa7754858e718a576c6e862076b1e66ed7d992a5b7a9c8463547652c5be7",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.134/hongguo-tv-0.2.134.apk",
+  "release_notes": "# 红果短剧 v0.2.134\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- 修复同一部剧切换上下集时再次显示整剧海报的问题，覆盖普通切集、连续快速选集和准备中再次选集；优先复用按目标 VID 匹配的下一集预览图，保留原有上一帧过渡及有界的加载提示。\n- Android 标准版根据当前片源的已知编码检测 WebView 支持情况；明确不支持时直接使用现有 Media3 播放，不再先等待 HTML5 失败。编码未知或支持情况不明确时保留原有流程，MPV、桌面和 webOS 不改变播放器选择。\n- 修复播放诊断沿用上一集、上一次播放路径或历史原生播放器告警的问题；诊断只关联当前播放会话，当前有效的解码告警仍保留。\n- webOS 获取播放信息遇到空响应时，最多请求 3 次，重试间隔为 250 毫秒、1000 毫秒，与临时 HTTP/网络错误共用次数预算；避免服务端恢复失败后页面再叠加一轮自动重试，手动重试仍可开启新一轮。\n- webOS 播放准备失败显示错误码，诊断补充当前请求的阶段、上游 HTTP 状态、响应字节数及尝试次数；预取和旧请求不再覆盖当前错误，取消预取不影响已有的前台等待。\n- Linux 打包工具使用固定版本和校验值，避免上游滚动构建变动导致下载校验失败。\n- Linux WebView 改为按需 GPU 合成，修复 Wails 默认禁用合成加速造成的播放 CPU 占用偏高；提供 `HONGGUO_WEBKIT_GPU_POLICY=never`（或 `2`）恢复原来的软件合成，兼容有问题的显卡驱动。仅调整 Linux 窗口合成，不修改解码策略或其他平台。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.134.apk`（versionCode 133）\n- Android MPV 版：`hongguo-tv-mpv-0.2.134.apk`（versionCode 85）\n- macOS / Windows：`hongguo-desktop-0.2.134-macos-universal.zip`、`hongguo-desktop-0.2.134-windows-x64.zip`（桌面更新版本码 71）\n- Linux x86_64 AppImage：`linux-v0.2.134-test.1` 预发行版\n- LG webOS：`webos-v0.2.134-test.25` 测试版\n\n保留现有扫码/手机号登录、下一集预取设置及 MPV 音频配置。webOS 继续使用唯一 HTML5 主视频元素与 Range 边播边下；有限重试不能解决持续的上游故障。Linux 包通过 Ubuntu 24.04 与 Debian 12 容器中的真实视频检查后发布；自动化构建与界面验证不代替各型号电视的实机验收。",
+  "published_at": "2026-10-31T05:40:24.358945+00:00"
 }
