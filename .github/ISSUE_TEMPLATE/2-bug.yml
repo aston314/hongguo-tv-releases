@@ -1,0 +1,75 @@
+name: 其他问题
+description: 安装更新、登录、搜索、遥控器焦点、界面显示等；播放故障请选“播放问题”。
+title: "[问题反馈] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        简单描述操作和异常即可；不知道的设备或系统信息可写“不清楚”。
+        一次反馈一个问题，有截图或短视频可在最后添加。
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 安装版本
+      description: Android 文件名含 mpv 的是 MPV 版，不含 mpv 的是标准版。
+      options:
+        - Android 标准版
+        - Android MPV 版
+        - LG webOS 版
+        - macOS 桌面版
+        - Windows 桌面版
+        - Linux AppImage 版
+        - 不确定
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本号
+      description: 请填写设置中显示的完整版本号；无法安装或启动时，可填写安装文件中的版本号。
+      placeholder: "例如：0.2.134"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号和系统
+      description: 填写品牌、型号及系统版本。不知道的部分可写“不清楚”。
+      placeholder: "例如：海信电视 XXX，Android 版本不清楚；Mac mini M2，macOS 15"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题类型
+      options:
+        - 安装或更新
+        - 启动应用
+        - 扫码或手机号登录
+        - 搜索
+        - 收藏、追更或预约
+        - 遥控器焦点或按键
+        - 界面显示
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 怎样操作，出现了什么问题
+      description: 写出关键操作、实际结果和你期望的结果；搜索相关问题请附关键字。
+      placeholder: |
+        例如：打开追更 → 进入更新提醒 → 按遥控器向上键。
+        实际：焦点无法回到“返回追更”按钮，每次都会发生。
+        期望：向上可以回到该按钮。
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图、短视频或补充信息（选填）
+      description: 可直接粘贴或拖入图片、短视频；如已做旧版对比，也可补充结果。
+      placeholder: 在这里添加附件或补充说明，没有可留空。
+    validations:
+      required: false

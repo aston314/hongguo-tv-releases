@@ -1,0 +1,79 @@
+name: 播放问题
+description: 无法播放、切集失败、卡顿、黑屏、音画不同步等。
+title: "[播放问题] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请填写下面 5 项基本信息；不知道的设备或系统信息可写“不清楚”。
+        播放诊断和旧版对比是选填项，有截图会更容易定位问题。一次反馈一个问题即可。
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 安装版本
+      description: Android 文件名含 mpv 的是 MPV 版，不含 mpv 的是标准版。
+      options:
+        - Android 标准版
+        - Android MPV 版
+        - LG webOS 版
+        - macOS 桌面版
+        - Windows 桌面版
+        - Linux AppImage 版
+        - 不确定
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本号
+      description: 请填写设置中显示的完整版本号，避免只写“最新版”。
+      placeholder: "例如：0.2.134"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号和系统
+      description: 电视或盒子填品牌、型号及 Android/webOS 版本；电脑填型号及系统版本。不知道的部分可写“不清楚”。
+      placeholder: "例如：小米电视 XXX，Android 9；LG OLED65C5，webOS 版本不清楚"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 什么时候出现
+      options:
+        - 第一次打开视频时
+        - 切换上下集时（包括自动连播）
+        - 切换到另一部剧时
+        - 正常播放一段时间后
+        - 暂停后继续播放时
+        - 切到后台再返回后
+        - 其他或不确定
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 具体表现
+      description: 描述你看到了什么、是否每次发生。如有错误文字，请原样填写；与特定剧有关时，请补充剧名和集数。
+      placeholder: "例如：《某某剧》第 1 集正常，自动切到第 2 集后一直转圈，没有声音，每次都会发生。"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 播放诊断或现场截图（选填）
+      description: 失败时打开播放器菜单 → 播放诊断，拍下完整内容；内容较长时向下滚动补拍。无法打开诊断时，拍下错误画面即可。可在此直接粘贴或拖入图片。
+      placeholder: 在这里添加截图；暂时不方便拍照可留空。
+    validations:
+      required: false
+  - type: textarea
+    id: comparison
+    attributes:
+      label: 旧版对比和相关设置（选填）
+      description: 如已测试，可补充哪个版本正常，以及解码、下一集预取等设置。未测试可留空。
+      placeholder: "例如：同一网络、同一集，0.2.133 正常、0.2.134 无法播放；自动解码；整集预下载。"
+    validations:
+      required: false

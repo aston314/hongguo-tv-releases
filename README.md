@@ -2,6 +2,8 @@
 
 此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
 
+**[反馈问题 / 功能建议](https://github.com/aston314/hongguo-tv-releases/issues/new/choose)**：选择“播放问题”“其他问题”或“功能建议”，按提示填写即可。播放异常建议附上失败当时的完整“播放诊断”截图。
+
 ## 应用界面
 
 <table>
