@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.136",
-  "release_tag": "webos-v0.2.136-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.136-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.136\n\n- 同步共享页面的记录请求边界处理：发送本机记录前按已有保存规则裁剪简介和标签，保留详情原文、选集和续播位置。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.136-test.25.ipk",
-  "artifact_size": 1090388,
-  "artifact_sha256": "df4c8b270927bb072fea514e83464764c1ef646737d4b1d72861c5e86a911c16"
+  "version_name": "0.2.137",
+  "release_tag": "webos-v0.2.137-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.137-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.137\n\n- 空播放响应连续出现时，按有限预算更新匿名播放身份并重试；不影响登录账号，也不对普通网络错误或解码错误换身份。\n- webOS 继续使用原有竖屏黑边显示，不提供动态背景设置。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.137-test.25.ipk",
+  "artifact_size": 1094572,
+  "artifact_sha256": "f9cdc94e3c4eca76b1c90b239c1099b7a4d20445416be5620f3dd9ffcdd077cc"
 }
