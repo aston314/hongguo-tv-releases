@@ -14,13 +14,13 @@ body:
       label: 安装版本
       description: Android 文件名含 mpv 的是 MPV 版，不含 mpv 的是标准版。
       options:
+        - 不确定
         - Android 标准版
         - Android MPV 版
         - LG webOS 版
         - macOS 桌面版
         - Windows 桌面版
         - Linux AppImage 版
-        - 不确定
     validations:
       required: true
   - type: input
@@ -44,6 +44,7 @@ body:
     attributes:
       label: 问题类型
       options:
+        - 其他或不确定
         - 安装或更新
         - 启动应用
         - 扫码或手机号登录
@@ -51,7 +52,6 @@ body:
         - 收藏、追更或预约
         - 遥控器焦点或按键
         - 界面显示
-        - 其他
     validations:
       required: true
   - type: textarea

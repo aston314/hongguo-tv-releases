@@ -14,13 +14,13 @@ body:
       label: 安装版本
       description: Android 文件名含 mpv 的是 MPV 版，不含 mpv 的是标准版。
       options:
+        - 不确定
         - Android 标准版
         - Android MPV 版
         - LG webOS 版
         - macOS 桌面版
         - Windows 桌面版
         - Linux AppImage 版
-        - 不确定
     validations:
       required: true
   - type: input
@@ -44,13 +44,13 @@ body:
     attributes:
       label: 什么时候出现
       options:
+        - 其他或不确定
         - 第一次打开视频时
         - 切换上下集时（包括自动连播）
         - 切换到另一部剧时
         - 正常播放一段时间后
         - 暂停后继续播放时
         - 切到后台再返回后
-        - 其他或不确定
     validations:
       required: true
   - type: textarea
