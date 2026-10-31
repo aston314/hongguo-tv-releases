@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.134",
-  "release_tag": "webos-v0.2.134-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.134-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.134\n\n- 修复同剧切集时显示整剧海报的问题；按目标 VID 复用下一集预览图，保留已有上一帧过渡。\n- 播放信息空响应与临时 HTTP/网络错误共用最多 3 次请求预算，空响应间隔 250 毫秒、1000 毫秒；独立预取只请求一次，前台接管时共用剩余预算，避免页面叠加自动重试。\n- 准备失败显示错误码，诊断保留当前请求的失败阶段、上游 HTTP 状态、响应字节数和尝试次数；预取与旧请求不能覆盖当前错误。\n- 取消预取不影响已有的前台等待；退出、后台和取消期间停止后续无效重试。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.134-test.25.ipk",
-  "artifact_size": 1089640,
-  "artifact_sha256": "c599864ad337f1aa260f0d39f013d494ad14a17cb4f775cd937b0c40d85101e5"
+  "version_name": "0.2.135",
+  "release_tag": "webos-v0.2.135-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.135-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.135\n\n- 同步共享界面的旧浏览器请求参数兼容修复；检查参数对象能否正确编码，避免旧内核丢失查询参数。\n- 补齐缺少原生参数 API 的旧环境在清晰度切换、播放回退时使用的参数设置方法。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.135-test.25.ipk",
+  "artifact_size": 1089754,
+  "artifact_sha256": "a714bd67c80731afe4e71186b0bff96b73ebb634f922aff00aeb18caa15ee854"
 }
