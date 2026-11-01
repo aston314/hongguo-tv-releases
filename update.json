@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 136,
-  "version_name": "0.2.137",
+  "version_code": 137,
+  "version_name": "0.2.138",
   "min_sdk": 23,
-  "size": 30830421,
-  "sha256": "36ebbde68061b0c35f2dbf24593205f4dfca4fbc167c76121454db733595afc6",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.137/hongguo-tv-0.2.137.apk",
-  "release_notes": "# 红果短剧 v0.2.137\n\n统一发布 Android 标准版、MPV 版、macOS、Windows、Linux AppImage 和 LG webOS 测试包。\n\n- Android 标准版改为 Media3 优先播放：平台解码器优先；首帧前遇到解码错误或轨道能力超限时，最多尝试一次 NextLib FFmpeg 软件解码，仍失败则回到 HTML5。MPV 版播放路径不变。\n- 标准版升级到 AndroidX Media3 1.11.1 和 NextLib Media3 Extensions 1.11.1-0.17.0。构建使用 compileSdk 36、targetSdk 35；最低 Android 6/API 23 不变。\n- 桌面及 Android 8/API 26 以上可选动态模糊背景延伸，默认保持黑色；webOS 和较旧 Android 继续使用黑边，不改变视频画面、解码器或预取策略。\n- webOS 对连续空播放响应使用有限预算的匿名身份恢复；不切换登录账号。Android、桌面和 Linux 保留已有的身份恢复策略。\n\nAndroid 标准版的 Media3/FFmpeg 路径通过远端 CI 编译、单元测试、lint 和 APK ABI/Flavor 隔离检查；这些自动检查不等同于 Android 8/9 盒子、Android 9/13 设备或普通手机的实机播放验证。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.137.apk`（versionCode 136）\n- Android MPV 版：`hongguo-tv-mpv-0.2.137.apk`（versionCode 88）\n- macOS / Windows：`hongguo-desktop-0.2.137-macos-universal.zip`、`hongguo-desktop-0.2.137-windows-x64.zip`（桌面更新版本码 74）\n- Linux x86_64 AppImage：`linux-v0.2.137-test.1` 预发行版\n- LG webOS：`webos-v0.2.137-test.25` 测试版\n\n切集、媒体范围读取及既有设置保持原有行为。新版本请按设备当前安装的版本选择相同渠道覆盖更新。",
-  "published_at": "2026-10-31T18:52:01.618535+00:00"
+  "size": 30830458,
+  "sha256": "61a9b355e876a3ebfa9f484bd8b66859bcbac18343c42e8ac736a114755d6ae9",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.138/hongguo-tv-0.2.138.apk",
+  "release_notes": "# 红果短剧 v0.2.138\n\n本次发布 Android 标准版、MPV 版、桌面版、Linux AppImage 测试版和 webOS 测试版。各平台统一到 0.2.138；除 Android 标准版播放策略调整外，其他平台仅同步版本元数据并按主线重新打包，播放和界面行为不变。\n\n- Android 标准版默认播放恢复为 HTML5。HTML5 明确不支持片源、发生解码错误，或在限定时间内没有播放进展/首帧时，才转入 Media3；切换时保留播放位置。\n- Media3 优先使用设备解码器。只有首帧前遇到明确解码错误或轨道能力超限时，最多尝试一次软件解码；仍失败则回到 HTML5，避免重复重试。\n- 保留按 WebView 版本隔离且有有效期的本机 Media3 偏好。仅在 HTML5 已确认解码/格式失败、且 Media3 实际输出首帧后记录；Media3 失败时清除偏好。\n- MPV 版没有播放器行为变更，仅随统一版本更新。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.138.apk`（versionCode 137）\n- Android MPV 版：`hongguo-tv-mpv-0.2.138.apk`（versionCode 89）\n- macOS / Windows：`hongguo-desktop-0.2.138-macos-universal.zip`、`hongguo-desktop-0.2.138-windows-x64.zip`（桌面更新版本码 75）\n- Linux x86_64 AppImage：`linux-v0.2.138-test.1` 预发行版\n- LG webOS：`webos-v0.2.138-test.25` 测试版\n\n标准版的 HTML5/Media3 路径通过远端 CI 编译、单元测试、lint 和包隔离检查；自动化检查不等同于多型号 Android 设备的实机播放验证。桌面、Linux 和 webOS 使用与主线一致的共享核心/UI 重新打包；此版本不声称新增这些平台的功能或实机验证结果。",
+  "published_at": "2026-11-01T11:39:29.817205+00:00"
 }
