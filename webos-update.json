@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.139",
-  "release_tag": "webos-v0.2.139-test.25",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.139-test.25",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.139\n\n本版与统一主线同步，继续使用测试版渠道。\n\n- 设置新增启动页面：推荐（默认）、排行榜、新剧、历史、收藏。下次启动直接进入所选页；非推荐页不先请求推荐或自动播放，返回前台保持当前页面。\n- 搜索建议先退出再打开目标内容，取消返回、切页或输入变化后的过期操作。\n- 侧栏焦点取消底色和尺寸过渡。\n\n- 继续保留空播放响应连续出现时有限预算更新匿名播放身份并重试的行为；不影响登录账号，也不对普通网络错误或解码错误换身份。\n- webOS 继续使用原有竖屏黑边显示，不提供动态背景设置。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
-  "artifact_name": "hongguo-webos-0.2.139-test.25.ipk",
-  "artifact_size": 1095830,
-  "artifact_sha256": "a8db9ba4d2bfa9cce89bb1d72aa224d7c73082efceb573d2ee1c40ac73f46376"
+  "version_name": "0.2.140",
+  "release_tag": "webos-v0.2.140-test.25",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.140-test.25",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.140\n\n本版与统一主线同步，继续使用测试版渠道。\n\n- 播放控件仅在内容变化时刷新；隐藏期间跳过视觉更新，重新显示时同步当前状态，减少弹幕播放时的重复 DOM 写入。\n- 弹幕运动、进度保存、预取、切集及 HTML5 播放路径不变；保留启动页面设置、搜索建议及侧栏焦点改进。\n\n- 继续保留空播放响应连续出现时有限预算更新匿名播放身份并重试的行为；不影响登录账号，也不对普通网络错误或解码错误换身份。\n- webOS 继续使用原有竖屏黑边显示，不提供动态背景设置。\n\nwebOS 继续固定使用 Range/CENC 边播边下、唯一 HTML5 主视频元素及有限下一集预取；保留扫码和手机号登录。有声倍速仍以默认关闭的实验开关提供，开启后才显示播放器倍速入口。重试间隔不是请求总耗时上限，持续的上游故障仍会明确报错。\n\n真实 webOS JS Service 预览已验证扫码登录、Service 重启后的身份恢复、历史/收藏同步、预约列表读取及搜索。自动化检查不替代 LG 实机扫码、切后台恢复、连续播放及音画同步验证；本包继续保持测试版渠道。\n\n支持设置内在线检查更新及内置代理线路。应用仅检查并提示，不自动下载或安装 IPK；请启用电视 Developer Mode，通过 webOS Dev Manager 或 webOS 开发工具安装新版。",
+  "artifact_name": "hongguo-webos-0.2.140-test.25.ipk",
+  "artifact_size": 1096030,
+  "artifact_sha256": "1d2bb8f1ef4520e23df93e0c6c2ab431161042a8d07fefd117113df470adeaf8"
 }
