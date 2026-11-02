@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 141,
-  "version_name": "0.2.142",
+  "version_code": 142,
+  "version_name": "0.2.143",
   "min_sdk": 23,
-  "size": 19417983,
-  "sha256": "edd922126a2e4784a7c3bd19b32b273da898d82b1ebe6ee0a3b447ac2a1a241d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.142/hongguo-tv-0.2.142.apk",
-  "release_notes": "# 红果短剧 v0.2.142\n\n本次优化播放地址获取失败后的自动恢复，覆盖 Android 标准版、MPV 版、macOS / Windows、Linux AppImage 测试版和 LG webOS 测试版。\n\n- 遇到 `VIDEO_MODEL_EMPTY`（上游 HTTP 200 但内容为空）时，首次确认空响应就尝试更新匿名播放身份，再向官方备用地址重新获取，减少对原身份的重复请求。\n- 空响应后的重试增加短暂等待，首次至少间隔 300 毫秒，注册耗时计入等待；正常成功播放不增加等待。\n- 保留有次数上限的兼容回退、并发共享和取消机制；身份更新失败或仍在冷却时，继续使用原身份尝试备用地址，不影响登录账号。上游持续故障仍会明确报错。\n- 延续 v0.2.141 的播放器切换静音修复、完整预下载切集提示，以及标准版轻量 HTML5/Media3 配置。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.142.apk`（versionCode 141）\n- Android MPV 版：`hongguo-tv-mpv-0.2.142.apk`（versionCode 93）\n- macOS / Windows：`hongguo-desktop-0.2.142-macos-universal.zip`、`hongguo-desktop-0.2.142-windows-x64.zip`（桌面更新版本码 79）\n- LG webOS：`webos-v0.2.142-test.26` 测试版\n- Linux x86_64：`linux-v0.2.142-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
-  "published_at": "2026-11-02T15:24:50.523116+00:00"
+  "size": 19416824,
+  "sha256": "919c233b1a1885fcabb43b15c02ebf1d38cc897b24edd8f782fae79023ff6503",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.143/hongguo-tv-0.2.143.apk",
+  "release_notes": "# 红果短剧 v0.2.143\n\n本次将播放链接获取机制恢复为 v0.2.141，覆盖 Android 标准版、MPV 版、macOS / Windows、Linux AppImage 测试版和 LG webOS 测试版。\n\n- 撤回 v0.2.142 的首次空响应立即更换匿名播放身份策略、调整后的请求顺序及新增重试等待。\n- 恢复当前身份的既有请求顺序：带签名的主地址 → 带签名的官方备用地址 → 原有兼容请求；只有连续三次 HTTP 200 空响应后，才尝试一次有次数上限的匿名身份恢复。\n- 保留 v0.2.141 的播放签名、官方备用地址、并发共享、取消和冷却保护，不影响登录账号。webOS 同步恢复该版本的预取/前台共享预算及原有重试间隔。\n- 保留播放器切换静音修复、下一集完整预下载的预览图与分阶段提示，以及标准版轻量 HTML5/Media3 配置。播放器、解码器和界面布局不作调整。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.143.apk`（versionCode 142）\n- Android MPV 版：`hongguo-tv-mpv-0.2.143.apk`（versionCode 94）\n- macOS / Windows：`hongguo-desktop-0.2.143-macos-universal.zip`、`hongguo-desktop-0.2.143-windows-x64.zip`（桌面更新版本码 80）\n- LG webOS：`webos-v0.2.143-test.26` 测试版\n- Linux x86_64：`linux-v0.2.143-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
+  "published_at": "2026-11-02T16:17:16.646205+00:00"
 }
