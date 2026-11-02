@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 90,
-  "version_name": "0.2.139",
+  "version_code": 91,
+  "version_name": "0.2.140",
   "min_sdk": 23,
-  "size": 37283006,
-  "sha256": "ae7f1e215becdca1634e40b2899b7069c8a22d66a956f6d18039cc4337796325",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.139/hongguo-tv-mpv-0.2.139.apk",
-  "release_notes": "# 红果短剧 v0.2.139\n\n本次更新默认启动页面、电视界面与搜索稳定性。Android 标准版、MPV 版、macOS / Windows、Linux AppImage 测试版和 webOS 测试版均从同一主线版本构建。\n\n- 设置新增「启动页面」：推荐（默认）、排行榜、新剧、历史、收藏。选择后下次打开应用直接进入目标页面；非推荐页不先加载推荐或自动播放。Android 标准版、MPV 版、桌面版和 webOS 共用，设置仅保存在本机。\n- 启动页设置不改变返回前台的页面和播放状态；电视桌面指定剧入口仍优先，未设置或无效值回退推荐。Android 使用原生持久化，避免核心端口变化导致设置丢失。\n- 修正 0.2.138 后部分电视盒子的显示比例：恢复 Zidoo 等设备原有的 0.2.137 TV 字号和侧栏尺寸，同时保留 Shield 等矮视口设备已经确认的紧凑侧栏布局。\n- 取消侧栏焦点底色和尺寸过渡，减少旧 Android 设备上高亮背景跟随滞后的观感。\n- 搜索建议先退出再打开目标内容，取消返回、切页、输入变化或后台后的过期操作，避免重复确认及旧建议干扰。\n- Android 8/API 26 及以上在 WebView 渲染进程退出时执行受限恢复；短时间重复退出保留手动重试入口，避免反复重建。Android 6/7 保持原有原生生命周期。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.139.apk`（versionCode 138）\n- Android MPV 版：`hongguo-tv-mpv-0.2.139.apk`（versionCode 90）\n- macOS / Windows：`hongguo-desktop-0.2.139-macos-universal.zip`、`hongguo-desktop-0.2.139-windows-x64.zip`（桌面更新版本码 76）\n- Linux x86_64 AppImage：`linux-v0.2.139-test.1` 预发行版\n- LG webOS：`webos-v0.2.139-test.25` 测试版\n\nAndroid 标准版继续以 HTML5 为主、Media3 为有界回退；MPV 继续使用独立播放栈。本次不调整解码器、音频补偿或下一集预取策略；webOS 继续使用原有 HTML5 / Range 播放路径。\n\n功能提交已通过 GitHub CI、共享 UI 自动化与浏览器场景检查。布局修正曾在 Shield 和 Zidoo 的运行页面对照验证；这些结果不等同于新版 APK 的多设备播放、LG 实机或 Windows 实体播放验收。Linux 测试包仍须通过既有两种发行版容器播放检查后发布。",
-  "published_at": "2026-11-02T01:27:46.969948+00:00"
+  "size": 37283279,
+  "sha256": "b791fbb42e2a01fa54bf53f52b791aef50bba40fe67351161b13f940156b30b7",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.140/hongguo-tv-mpv-0.2.140.apk",
+  "release_notes": "# 红果短剧 v0.2.140\n\n本次重点恢复标准版在低端 Android 设备上的轻量播放路径，并减少播放期间的重复界面刷新。Android 标准版、MPV 版、macOS / Windows、Linux AppImage 测试版和 webOS 测试版均从同一主线版本构建。\n\n- Android 标准版恢复 0.2.136 的播放逻辑与 Media3 1.8.0，移除新增 NextLib/FFmpeg 视频软解及相关 native libraries，减小安装包。\n- 继续以 HTML5 为主播放，保留 `b399c94` 的有界 Media3 回退、经首帧验证的本地播放器偏好、播放位置传递和失败退出机制；系统解码器选择、兼容模式及 Android 6 PCM 音频处理恢复到 136 的策略。\n- 保留新版登录、界面、焦点、预下载、切集过渡、竖屏背景及其它已合入的修复，不将整个应用降级到 136。需要额外软件解码能力时仍可选择 MPV 版，MPV 的播放器、解码策略和音频补偿不变。\n- 播放控件仅在内容变化时刷新；控件隐藏期间跳过无用的视觉更新，显示时同步当前状态，减少弹幕播放时的 DOM 写入和渲染负担。弹幕运动、进度保存、下一集预取和切集行为不变。\n- 修正桌面发布工作流读取附注标签时的冲突，校验远端标签对应提交后构建，不修改既有标签。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.140.apk`（versionCode 139）\n- Android MPV 版：`hongguo-tv-mpv-0.2.140.apk`（versionCode 91）\n- macOS / Windows：`hongguo-desktop-0.2.140-macos-universal.zip`、`hongguo-desktop-0.2.140-windows-x64.zip`（桌面更新版本码 77）\n- Linux x86_64 AppImage：`linux-v0.2.140-test.1` 预发行版\n- LG webOS：`webos-v0.2.140-test.25` 测试版\n\n播放器回退及控件优化已通过 GitHub CI 和自动化检查；控件优化曾在 Shield 的现有调试页面作对照验证。标准版回退后在小米等问题设备上的播放效果仍待反馈，不将 CI 结果等同于多设备实测，也不宣称本次已修复切清晰度后无声等其它问题。Linux 测试包通过既有两种发行版容器播放检查后发布。",
+  "published_at": "2026-11-02T09:06:17.291333+00:00"
 }
