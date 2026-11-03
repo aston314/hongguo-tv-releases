@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.145",
-  "version_code": 82,
-  "release_notes": "红果短剧桌面版 0.2.145（macOS / Windows）\n\n本版与统一主线同步，桌面更新版本码为 82。\n\n- 下一集完整预下载命中时，切集 800 毫秒后显示目标集数，3 秒后再显示圆圈；实际画面更早就绪时直接完成交接。\n- 保留 0.2.140 的播放控件刷新优化；弹幕运动、播放进度保存、预下载和 HTML5 播放行为不变。\n- 新增弹幕显示区域设置：当前区域（默认）、顶部 1/2、顶部 1/4；默认保持原有弹幕位置。\n- 播放链接获取恢复为 0.2.141 的机制：先完成当前匿名身份的主地址、官方备用地址及兼容请求，连续三次空响应后才尝试一次身份恢复；撤回 0.2.142 的首次空响应立即换身份及新增等待。保留播放签名。\n\n- 竖屏播放可在设置中选择动态模糊背景延伸；默认仍为黑色，不改变视频画面和播放器行为。\n- 空播放响应的匿名身份恢复保持有上限；不会切换登录账号，也不会对普通网络或解码错误触发恢复。\n- Android 标准版恢复 136 播放逻辑的改动不影响桌面版 HTML5 播放。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。Windows 播放 HEVC 还需要安装 HEVC Video Extensions；商店无法获取时，可参考 https://github.com/Ayx03/HEVCVideoExtension。Linux x86_64 AppImage 测试版在独立的 `linux-v0.2.145-test.1` 预发行版中提供，依赖系统 WebKitGTK 和 GStreamer。\n\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
+  "version_name": "0.2.146",
+  "version_code": 83,
+  "release_notes": "红果短剧桌面版 0.2.146（macOS / Windows）\n\n本版与统一主线同步，桌面更新版本码为 83。\n\n- 首次启动跟随系统语言选择界面语言；用户手动选择后保持手动选择。\n- 播放地址竞速请求按解析代际隔离，较慢的旧响应不会覆盖已经选中的地址。\n\n- 下一集完整预下载命中时，切集 800 毫秒后显示目标集数，3 秒后再显示圆圈；实际画面更早就绪时直接完成交接。\n- 保留 0.2.140 的播放控件刷新优化；弹幕运动、播放进度保存、预下载和 HTML5 播放行为不变。\n- 新增弹幕显示区域设置：当前区域（默认）、顶部 1/2、顶部 1/4；默认保持原有弹幕位置。\n- 播放链接获取恢复为 0.2.141 的机制：先完成当前匿名身份的主地址、官方备用地址及兼容请求，连续三次空响应后才尝试一次身份恢复；撤回 0.2.142 的首次空响应立即换身份及新增等待。保留播放签名。\n\n- 竖屏播放可在设置中选择动态模糊背景延伸；默认仍为黑色，不改变视频画面和播放器行为。\n- 空播放响应的匿名身份恢复保持有上限；不会切换登录账号，也不会对普通网络或解码错误触发恢复。\n- Android 标准版恢复 136 播放逻辑的改动不影响桌面版 HTML5 播放。\n\nmacOS 通用 ZIP 支持 Intel / Apple Silicon，最低 macOS 11；Windows x64 需要 Microsoft Edge WebView2 Runtime。Windows 播放 HEVC 还需要安装 HEVC Video Extensions；商店无法获取时，可参考 https://github.com/Ayx03/HEVCVideoExtension。Linux x86_64 AppImage 测试版在独立的 `linux-v0.2.146-test.1` 预发行版中提供，依赖系统 WebKitGTK 和 GStreamer。\n\n通过设置检查更新并下载 ZIP，退出后手动替换完整程序。账号及本地记录保存在独立用户目录。\n未做 Apple 公证或 Windows 代码签名。Windows 实体播放仍待实测。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.145-macos-universal.zip",
-      "size": 18155989,
-      "sha256": "57f14d46a1f37e325ac2c95167eeaa8125b3d61f0d95fd11ba72bba87a127fb3",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.145/hongguo-desktop-0.2.145-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.146-macos-universal.zip",
+      "size": 18163714,
+      "sha256": "91f0b4d5c0d220b7d0a227090f158b640d2c1e7ddf7a923a4bd42bdda40e964d",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.146/hongguo-desktop-0.2.146-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.145-windows-x64.zip",
-      "size": 9324872,
-      "sha256": "c5d4d977aa5646a7beb82201e41a79db4e0943f3ceec0b7f8a50a053c8714cfe",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.145/hongguo-desktop-0.2.145-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.146-windows-x64.zip",
+      "size": 9331175,
+      "sha256": "2242038b149f92d3c24e2c378de85b130aac835a79d0d6853c08830f8764326d",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.146/hongguo-desktop-0.2.146-windows-x64.zip"
     }
   }
 }
