@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 96,
-  "version_name": "0.2.145",
+  "version_code": 97,
+  "version_name": "0.2.146",
   "min_sdk": 23,
-  "size": 37298982,
-  "sha256": "b11bf849ec19fa4c2f185c57b6992127794316af8eebffc028d0c451b6011b3e",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.145/hongguo-tv-mpv-0.2.145.apk",
-  "release_notes": "# 红果短剧 v0.2.145\n\n本次发布修复播放地址主目标与备用目标并发竞速时的响应归属问题。\n\n- 播放地址请求为每次解析建立独立的有界目标竞速上下文。\n- 较慢的旧目标响应不会覆盖已经选中的播放地址，也不会把已取消请求的结果写回当前播放流程。\n- 保留播放签名、匿名身份恢复、官方备用地址、取消机制和现有播放器配置。\n- 未改变 Android 标准版、MPV、桌面版和 webOS 的播放器选择、解码设置及 UI 行为。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.145.apk`（versionCode 144）\n- Android MPV 版：`hongguo-tv-mpv-0.2.145.apk`（versionCode 96）\n- macOS / Windows：`hongguo-desktop-0.2.145-macos-universal.zip`、`hongguo-desktop-0.2.145-windows-x64.zip`（桌面更新版本码 82）\n- LG webOS：`webos-v0.2.145-test.26` 测试版\n- Linux x86_64：`linux-v0.2.145-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
-  "published_at": "2026-11-03T03:06:32.084414+00:00"
+  "size": 37311543,
+  "sha256": "45fbc12bed69eeb46ff2fd6702869a98abb1ca193b764e4c29cf17fac736bc39",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.146/hongguo-tv-mpv-0.2.146.apk",
+  "release_notes": "# 红果短剧 v0.2.146\n\n本次发布包含统一主线在 0.2.145 之后完成的播放请求竞速修复和系统语言默认选择。\n\n- 播放地址竞速为每次解析建立独立的有界上下文；较慢的旧目标响应不会覆盖已经选中的地址，也不会把已取消请求的结果写回当前播放流程。保留播放签名、匿名身份恢复、官方备用地址和现有播放器配置。\n- 首次启动根据系统语言选择界面语言：Android 优先读取系统 Locale，桌面、webOS 和浏览器读取 `navigator.languages`；繁体中文、日语按可用语言映射，英文和未知语言回退简体中文。\n- 用户手动选择过语言后继续以手动选择为准，不会被系统语言覆盖；已有安装升级时保留现有语言设置。\n- Android 标准版、MPV 版、桌面版和 webOS 共用同一套语言探测与回退规则；不改变播放器、解码器、账号和缓存策略。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.146.apk`（versionCode 145）\n- Android MPV 版：`hongguo-tv-mpv-0.2.146.apk`（versionCode 97）\n- macOS / Windows：`hongguo-desktop-0.2.146-macos-universal.zip`、`hongguo-desktop-0.2.146-windows-x64.zip`（桌面更新版本码 83）\n- LG webOS：`webos-v0.2.146-test.26` 测试版\n- Linux x86_64：`linux-v0.2.146-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
+  "published_at": "2026-11-03T05:02:10.808583+00:00"
 }
