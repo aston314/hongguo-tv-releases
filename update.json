@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 143,
-  "version_name": "0.2.144",
+  "version_code": 144,
+  "version_name": "0.2.145",
   "min_sdk": 23,
-  "size": 19420519,
-  "sha256": "5c7a875eedbaa0cff91b5b30bc8d7da4d9dc3cc6edc0060e652d4f2b009675b5",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.144/hongguo-tv-0.2.144.apk",
-  "release_notes": "# 红果短剧 v0.2.144\n\n本次发布弹幕显示区域设置，覆盖 Android 标准版、MPV 版、macOS / Windows、Linux AppImage 测试版和 LG webOS 测试版。\n\n- 播放设置新增「弹幕显示区域」：当前区域（默认）、顶部 1/2、顶部 1/4。\n- 默认保持原有弹幕位置，不改变已安装用户的观看效果；选择顶部区域后，弹幕限制在视频显示区域的上方，减少对人物和画面主体的遮挡。\n- 窄视口会按实际视频区域限制弹幕轨道数量，避免弹幕重叠或越界；切换设置时清理旧轨道并立即生效。\n- 标准版、MPV 版、桌面版和 webOS 共用该 WebView 设置；播放器、取源、解码和账号流程不变。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.144.apk`（versionCode 143）\n- Android MPV 版：`hongguo-tv-mpv-0.2.144.apk`（versionCode 95）\n- macOS / Windows：`hongguo-desktop-0.2.144-macos-universal.zip`、`hongguo-desktop-0.2.144-windows-x64.zip`（桌面更新版本码 81）\n- LG webOS：`webos-v0.2.144-test.26` 测试版\n- Linux x86_64：`linux-v0.2.144-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
-  "published_at": "2026-11-03T00:23:28.158307+00:00"
+  "size": 19426932,
+  "sha256": "9d0b3ddfc473e57e4aebd41341c8a2d19d837fcc1f40b04af98a77ff0358dab6",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.145/hongguo-tv-0.2.145.apk",
+  "release_notes": "# 红果短剧 v0.2.145\n\n本次发布修复播放地址主目标与备用目标并发竞速时的响应归属问题。\n\n- 播放地址请求为每次解析建立独立的有界目标竞速上下文。\n- 较慢的旧目标响应不会覆盖已经选中的播放地址，也不会把已取消请求的结果写回当前播放流程。\n- 保留播放签名、匿名身份恢复、官方备用地址、取消机制和现有播放器配置。\n- 未改变 Android 标准版、MPV、桌面版和 webOS 的播放器选择、解码设置及 UI 行为。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.145.apk`（versionCode 144）\n- Android MPV 版：`hongguo-tv-mpv-0.2.145.apk`（versionCode 96）\n- macOS / Windows：`hongguo-desktop-0.2.145-macos-universal.zip`、`hongguo-desktop-0.2.145-windows-x64.zip`（桌面更新版本码 82）\n- LG webOS：`webos-v0.2.145-test.26` 测试版\n- Linux x86_64：`linux-v0.2.145-test.1` 独立 AppImage 测试版；仅在本次标签构建的 Ubuntu 24.04 / Debian 12 真实播放检查通过后发布。\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。Linux 与 webOS 继续使用测试渠道。",
+  "published_at": "2026-11-03T03:06:20.815493+00:00"
 }
