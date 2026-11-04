@@ -1,171 +1,43 @@
 # 红果短剧下载（Android TV / webOS / Linux / macOS / Windows）
 
-此仓库发布正式安装包、版本信息、更新说明和校验文件。MPV 库源码附件保留在私有源码仓库的 Release 中。
+此仓库发布正式安装包、版本信息、更新说明和校验文件。
 
-**[反馈问题 / 功能建议](https://github.com/aston314/hongguo-tv-releases/issues/new/choose)**：选择“播放问题”“其他问题”或“功能建议”，按提示填写即可。播放异常建议附上失败当时的完整“播放诊断”截图。
+**[反馈问题 / 功能建议](https://github.com/aston314/hongguo-tv-releases/issues/new/choose)**：选择对应模板并附上设备信息和播放诊断。
 
-## 应用界面
+## 当前版本
 
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/new-releases.jpg" width="480" alt="新剧推荐：浏览近期上新的短剧" /><br /><sub>新剧推荐</sub></td>
-    <td align="center"><img src="screenshots/search.jpg" width="480" alt="找剧：搜索并浏览短剧海报" /><br /><sub>搜索与海报浏览</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/ranking.jpg" width="480" alt="排行榜：查看不同榜单和热门短剧" /><br /><sub>热门榜单</sub></td>
-    <td align="center"><img src="screenshots/related.jpg" width="480" alt="相关推荐：在选集弹窗中发现相似短剧" /><br /><sub>选集与相关推荐</sub></td>
-  </tr>
-</table>
+- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/tag/v0.2.148)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.148-test.26)
+- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.148-test.1)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.148)
 
-- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.147-test.26)
-- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.147-test.1)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.147)
+本版优化切集、切剧体验，提升播放地址获取稳定性。
 
-## 我的其他作品
+## Android TV
 
-- [豆豆 TV｜看直播 TV 版](https://github.com/aston314/doudou-tv-releases/releases/latest)
-- [咖啡直播 TV｜体育赛事直播 TV 版](https://github.com/aston314/kafeizhibo-tv/releases)
+最低支持 Android 6，支持 ARM64、ARMv7 和 x86_64。首次安装或标准版播放正常时，选择标准版；标准版无法播放时再试 MPV 版。
 
-- 面向 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。
-- Android 8.0/API 26 及以上设备可使用「红果精选」系统首页频道；Android 6/7.1 继续安装和使用应用，不提供该频道。
-- 从 0.2.7 起支持应用内检查更新；当前版本由应用固定依次尝试多个公开更新线路，全部失败后再尝试 GitHub 直连。用户不需要也不能配置代理。
-
-## Android TV 下载哪个版本？
-
-**首次安装，或现有版本能正常播放：选标准版。**
-
-**标准版黑屏、只有声音或无法播放：再试 MPV 版。** MPV 版默认自动解码，优先尝试硬件加速；可在 **“设置 → 播放解码”** 改为软件解码。软件解码对 CPU 性能要求更高，低性能盒子可能不够流畅，实际效果请在设备上测试。
-
-打开 [最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/latest)，在 **Assets（附件）** 中选择：
-
-| 版本 | 下载哪个 APK | 播放方式 |
+| 版本 | 下载文件 | 播放方式 |
 | --- | --- | --- |
-| **标准版** | **`hongguo-tv-版本号.apk`**（文件名不含 `mpv`） | HTML5 主播放；确认不支持或播放失败时有限切换到 Media3，仍失败则回到 HTML5 |
-| **MPV 版** | **`hongguo-tv-mpv-版本号.apk`**（文件名含 `mpv`） | MPV 自动解码，可手动选择软件解码 |
+| 标准版 | `hongguo-tv-0.2.148.apk` | HTML5 主播放，失败时有限切换到 Media3 |
+| MPV 版 | `hongguo-tv-mpv-0.2.148.apk` | MPV 自动解码，可手动选择软件解码 |
 
-例如当前标准版是 `hongguo-tv-0.2.147.apk`；MPV 版是 `hongguo-tv-mpv-0.2.147.apk`。两个 APK 都支持 ARM64、ARMv7 和 x86_64，无需按设备架构另选安装包。
+两个 APK 支持同一组 Android ABI。MPV 版与标准版是独立应用，可以同时安装，但账号、历史和设置分别保存。
 
-0.2.147 按 `hongguo-player v1.2.20` 对齐播放地址获取：使用 `api5-normal-lq` 的 gzip/签名请求，对空播放信息按当前视频确认并有限恢复匿名身份；内容类型、清晰度、播放模式和解码模式分别隔离缓存。首次启动语言选择、播放地址竞速响应隔离和已有播放器策略保持不变。
+## 桌面版
 
-0.2.146 首次启动根据系统语言选择界面语言；Android 优先读取系统 Locale，桌面、webOS 和浏览器读取 `navigator.languages`。繁体中文和日语按可用语言映射，英文及未知语言回退简体中文；手动选择过语言后保持手动选择。播放地址竞速请求按解析代际隔离，较慢的旧响应不会覆盖已经选中的地址。
+[桌面版 0.2.148](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.148) 提供 macOS 通用 ZIP 和 Windows x64 ZIP。macOS 需要 11 或更高版本；Windows 需要 Microsoft Edge WebView2 Runtime，播放 HEVC 还需要系统 HEVC Video Extensions。
 
-0.2.145 修复播放地址主目标与备用目标并发竞速时的响应归属问题，避免较慢的旧请求覆盖已经选中的播放地址。播放签名、匿名身份恢复、备用地址和播放器配置不变。
+## webOS
 
-0.2.144 新增弹幕显示区域设置：当前区域（默认）、顶部 1/2、顶部 1/4；默认保持原有弹幕位置。设置适用于标准版、MPV 版、桌面版和 webOS，窄视口会自动限制轨道数量。
+[webOS 0.2.148 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.148-test.26) 需要 LG Developer Mode 和 webOS 开发工具安装。它使用现有 HTML5 播放流程，属于测试版渠道。
 
-0.2.143 将播放链接获取恢复为 **0.2.141 的机制**，撤回 0.2.142 的首次空响应立即换身份策略及新增等待。先完成当前身份的主地址、官方备用地址及兼容请求，连续三次空响应后才尝试一次身份恢复；保留播放签名、次数上限、并发共享与取消机制，不影响登录账号。
+## Linux
 
-0.2.141 修复 Media3 与 HTML5 播放器切换后的静音状态遗留；在下一集完整预下载成功复用时，先显示目标集数，等待 3 秒仍未出画才显示圆圈。播放信息请求增加签名和有界兼容回退。标准版保留 0.2.136 的轻量系统解码器配置，MPV 播放方式不变。
+[Linux x86_64 AppImage 0.2.148 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.148-test.1) 依赖系统 WebKitGTK、GTK 3、GStreamer 及 HEVC/AAC 解码插件。下载后为文件增加执行权限，再运行 AppImage。
 
-0.2.140 标准版恢复 **0.2.136 的播放逻辑与 Media3 1.8.0**，移除新增 NextLib/FFmpeg，继续保留 HTML5 主播放和有界 Media3 回退；需要额外软件解码能力时可选择 MPV 版，MPV 播放策略不变。播放控件仅在内容变化时刷新，隐藏时跳过无用的界面更新，以减少弹幕播放时的渲染负担；不改变弹幕运动、播放进度和预取逻辑。
+## 更新与反馈
 
-0.2.139 新增 **设置 → 启动页面**，可选择推荐（默认）、排行榜、新剧、历史或收藏，下次打开直接进入所选页面；非推荐页不先加载推荐或自动播放。Android 标准版、MPV 版、桌面版和 webOS 共用此设置。改进搜索建议切换与过期操作取消；Android 8/API 26 及以上增加 WebView 渲染进程退出后的受限恢复。修复部分电视盒子在 0.2.138 后的显示比例，恢复 Zidoo 等设备的原有字号和侧栏尺寸，保留 Shield 等矮视口布局；侧栏焦点取消底色和尺寸过渡。
+Android 标准版使用 `update.json`，MPV 版使用 `update-mpv.json`。普通用户只需下载 APK；更新清单和校验文件用于应用内更新或核对文件完整性。
 
-0.2.138 恢复 Android 标准版 HTML5 主播放。只有 HTML5 明确不支持片源、发生解码错误，或在限定时间内没有播放进展/首帧时，才切换到 Media3；Media3 首帧前遇到明确解码错误或轨道能力超限时，最多尝试一次软件解码，仍失败则回到 HTML5。Android 6+ 安装要求不变；多型号 Android 设备的实机播放仍需验证。桌面、Linux 和 webOS 随统一版本重新打包，功能行为不变。
-
-0.2.136 在连续收到空播放信息时提供有上限的匿名播放身份恢复，不切换登录账号；播放诊断补齐准备失败的阶段和错误码。本机记录发送前按保存规则裁剪简介和标签，并区分记录校验失败的具体原因。
-
-0.2.135 修复部分旧版 WebView 获取播放信息时丢失剧集参数的问题，覆盖标准版和 MPV 版；补齐旧环境切换清晰度及回退播放需要的参数设置能力。共享界面按实际能力处理请求参数。
-
-0.2.134 修复同剧切集再次显示整剧海报，提前复用目标集预览图，并避免播放诊断残留旧告警。Android 标准版对明确不受 WebView 支持的已知编码直接使用现有 Media3；MPV、桌面及 webOS 的播放器选择保持不变。
-
-0.2.133 修复 MPV 自动解码路径误选 bytevc2 片源的兼容问题，并改为优先 AudioTrack、48 kHz 音频输出及默认声音延后 100 毫秒。该补偿应用于所有 MPV 设备，具体听感仍受设备与音频链路影响。
-
-Android 标准版、MPV 版和桌面版在未保存预取设置时，默认使用 **整集预下载**；已有的边播边下或整集预下载选择会保留。只有下一集已完整预下载且成功复用时，切集才暂时隐藏中央圆圈和集数，优先使用已就绪的下一集预览图；800 毫秒仍未出画时仅显示目标集数，满 3 秒后再显示圆圈。webOS 保持边播边下。
-
-两版安装后的名称均为 **红果短剧**；升级时请按原先安装的版本选择对应 APK，或使用应用内检查更新。
-
-### 已安装的用户怎么升级？
-
-- **原来的红果短剧 → 下载标准版覆盖安装**，保留账号、观看记录和设置，无需卸载。
-- **已安装 MPV 版 → 下载 MPV 版覆盖安装**，保留该版本的数据。
-- **想测试 MPV → 直接安装 MPV 版**，可与标准版同时存在。MPV 版需要单独登录，本地记录和设置分别保存，不会替换原标准版。
-- 两版各自检查对应更新渠道，应用内更新不会把标准版改装成 MPV 版。
-
-**普通用户只需下载 `.apk`。** `update.json`、`update-mpv.json` 和 `SHA256SUMS.txt` 是更新或校验文件，均无需安装。MPV 库源码附件不在公开下载仓库中。
-
-测试 MPV 时，建议用同一集比较自动解码和软件解码的流畅度，并检查连续切集、暂停恢复和音画同步。解码设置会保存，下次播放或切集时生效；自动模式画面异常时可改为软件解码后重新播放。异常时请提供应用内“播放诊断”的截图，诊断会显示实际解码路径和可用的掉帧信息。
-
-## Linux 桌面版测试包
-
-Linux 0.2.147 AppImage 通过 GitHub 标签工作流的 Ubuntu 24.04 / Debian 12 真实播放检查后，在独立预发行版发布。测试使用 Xvfb、软件图形和软件解码，不替代用户设备上的显卡、显示器或扬声器验证。
-
-[下载 Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.147-test.1)，在 **Assets** 中下载 `hongguo-desktop-0.2.147-x86_64.AppImage`。当前只提供 64 位 x86_64 包。
-
-此包依赖系统 WebKitGTK 4.1、GTK 3、GStreamer 和 HEVC/AAC 解码插件。在 Ubuntu 24.04 或 Debian 12 安装运行依赖：
-
-```sh
-sudo apt-get install libwebkit2gtk-4.1-0 gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio fonts-noto-cjk
-```
-
-下载后运行：
-
-```sh
-chmod +x hongguo-desktop-0.2.147-x86_64.AppImage
-./hongguo-desktop-0.2.147-x86_64.AppImage --appimage-extract-and-run
-```
-
-AppImage 已在 Ubuntu 24.04 和 Debian 12 容器中通过真实红果数据及播放验证；CI 使用 Xvfb 和软件解码，尚未验证实体显卡、扬声器、Wayland 或其他发行版。Linux 不提供应用内更新，下载新版后退出应用并手动替换 AppImage。Linux 鼠标焦点高亮与 macOS/Windows 共用同一套桌面 UI 实现，Linux 实体桌面交互仍待用户反馈。
-
-从 0.2.134 起默认开启按需 GPU 合成，修复 Wails 默认关闭合成加速导致的 CPU 占用偏高。如出现白屏或显卡兼容问题，完全退出后用 `HONGGUO_WEBKIT_GPU_POLICY=never ./hongguo-desktop-0.2.147-x86_64.AppImage --appimage-extract-and-run` 恢复原来的软件合成方式（也接受 `2`）。此设置仅影响 Linux，实际收益取决于显卡及驱动。
-
-## LG webOS 测试版
-
-[下载 webOS 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.147-test.26)，在 Release 的 **Assets** 中下载 `hongguo-webos-0.2.147-test.26.ipk`。这是 LG webOS TV 的实验包，不是 Android APK，也不属于稳定版。
-
-**已有 LG 真机验证通过。** 用户在 [Issue #57](https://github.com/aston314/hongguo-tv-releases/issues/57) 回报：安装、启动、1080P 视频画面、声音、账号登录及原生遥控器滚轮均正常。
-
-| 已验证电视 | 固件 | webOS SDK 版本 | 应用版本 |
-| --- | --- | --- | --- |
-| LG OLED65C5PTA（台湾版） | 43.21.77 | 11.2.0 | 0.2.117-test.25 |
-
-安装需要在电视上启用 **LG Developer Mode**，并使用 webOS 开发工具安装 `.ipk`；该用户使用 webOS Dev Manager 1.99.20 安装。当前下载仍为测试版，欢迎其他型号补充实测反馈。
-
-webOS 0.2.147 使用与 Android、桌面版统一的 `api5-normal-lq` gzip/签名播放请求，并按当前视频确认空播放信息后有限恢复匿名身份；继续保留播放签名、官方备用地址及有次数上限的匿名身份恢复、0.2.140 的播放控件刷新优化、启动页面设置、搜索建议切换、侧栏焦点改进、唯一 HTML5 播放、独立 JS 服务和 Range 边播边下。Android/桌面版的整集预下载提示分阶段调整不适用于 webOS，竖屏仍保持黑边。
-
-0.2.134 为 webOS 播放信息空响应加入有间隔、共用次数预算的恢复，并显示当前请求错误码与诊断；避免页面重复重试和旧预取覆盖错误。持续的上游故障仍会明确报错。
-
-0.2.133 增加红果 App 扫码登录，账号页默认显示二维码，原手机号登录保留；Android、桌面版和 webOS 共用原有账号保存及云同步入口。修复追更与更新提醒的焦点往返、整行外框高亮和列表滚动时标题被移出的问题。webOS 扫码已完成真实账号登录、会话恢复与只读云同步验证，LG 实机扫码与生命周期仍待验证；播放继续保留唯一 HTML5 视频、Range/CENC 边播边下和原有有限预取。
-
-有声倍速实验代码随 0.2.133 保留在 webOS 设置中，默认关闭；当前仍建议先使用正常 1 倍速，开启实验入口后再反馈设备兼容性。
-
-0.2.119 的下一集预取重试、过期刷新、准备任务复用和 Chrome 79 请求兼容继续保留。0.2.118 起支持设置内在线检查更新和内置代理线路；应用只提示新版与手动安装方法，需通过 webOS Dev Manager 等开发工具更新。
-
-测试反馈请附上 LG 电视型号、webOS 版本、安装/启动结果、播放画面和声音情况，以及具体错误现象。
-
-## macOS / Windows 桌面版
-
-[桌面版 0.2.147 下载](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.147)。无需安装 APK，选择对应平台的 ZIP：
-
-| 平台 | 下载文件 | 要求 |
-| --- | --- | --- |
-| **macOS** | `hongguo-desktop-0.2.147-macos-universal.zip` | macOS 11 及以上，同包支持 Intel 和 Apple Silicon |
-| **Windows amd64 / x64** | `hongguo-desktop-0.2.147-windows-x64.zip` | 64 位 Intel / AMD 处理器，需要 Microsoft Edge WebView2 Runtime |
-
-macOS 解压后打开 **红果短剧.app**；Windows 请**完整解压整个文件夹**，打开 `红果短剧.exe`，保留 `hongguo-tv-core.exe` 在同一目录，不要单独启动核心程序。Windows 缺少 WebView2 时，请从 [微软官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装 Runtime。
-
-桌面版使用系统 HTML5 播放，HEVC 视频还需要 Windows 安装相应的系统解码扩展。优先从 Microsoft Store 安装 **HEVC Video Extensions**；商店无法获取时，可参考用户提供的[第三方离线扩展仓库](https://github.com/Ayx03/HEVCVideoExtension)。macOS 已实测真实播放和自动下一集，Windows 实体播放仍待实测。桌面版支持直接键盘输入和粘贴；账号登录支持使用手机红果 App 扫码，也保留手机号登录。
-
-### 桌面版怎么更新？
-
-- 在 **设置 → 版本更新** 检查新版本，查看更新内容，点击 **下载更新 ZIP**。
-- 每天后台检查一次；播放期间不弹出提醒。检查和下载由应用固定依次尝试多个公开更新线路，全部失败后再尝试 GitHub 直连，不提供用户代理设置。
-- 下载显示进度，完成后核验大小、SHA256 和 ZIP 完整性；点击 **打开所在文件夹**。
-- **安装由用户自己完成**：先退出应用，macOS 替换 `.app`；Windows 完整解压并替换程序文件夹，两个 EXE 必须一起更新。
-- 账号、观看历史和设置保存在独立系统用户数据目录，正常替换程序不会删除这些数据。
-- macOS 以新版 **红果短剧.app** 替换旧应用；Windows 用新版完整文件夹替换旧文件夹。账号、历史和设置保存在系统用户数据目录。
-
-桌面版使用独立的 `desktop-update-v2.json`，不会读取或替换 Android 标准版/MPV 更新渠道。`*.sha256` 和更新清单是校验/更新资料，无需安装。
-
-当前没有 Apple 开发者签名/公证或 Windows 代码签名，系统可能显示未知开发者提示。
-
-## 下载与更新
-
-左侧“我的”下方可进入 **设置**；版本检查在 **设置 → 版本更新**。MPV 版的解码选择和开源许可也在设置中。
-
-国内网络可直接使用 Release 页面下载；应用内更新会自动尝试内置更新线路和 GitHub 直连。
-
-标准版使用 `update.json`，MPV 版使用 `update-mpv.json` 作为固定更新入口，各自只升级对应版本。每个 Release 提供两个 APK、两个更新清单和 `SHA256SUMS.txt`，用于核对下载文件。
-
-MPV 版所需的 LGPL 库源码、依赖、许可声明、补丁及构建和替换工具随私有源码 Release 提供。使用 APK 无需下载源码附件；应用“设置 → 开源许可”也可离线查看许可信息。
+播放异常请附设备型号、Android/webOS/桌面系统版本、使用的安装包，以及应用内“播放诊断”截图。Windows 播放 HEVC 时请同时确认系统已安装 HEVC Video Extensions。
