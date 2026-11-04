@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 146,
-  "version_name": "0.2.147",
+  "version_code": 147,
+  "version_name": "0.2.148",
   "min_sdk": 23,
-  "size": 19448569,
-  "sha256": "4751cd5a65dd23c4728ca9bd1b9087d5da3cbb0b67d6d681bebc91bb46e1a6e7",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.147/hongguo-tv-0.2.147.apk",
-  "release_notes": "# 红果短剧 v0.2.147\n\n本次发布按 `hongguo-player v1.2.20` 严格修正播放地址获取链路，重点降低推荐播放和切集时 `VIDEO_MODEL_EMPTY`、空播放信息及错误片源导致的失败。\n\n- 播放请求改用 `api5-normal-lq` 协议，请求体 gzip 压缩，并对实际压缩字节签名。\n- `VIDEO_MODEL_EMPTY`、缺少 `video_model`、空 `video_list` 和业务码 `110001` 统一识别为当前 `vid` 的流缺失，避免把一次空响应误当成永久失败。\n- 同一身份先对同一个 `vid` 做有限确认；确认仍失败后，最多验证四个匿名候选身份，只有候选身份成功返回同一 `vid` 的片源才会替换当前身份。\n- 恢复任务按 `vid` 合并、设有冷却和次数上限，预取与前台播放共享结果，不再在生产环境并发竞速六条线路。\n- 播放内容类型贯通整集、Range、清晰度切换、预取、Range 地址刷新和身份恢复；媒体缓存 key 同时隔离清晰度、播放模式、解码模式和 `content_type`。\n- 保留默认播放、MPV、标准版、桌面版和 webOS 的既有播放器策略，不改变登录、账号和 UI 行为。\n\n本机验证已通过 Go 普通/生产标签测试、race、vet、全部 Node 回归测试，以及真实上游播放协议探针。浏览器预览中已验证推荐播放、切剧、切集和本地完整/Range 播放取源。Android、MPV、桌面和 webOS 安装包由 GitHub Actions 构建，仍需用户设备验收。\n\n## 平台包\n\n- Android 标准版：`hongguo-tv-0.2.147.apk`（versionCode 146）\n- Android MPV 版：`hongguo-tv-mpv-0.2.147.apk`（versionCode 98）\n- macOS / Windows：`hongguo-desktop-0.2.147-macos-universal.zip`、`hongguo-desktop-0.2.147-windows-x64.zip`（桌面更新版本码 84）\n- LG webOS：`webos-v0.2.147-test.26` 测试版\n\n自动化验证不替代所有盒子、电视和桌面设备的实机验证。",
-  "published_at": "2026-11-03T07:42:13.914202+00:00"
+  "size": 19510878,
+  "sha256": "9d6cc9856c63340813b857b5637d759f5decdf93a292a61b0fffe03f15093498",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.148/hongguo-tv-0.2.148.apk",
+  "release_notes": "# 红果短剧 v0.2.148\n\n优化切集、切剧体验，提升播放地址获取稳定性。",
+  "published_at": "2026-11-04T13:35:28.025018+00:00"
 }
