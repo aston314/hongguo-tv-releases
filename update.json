@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 147,
-  "version_name": "0.2.148",
+  "version_code": 148,
+  "version_name": "0.2.149",
   "min_sdk": 23,
-  "size": 19510878,
-  "sha256": "9d6cc9856c63340813b857b5637d759f5decdf93a292a61b0fffe03f15093498",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.148/hongguo-tv-0.2.148.apk",
-  "release_notes": "# 红果短剧 v0.2.148\n\n优化切集、切剧体验，提升播放地址获取稳定性。",
-  "published_at": "2026-11-04T13:35:28.025018+00:00"
+  "size": 19497636,
+  "sha256": "f3c1a2220d1cf948982859d3b07aec6e90da3cbd1f98fe75934a3f70f22a9b3f",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.149/hongguo-tv-0.2.149.apk",
+  "release_notes": "# 红果短剧 v0.2.149\n\n优化切集、切剧体验，提升播放地址获取稳定性；调整追更分类与更新提醒。",
+  "published_at": "2026-11-05T15:17:01.376573+00:00"
 }
