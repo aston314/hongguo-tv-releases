@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 100,
-  "version_name": "0.2.149",
+  "version_code": 101,
+  "version_name": "0.2.150",
   "min_sdk": 23,
-  "size": 37369753,
-  "sha256": "5ec922f5d21d8b3feddd809395707dfd971932f7dde35f730a9a2b1e6ee54c10",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.149/hongguo-tv-mpv-0.2.149.apk",
-  "release_notes": "# 红果短剧 v0.2.149\n\n优化切集、切剧体验，提升播放地址获取稳定性；调整追更分类与更新提醒。",
-  "published_at": "2026-11-05T15:17:14.468822+00:00"
+  "size": 37370027,
+  "sha256": "33c8d6e508ccc5d7b2f6d49d1fd5e70c0361518b16d5b309587de0646504beb3",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.150/hongguo-tv-mpv-0.2.150.apk",
+  "release_notes": "# 红果短剧 v0.2.150\n\n- 新增 Android 5 兼容包与独立在线更新；旧测试包用户首次需手动覆盖安装。\n- MPV 音频补偿恢复为 0，保留 AudioTrack 与 48 kHz 输出。\n- 修复退出应用后本机播放服务可能残留的问题。",
+  "published_at": "2026-11-06T11:57:21.124993+00:00"
 }
