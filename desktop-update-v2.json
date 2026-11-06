@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.149",
-  "version_code": 86,
-  "release_notes": "# 红果短剧桌面版 0.2.149（macOS / Windows）\n\n优化切集、切剧体验，提升播放地址获取稳定性；调整追更分类与更新提醒。桌面版继续使用现有 HTML5 播放流程。",
+  "version_name": "0.2.150",
+  "version_code": 87,
+  "release_notes": "# 红果短剧桌面版 0.2.150（macOS / Windows）\n\n与主线同步版本，继续使用现有 HTML5 播放流程。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.149-macos-universal.zip",
-      "size": 18205402,
-      "sha256": "b3054c1064790b1cf3798552476ee51edfa4240d9e35b70b8eddb3c144c05f57",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.149/hongguo-desktop-0.2.149-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.150-macos-universal.zip",
+      "size": 18205416,
+      "sha256": "1d808147954c12fc89e77d370076e1d48f4a4062423a55975c3af34d657640bb",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.150/hongguo-desktop-0.2.150-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.149-windows-x64.zip",
-      "size": 9349433,
-      "sha256": "05572ffcfa370ddfb1ad020ebbcdfb5fffa257aeca33154aa1fdea1aa285fe37",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.149/hongguo-desktop-0.2.149-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.150-windows-x64.zip",
+      "size": 9349448,
+      "sha256": "4e51836a66dcdefc16249e8acb5a7516a8e8a7f3428100c9fc932b7637be9995",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.150/hongguo-desktop-0.2.150-windows-x64.zip"
     }
   }
 }
