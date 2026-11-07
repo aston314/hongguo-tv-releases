@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 151,
-  "version_name": "0.2.152",
+  "version_code": 152,
+  "version_name": "0.2.153",
   "min_sdk": 23,
-  "size": 19560239,
-  "sha256": "0271229a3ab10a4d89e54d53265829be4c159919589d10d5b9c2aefcd8d5d1cb",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.152/hongguo-tv-0.2.152.apk",
-  "release_notes": "# 红果短剧 v0.2.152\n\n- 修复 MPV 手动软件解码时，部分 HEVC 剧集误报“没有兼容片源”的问题。\n- 找剧新增短剧与漫剧热搜，优化切集过渡体验。\n\n遇到硬解绿条或花屏，可更新 MPV 版后，在设置中选择软件解码，再重新播放同一集对比。",
-  "published_at": "2026-11-07T09:10:12.974476+00:00"
+  "size": 19605867,
+  "sha256": "be2cc29ed13c6916627a059628d5059cf7b75f32464974805222823c53c3c7a3",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.153/hongguo-tv-0.2.153.apk",
+  "release_notes": "# 红果短剧 v0.2.153\n\n- 优化播放源回退，改善部分剧集无法播放的问题。\n- 同剧优先使用近期成功的播放来源，减少切集等待。",
+  "published_at": "2026-11-07T11:17:12.573310+00:00"
 }
