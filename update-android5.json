@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 152,
-  "version_name": "0.2.153",
+  "version_code": 153,
+  "version_name": "0.2.154",
   "min_sdk": 21,
-  "size": 19611238,
-  "sha256": "ad01e9199c32db945a881981fd356ae53958b2bae4a31f79f822fb13b02522f1",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.153/hongguo-tv-android5-0.2.153.apk",
-  "release_notes": "# 红果短剧 v0.2.153\n\n- 优化播放源回退，改善部分剧集无法播放的问题。\n- 同剧优先使用近期成功的播放来源，减少切集等待。",
-  "published_at": "2026-11-07T11:17:13.285144+00:00"
+  "size": 19626435,
+  "sha256": "35ee10789d559caf6dd10d53f5aa6800ebcebb8cdd40d99c1c5bd18f64d6d350",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.154/hongguo-tv-android5-0.2.154.apk",
+  "release_notes": "# 红果短剧 v0.2.154\n\n- 桌面版新增小窗播放，切换窗口时保持视频连续。\n- 修复部分电视盒子在线更新无法启动系统安装器的问题。",
+  "published_at": "2026-11-07T16:39:30.972715+00:00"
 }
