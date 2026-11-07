@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 150,
-  "version_name": "0.2.151",
+  "version_code": 151,
+  "version_name": "0.2.152",
   "min_sdk": 21,
-  "size": 19534683,
-  "sha256": "0edcc4fbe4b804ae9862a1f653b92ecd235d7a24b07499268012fdcc93312346",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.151/hongguo-tv-android5-0.2.151.apk",
-  "release_notes": "# 红果短剧 v0.2.151\n\n- 优化切集过渡，缩短画面就绪后的预览图停留。\n- 播放诊断新增当前判断、建议操作和判断依据。",
-  "published_at": "2026-11-07T01:11:28.285789+00:00"
+  "size": 19565524,
+  "sha256": "d7d921ef291b1596f875d42cc452ca80a70d3eb3d0d6bac85f8b4eddd198c85a",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.152/hongguo-tv-android5-0.2.152.apk",
+  "release_notes": "# 红果短剧 v0.2.152\n\n- 修复 MPV 手动软件解码时，部分 HEVC 剧集误报“没有兼容片源”的问题。\n- 找剧新增短剧与漫剧热搜，优化切集过渡体验。\n\n遇到硬解绿条或花屏，可更新 MPV 版后，在设置中选择软件解码，再重新播放同一集对比。",
+  "published_at": "2026-11-07T09:10:13.694194+00:00"
 }
