@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 149,
-  "version_name": "0.2.150",
+  "version_code": 150,
+  "version_name": "0.2.151",
   "min_sdk": 21,
-  "size": 19503143,
-  "sha256": "1a9b403809737b1136d0375d3ceaa3d10290d9aaba6b3d2b83d70f973745853c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.150/hongguo-tv-android5-0.2.150.apk",
-  "release_notes": "# 红果短剧 v0.2.150\n\n- 新增 Android 5 兼容包与独立在线更新；旧测试包用户首次需手动覆盖安装。\n- MPV 音频补偿恢复为 0，保留 AudioTrack 与 48 kHz 输出。\n- 修复退出应用后本机播放服务可能残留的问题。",
-  "published_at": "2026-11-06T11:57:21.479934+00:00"
+  "size": 19534683,
+  "sha256": "0edcc4fbe4b804ae9862a1f653b92ecd235d7a24b07499268012fdcc93312346",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.151/hongguo-tv-android5-0.2.151.apk",
+  "release_notes": "# 红果短剧 v0.2.151\n\n- 优化切集过渡，缩短画面就绪后的预览图停留。\n- 播放诊断新增当前判断、建议操作和判断依据。",
+  "published_at": "2026-11-07T01:11:28.285789+00:00"
 }
