@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.152",
-  "release_tag": "webos-v0.2.152-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.152-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.152\n\n找剧新增短剧与漫剧热搜。继续使用现有 HTML5 播放流程和测试版渠道。",
-  "artifact_name": "hongguo-webos-0.2.152-test.27.ipk",
-  "artifact_size": 1113168,
-  "artifact_sha256": "3539f1a7ad33d22318ee8526a725be60d05e6cff027a4b1d256074a44f454fc4"
+  "version_name": "0.2.153",
+  "release_tag": "webos-v0.2.153-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.153-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.153\n\n优化播放源回退，减少同剧切集等待。继续使用现有 HTML5 播放流程和测试版渠道。",
+  "artifact_name": "hongguo-webos-0.2.153-test.27.ipk",
+  "artifact_size": 1115312,
+  "artifact_sha256": "30e0a62e96f4f0991a9bc257fa8e1756e2359c2e6c9308e6c7b809a57cd73345"
 }
