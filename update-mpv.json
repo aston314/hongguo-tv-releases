@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 107,
-  "version_name": "0.2.156",
+  "version_code": 108,
+  "version_name": "0.2.157",
   "min_sdk": 23,
-  "size": 37570016,
-  "sha256": "81913eb66ee656efc2f41559f34f7777c102c549ba75b45688e3bc55eea2cd2c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.156/hongguo-tv-mpv-0.2.156.apk",
-  "release_notes": "# 红果短剧 v0.2.156\n\n- 修复 MPV 版 MediaCodec 布局诊断漏采，辅助排查硬解花屏；尚未修复绿条问题。\n- 桌面版记住小窗位置和尺寸，修复 macOS 从全屏切换小窗时的恢复异常。",
-  "published_at": "2026-11-08T06:27:03.848450+00:00"
+  "size": 37598410,
+  "sha256": "314f897552b984aa7c10daea7d9dd5daaa4e4640b866567af877b90671fdb2ef",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.157/hongguo-tv-mpv-0.2.157.apk",
+  "release_notes": "# 红果短剧 v0.2.157\n\n- Android TV 新增“推荐页自动全屏”设置，默认关闭，开启后清屏自动进入全屏。\n- 完善 MPV 播放诊断，辅助排查硬解花屏和软解卡顿。\n- webOS 界面采用 1280×720 画布，文字和图标更易读。",
+  "published_at": "2026-11-08T17:38:48.448435+00:00"
 }
