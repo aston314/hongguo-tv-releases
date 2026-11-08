@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 105,
-  "version_name": "0.2.154",
+  "version_code": 106,
+  "version_name": "0.2.155",
   "min_sdk": 23,
-  "size": 37494653,
-  "sha256": "acdf993686e0d39d9290672746510fbd69654f97e6743ba67a2c9c657808ef2a",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.154/hongguo-tv-mpv-0.2.154.apk",
-  "release_notes": "# 红果短剧 v0.2.154\n\n- 桌面版新增小窗播放，切换窗口时保持视频连续。\n- 修复部分电视盒子在线更新无法启动系统安装器的问题。",
-  "published_at": "2026-11-07T16:39:30.658694+00:00"
+  "size": 37569592,
+  "sha256": "34f7fa0b813124c667a6c2be2e102b30708a0199a4957cbd30e4c404244f1239",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.155/hongguo-tv-mpv-0.2.155.apk",
+  "release_notes": "# 红果短剧 v0.2.155\n\n- MPV 版新增 MediaCodec 输出布局诊断，辅助排查硬件解码花屏。",
+  "published_at": "2026-11-08T01:53:30.688154+00:00"
 }
