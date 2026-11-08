@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.154",
-  "version_code": 91,
-  "release_notes": "# 红果短剧桌面版 0.2.154（macOS / Windows）\n\n新增小窗播放，窗口切换期间保持当前视频连续播放。",
+  "version_name": "0.2.155",
+  "version_code": 92,
+  "release_notes": "# 红果短剧桌面版 0.2.155（macOS / Windows）\n\n与主线同步更新版本号至 0.2.155。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.154-macos-universal.zip",
-      "size": 18293794,
-      "sha256": "6eb5554663230ec78c16803bf9c39a71cedc8b80feb467b61dd0b88cbf2e223a",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.154/hongguo-desktop-0.2.154-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.155-macos-universal.zip",
+      "size": 18298582,
+      "sha256": "753d5f4e3bc8512467118eec835144f0217ce99d13aa70cd83e53af0569fa04d",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.155/hongguo-desktop-0.2.155-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.154-windows-x64.zip",
-      "size": 9395633,
-      "sha256": "f2534b69402947911aab4e5b5c1b087c850a3c0ed741284f03334d075d670647",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.154/hongguo-desktop-0.2.154-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.155-windows-x64.zip",
+      "size": 9397847,
+      "sha256": "f9edb67d392789ac85139f7c890e62664e492da6c7ca8b9a1e2a30b026995d6b",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.155/hongguo-desktop-0.2.155-windows-x64.zip"
     }
   }
 }
