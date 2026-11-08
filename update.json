@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 154,
-  "version_name": "0.2.155",
+  "version_code": 155,
+  "version_name": "0.2.156",
   "min_sdk": 23,
-  "size": 19625001,
-  "sha256": "030a2c0333a26209b5bc4b5c53619dd4a705ab16a4170b356fe16cdd8859932c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.155/hongguo-tv-0.2.155.apk",
-  "release_notes": "# 红果短剧 v0.2.155\n\n- MPV 版新增 MediaCodec 输出布局诊断，辅助排查硬件解码花屏。",
-  "published_at": "2026-11-08T01:53:30.298414+00:00"
+  "size": 19624986,
+  "sha256": "b9d72a8d8b2024e98f3cd539abb215e0e5430818a4f5dff3b64b7b418c782581",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.156/hongguo-tv-0.2.156.apk",
+  "release_notes": "# 红果短剧 v0.2.156\n\n- 修复 MPV 版 MediaCodec 布局诊断漏采，辅助排查硬解花屏；尚未修复绿条问题。\n- 桌面版记住小窗位置和尺寸，修复 macOS 从全屏切换小窗时的恢复异常。",
+  "published_at": "2026-11-08T06:27:03.375421+00:00"
 }
