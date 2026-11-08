@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.156",
-  "release_tag": "webos-v0.2.156-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.156-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.156\n\n与主线同步更新版本号至 0.2.156，继续使用现有 HTML5 播放流程和测试版渠道。",
-  "artifact_name": "hongguo-webos-0.2.156-test.27.ipk",
-  "artifact_size": 1120750,
-  "artifact_sha256": "a0e06ae906ffab59e6eaa05713c155e0d96d41949471e24772804fdfe66f261c"
+  "version_name": "0.2.157",
+  "release_tag": "webos-v0.2.157-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.157-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.157\n\n界面改用 1280×720 画布，文字和图标更易读；沿用现有 HTML5 播放流程。",
+  "artifact_name": "hongguo-webos-0.2.157-test.27.ipk",
+  "artifact_size": 1124008,
+  "artifact_sha256": "b9ddfed38b0a34b8f4535ec21cc739a1753de9bb3301f9ab4ddb2d316d76b9b4"
 }
