@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.156",
-  "version_code": 93,
-  "release_notes": "# 红果短剧桌面版 0.2.156（macOS / Windows）\n\n- 记住小窗位置和尺寸，越界时自动移回可见区域。\n- 修复 macOS 从全屏切换小窗时的恢复异常。",
+  "version_name": "0.2.157",
+  "version_code": 94,
+  "release_notes": "# 红果短剧桌面版 0.2.157（macOS / Windows）\n\n同步主线共享界面与播放诊断更新。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.156-macos-universal.zip",
-      "size": 18314848,
-      "sha256": "42baa9d95dc17f7d8094fde09dc287cfcfe7d82cc38ade14eadf12eff251962c",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.156/hongguo-desktop-0.2.156-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.157-macos-universal.zip",
+      "size": 18321802,
+      "sha256": "aeb9808b47ad5df06f56fb9e9f19efe30d790d14ba8a7fc0d890e1211ff89475",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.157/hongguo-desktop-0.2.157-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.156-windows-x64.zip",
-      "size": 9400939,
-      "sha256": "11e9c6f0d24cc780fe7afc15c5d774af7979c2034c23889066ce9f176d85a7cf",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.156/hongguo-desktop-0.2.156-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.157-windows-x64.zip",
+      "size": 9404423,
+      "sha256": "3e95353623a6033c92ef6779cf3753be7642967ecbaaf675b6a78b2f8cde94b6",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.157/hongguo-desktop-0.2.157-windows-x64.zip"
     }
   }
 }
