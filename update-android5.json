@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 157,
-  "version_name": "0.2.158",
+  "version_code": 158,
+  "version_name": "0.2.159",
   "min_sdk": 21,
-  "size": 19643491,
-  "sha256": "3ae1ec29cc0bdfd39e9606eed5f1656e2bdb5a6408c835ac6e4062d77fdfd4a1",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.158/hongguo-tv-android5-0.2.158.apk",
-  "release_notes": "# 红果短剧 v0.2.158\n\n- 桌面版新增“小窗隐藏系统标题栏”设置，默认关闭，可随时恢复。\n- 修复恢复播放后小窗控制栏不自动收起的问题。\n- Android 与 webOS 同步主线版本。",
-  "published_at": "2026-11-09T00:19:10.726865+00:00"
+  "size": 19638885,
+  "sha256": "29bc7e0db028b40a959430362e3f6b451fd363a2d8ba90b789f1c8474af1859b",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.159/hongguo-tv-android5-0.2.159.apk",
+  "release_notes": "# 红果短剧 v0.2.159\n\n- 更新各平台应用图标、TV 横幅和侧栏标识。\n- Android 与桌面启动页使用圆形图标，保留原加载圆环，主色与图标一致。",
+  "published_at": "2026-11-09T02:14:30.762585+00:00"
 }
