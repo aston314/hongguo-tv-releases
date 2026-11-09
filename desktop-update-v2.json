@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.158",
-  "version_code": 95,
-  "release_notes": "# 红果短剧桌面版 0.2.158（macOS / Windows）\n\n- 新增“小窗隐藏系统标题栏”设置，默认关闭，可在小窗中随时恢复。\n- 修复恢复播放后小窗控制栏不自动收起的问题。",
+  "version_name": "0.2.159",
+  "version_code": 96,
+  "release_notes": "# 红果短剧桌面版 0.2.159（macOS / Windows）\n\n- 更新应用图标和侧栏标识。\n- 启动页改用圆形图标，保留原加载圆环并同步主色。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.158-macos-universal.zip",
-      "size": 18328260,
-      "sha256": "6672a31df97e307959bd260f76c3b187231db876b0e49c8a150efac895340fc1",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.158/hongguo-desktop-0.2.158-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.159-macos-universal.zip",
+      "size": 18373477,
+      "sha256": "908656ddf813771ad0cb4786baedcdb69c4ca601aec47a5f5d45acf0ffe4fa86",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.159/hongguo-desktop-0.2.159-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.158-windows-x64.zip",
-      "size": 9408084,
-      "sha256": "c7405f2b0b930523e7ebca64083740f6b55cf5276cb7b9700e6202449f984e7f",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.158/hongguo-desktop-0.2.158-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.159-windows-x64.zip",
+      "size": 9420967,
+      "sha256": "82dbcb4a6ac1ac78ea1d9aa34256e87eb6df562fa2cfa70693742385456dfa8c",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.159/hongguo-desktop-0.2.159-windows-x64.zip"
     }
   }
 }
