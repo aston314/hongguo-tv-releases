@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.159",
-  "version_code": 96,
-  "release_notes": "# 红果短剧桌面版 0.2.159（macOS / Windows）\n\n- 更新应用图标和侧栏标识。\n- 启动页改用圆形图标，保留原加载圆环并同步主色。",
+  "version_name": "0.2.161",
+  "version_code": 98,
+  "release_notes": "# 红果短剧桌面版 0.2.161（macOS / Windows）\n\n- 新增“继续观看”侧栏卡片，切换栏目或重启应用后，可一键全屏继续原剧、集数及观看进度。\n- 卡片采用简洁配色，支持展开及图标侧栏。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.159-macos-universal.zip",
-      "size": 18373477,
-      "sha256": "908656ddf813771ad0cb4786baedcdb69c4ca601aec47a5f5d45acf0ffe4fa86",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.159/hongguo-desktop-0.2.159-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.161-macos-universal.zip",
+      "size": 18376957,
+      "sha256": "aa37f91c56188c3b3e4d338e4394cae593213fd8f4a62a703d8d2195233c4666",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.161/hongguo-desktop-0.2.161-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.159-windows-x64.zip",
-      "size": 9420967,
-      "sha256": "82dbcb4a6ac1ac78ea1d9aa34256e87eb6df562fa2cfa70693742385456dfa8c",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.159/hongguo-desktop-0.2.159-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.161-windows-x64.zip",
+      "size": 9422596,
+      "sha256": "d074fbb60160813c9727e53dc42d43f305753c33605423070bc5982f3fb732f4",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.161/hongguo-desktop-0.2.161-windows-x64.zip"
     }
   }
 }
