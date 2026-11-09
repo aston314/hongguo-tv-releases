@@ -6,12 +6,12 @@
 
 ## 当前版本
 
-- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/tag/v0.2.158)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.158-test.27)
-- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.158-test.1)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.158)
+- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/tag/v0.2.159)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.159-test.27)
+- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.159-test.1)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.159)
 
-桌面版新增可选的小窗隐藏系统标题栏设置，并修复恢复播放后控制栏不自动收起的问题。
+更新各平台应用图标与启动页标识。
 
 ## Android TV
 
@@ -19,9 +19,9 @@
 
 | 版本 | 下载文件 | 播放方式 |
 | --- | --- | --- |
-| 标准版 | `hongguo-tv-0.2.158.apk` | HTML5 主播放，失败时有限切换到 Media3 |
-| MPV 版 | `hongguo-tv-mpv-0.2.158.apk` | MPV 自动解码，可手动选择软件解码 |
-| Android 5 兼容版 | `hongguo-tv-android5-0.2.158.apk` | HTML5 主播放，失败时有限切换到 Media3 |
+| 标准版 | `hongguo-tv-0.2.159.apk` | HTML5 主播放，失败时有限切换到 Media3 |
+| MPV 版 | `hongguo-tv-mpv-0.2.159.apk` | MPV 自动解码，可手动选择软件解码 |
+| Android 5 兼容版 | `hongguo-tv-android5-0.2.159.apk` | HTML5 主播放，失败时有限切换到 Media3 |
 
 三个 APK 支持同一组 Android ABI，使用独立包名，可以同时安装，但账号、历史和设置分别保存。
 
@@ -29,15 +29,15 @@ Android 5 兼容版适用 Android 5.0/5.1，沿用标准版播放方式。已安
 
 ## 桌面版
 
-[桌面版 0.2.158](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.158) 提供 macOS 通用 ZIP 和 Windows x64 ZIP，并支持小窗播放。macOS 需要 11 或更高版本；Windows 需要 Microsoft Edge WebView2 Runtime，播放 HEVC 还需要系统 HEVC Video Extensions。
+[桌面版 0.2.159](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.159) 提供 macOS 通用 ZIP 和 Windows x64 ZIP，并支持小窗播放。macOS 需要 11 或更高版本；Windows 需要 Microsoft Edge WebView2 Runtime，播放 HEVC 还需要系统 HEVC Video Extensions。
 
 ## webOS
 
-[webOS 0.2.158 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.158-test.27) 需要 LG Developer Mode 和 webOS 开发工具安装。它是同一应用版本的独立手动测试构建，使用现有 HTML5 播放流程，属于测试版渠道。
+[webOS 0.2.159 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.159-test.27) 需要 LG Developer Mode 和 webOS 开发工具安装。它是同一应用版本的独立手动测试构建，使用现有 HTML5 播放流程，属于测试版渠道。
 
 ## Linux
 
-[Linux x86_64 AppImage 0.2.158 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.158-test.1) 依赖系统 WebKitGTK、GTK 3、GStreamer 及 HEVC/AAC 解码插件。下载后为文件增加执行权限，再运行 AppImage。
+[Linux x86_64 AppImage 0.2.159 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.159-test.1) 依赖系统 WebKitGTK、GTK 3、GStreamer 及 HEVC/AAC 解码插件。下载后为文件增加执行权限，再运行 AppImage。
 
 ## 更新与反馈
 
