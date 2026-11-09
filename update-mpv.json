@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 110,
-  "version_name": "0.2.159",
+  "version_code": 112,
+  "version_name": "0.2.161",
   "min_sdk": 23,
-  "size": 37598116,
-  "sha256": "9fe61a8810211e28f7f042dbfa6296ab4f0a51113f59e527739906abeddba1bc",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.159/hongguo-tv-mpv-0.2.159.apk",
-  "release_notes": "# 红果短剧 v0.2.159\n\n- 更新各平台应用图标、TV 横幅和侧栏标识。\n- Android 与桌面启动页使用圆形图标，保留原加载圆环，主色与图标一致。",
-  "published_at": "2026-11-09T02:14:30.401279+00:00"
+  "size": 37605082,
+  "sha256": "f0ed06feadd85f3dd0d4e094a6cd89f4e9e3cb1b9b1eba9253a781da1d8a0f6e",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.161/hongguo-tv-mpv-0.2.161.apk",
+  "release_notes": "# 红果短剧 v0.2.161\n\n- 新增“继续观看”侧栏卡片，切换栏目或重启应用后，可一键全屏继续原剧、集数及观看进度。\n- 优化卡片与遥控器交互；TV 横幅仅保留应用图标。",
+  "published_at": "2026-11-09T06:18:13.624185+00:00"
 }
