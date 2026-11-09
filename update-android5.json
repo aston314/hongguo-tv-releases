@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 158,
-  "version_name": "0.2.159",
+  "version_code": 160,
+  "version_name": "0.2.161",
   "min_sdk": 21,
-  "size": 19638885,
-  "sha256": "29bc7e0db028b40a959430362e3f6b451fd363a2d8ba90b789f1c8474af1859b",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.159/hongguo-tv-android5-0.2.159.apk",
-  "release_notes": "# 红果短剧 v0.2.159\n\n- 更新各平台应用图标、TV 横幅和侧栏标识。\n- Android 与桌面启动页使用圆形图标，保留原加载圆环，主色与图标一致。",
-  "published_at": "2026-11-09T02:14:30.762585+00:00"
+  "size": 19646173,
+  "sha256": "132175f8214b74f6bef393318a32c082e7bcf39c9e61ea1a04718959f6c8e211",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.161/hongguo-tv-android5-0.2.161.apk",
+  "release_notes": "# 红果短剧 v0.2.161\n\n- 新增“继续观看”侧栏卡片，切换栏目或重启应用后，可一键全屏继续原剧、集数及观看进度。\n- 优化卡片与遥控器交互；TV 横幅仅保留应用图标。",
+  "published_at": "2026-11-09T06:18:13.998125+00:00"
 }
