@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.160",
-  "release_tag": "webos-v0.2.160-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.160-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.160\n\n新增“继续观看”侧栏卡片，切换栏目后可一键全屏回到原剧、原集和观看进度。沿用 1280×720 界面。",
-  "artifact_name": "hongguo-webos-0.2.160-test.27.ipk",
-  "artifact_size": 1120820,
-  "artifact_sha256": "b64258845123cb4f165e34d44fc87fd3b9f993a42a86323a7e899f93dc487a7c"
+  "version_name": "0.2.161",
+  "release_tag": "webos-v0.2.161-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.161-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.161\n\n新增“继续观看”侧栏卡片，切换栏目或重启应用后，可一键全屏继续原剧、集数及观看进度。沿用 1280×720 界面。",
+  "artifact_name": "hongguo-webos-0.2.161-test.27.ipk",
+  "artifact_size": 1121020,
+  "artifact_sha256": "7fc8c9eb7ecc64b502e1aaf8d33c66376143e2d5a783b162f0115fb78baca93c"
 }
