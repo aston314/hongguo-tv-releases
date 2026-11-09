@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 108,
-  "version_name": "0.2.157",
+  "version_code": 109,
+  "version_name": "0.2.158",
   "min_sdk": 23,
-  "size": 37598410,
-  "sha256": "314f897552b984aa7c10daea7d9dd5daaa4e4640b866567af877b90671fdb2ef",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.157/hongguo-tv-mpv-0.2.157.apk",
-  "release_notes": "# 红果短剧 v0.2.157\n\n- Android TV 新增“推荐页自动全屏”设置，默认关闭，开启后清屏自动进入全屏。\n- 完善 MPV 播放诊断，辅助排查硬解花屏和软解卡顿。\n- webOS 界面采用 1280×720 画布，文字和图标更易读。",
-  "published_at": "2026-11-08T17:38:48.448435+00:00"
+  "size": 37602283,
+  "sha256": "d1472cbfc094ce608d0c03408c30cb5622ed8deabbb9c518d96afd6c74609858",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.158/hongguo-tv-mpv-0.2.158.apk",
+  "release_notes": "# 红果短剧 v0.2.158\n\n- 桌面版新增“小窗隐藏系统标题栏”设置，默认关闭，可随时恢复。\n- 修复恢复播放后小窗控制栏不自动收起的问题。\n- Android 与 webOS 同步主线版本。",
+  "published_at": "2026-11-09T00:19:10.419992+00:00"
 }
