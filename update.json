@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 164,
-  "version_name": "0.2.165",
+  "version_code": 165,
+  "version_name": "0.2.166",
   "min_sdk": 23,
-  "size": 20116277,
-  "sha256": "5bf24d7a237fcb22ea3b14c157be5ba04da7566a64ec4f83885039690967105f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.165/hongguo-tv-0.2.165.apk",
-  "release_notes": "# 红果短剧 v0.2.165\n\n- 观看统计新增重置功能，确认后重新开始记录，不影响观看历史和播放进度。\n- 优化观看偏好布局，题材支持四列展示与滚动浏览，完善遥控器焦点操作。",
-  "published_at": "2026-11-10T22:14:20.931244+00:00"
+  "size": 20643517,
+  "sha256": "24759de79e40ab5bdc6ec0c783394155abde5a48f3e75133fba2c93e0bae9ee4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.166/hongguo-tv-0.2.166.apk",
+  "release_notes": "# 红果短剧 v0.2.166\n\n- 安卓版新增“应用”入口，支持查看并下载安装豆逗 TV、球赛直播和云映 TV。\n- 支持代理下载和多种盒子安装方式，已安装应用仅显示安装状态。",
+  "published_at": "2026-11-10T23:33:59.315490+00:00"
 }
