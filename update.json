@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 162,
-  "version_name": "0.2.163",
+  "version_code": 163,
+  "version_name": "0.2.164",
   "min_sdk": 23,
-  "size": 20580391,
-  "sha256": "24c0a4818dcd8b9c2da06b3d73d1a60d908567bfe08c02f4ff2a1eb6125af8f7",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.163/hongguo-tv-0.2.163.apk",
-  "release_notes": "# 红果短剧 v0.2.163\n\n- 新增观看统计，查看日、周、月观看时长，以及内容类型和题材偏好。\n- 播放器新增简洁的白色榜单徽标，有榜单信息时显示。\n- 弹幕新增 Noto 表情图片和简洁的爱心点赞数。\n- 侧栏默认仅显示图标，保留已保存的显示方式，可在设置中切回展开。",
-  "published_at": "2026-11-10T05:02:53.280299+00:00"
+  "size": 20106867,
+  "sha256": "579ecccd3741a469920b6ac6a9752f8f692e7268e6a8681e432c5c0747bae70f",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.164/hongguo-tv-0.2.164.apk",
+  "release_notes": "# 红果短剧 v0.2.164\n\n- 全屏连播新增下一季提示，提前显示海报、标题和季数。\n- 优化观看统计的焦点操作与 macOS 显示。\n- 弹幕统一使用 53 个官方表情图片。\n- 侧栏默认恢复展开，保留已保存的显示方式。",
+  "published_at": "2026-11-10T16:03:13.267218+00:00"
 }
