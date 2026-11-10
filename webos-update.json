@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.163",
-  "release_tag": "webos-v0.2.163-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.163-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.163\n\n- 新增观看统计，查看日、周、月观看时长，以及内容类型和题材偏好。\n- 播放器新增简洁的白色榜单徽标，有榜单信息时显示。\n- 弹幕新增 Noto 表情图片和简洁的爱心点赞数。\n- 侧栏默认仅显示图标，保留已保存的显示方式，可在设置中切回展开。\n\nwebOS 沿用 1280×720 界面。",
-  "artifact_name": "hongguo-webos-0.2.163-test.27.ipk",
-  "artifact_size": 1417512,
-  "artifact_sha256": "06ae388c3fba5ee95b66cf5648b234173319fd656e393dc8a490938887197242"
+  "version_name": "0.2.164",
+  "release_tag": "webos-v0.2.164-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.164-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.164\n\n- 全屏连播新增下一季提示，提前显示海报、标题和季数。\n- 优化观看统计的焦点操作与 macOS 显示。\n- 弹幕统一使用 53 个官方表情图片。\n- 侧栏默认恢复展开，保留已保存的显示方式。\n\nwebOS 沿用 1280×720 界面。",
+  "artifact_name": "hongguo-webos-0.2.164-test.27.ipk",
+  "artifact_size": 1258754,
+  "artifact_sha256": "0d8dc30c63fe3e6f7b27b6777498864f94636eec29fe820ba397d7131adaa861"
 }
