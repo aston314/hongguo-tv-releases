@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.163",
-  "version_code": 100,
-  "release_notes": "# 红果短剧桌面版 0.2.163（macOS / Windows）\n\n- 新增观看统计，查看日、周、月观看时长，以及内容类型和题材偏好。\n- 播放器新增简洁的白色榜单徽标，有榜单信息时显示。\n- 弹幕新增 Noto 表情图片和简洁的爱心点赞数。\n- 侧栏默认仅显示图标，保留已保存的显示方式，可在设置中切回展开。",
+  "version_name": "0.2.164",
+  "version_code": 101,
+  "release_notes": "# 红果短剧桌面版 0.2.164（macOS / Windows）\n\n- 全屏连播新增下一季提示，提前显示海报、标题和季数。\n- 优化观看统计的焦点操作与 macOS 显示。\n- 弹幕统一使用 53 个官方表情图片。\n- 侧栏默认恢复展开，保留已保存的显示方式。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.163-macos-universal.zip",
-      "size": 19009727,
-      "sha256": "deef7ab36d43c823764a418b216e3a72e45fd0aff1b54413c41190b79f958104",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.163/hongguo-desktop-0.2.163-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.164-macos-universal.zip",
+      "size": 18687886,
+      "sha256": "f233af356a307fe2bdd41cc5c30f5e9ee7c5f6fd395c46a8d5e0403f89f86d53",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.164/hongguo-desktop-0.2.164-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.163-windows-x64.zip",
-      "size": 9734098,
-      "sha256": "fc34029bdf010c2a942d7700c71f464ae5c64cabb2bcdd658a7bf7e8d9f5c4b3",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.163/hongguo-desktop-0.2.163-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.164-windows-x64.zip",
+      "size": 9574842,
+      "sha256": "f015d59ab690d92f44031d1836c27dd745c18e9552d2dc9ee45c6bb67e34a7c3",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.164/hongguo-desktop-0.2.164-windows-x64.zip"
     }
   }
 }
