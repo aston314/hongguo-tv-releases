@@ -1,8 +1,17 @@
-# 红果短剧下载（Android TV / webOS / Linux / macOS / Windows）
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aston314/hongguo-tv/main/assets/branding/hongguo-icon-circle.svg" width="88" height="88" alt="红果短剧 TV">
+</p>
 
-此仓库发布正式安装包、版本信息、更新说明和校验文件。
+<h1 align="center">红果短剧 TV</h1>
 
-**[反馈问题 / 功能建议](https://github.com/aston314/hongguo-tv-releases/issues/new/choose)**：选择对应模板并附上设备信息和播放诊断。
+<p align="center">Android TV · webOS · macOS · Windows · Linux</p>
+
+<p align="center">
+  <a href="https://github.com/aston314/hongguo-tv-releases/releases/latest"><img src="https://img.shields.io/github/v/release/aston314/hongguo-tv-releases?filter=v*&amp;sort=semver&amp;display_name=tag&amp;label=%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88&amp;style=flat&amp;color=DB411E" alt="最新正式版"></a>
+  <a href="https://github.com/aston314/hongguo-tv-releases/issues/new/choose"><img src="https://img.shields.io/badge/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88-%E6%8F%90%E4%BA%A4%E5%BB%BA%E8%AE%AE-555?style=flat&amp;logo=github&amp;logoColor=white" alt="问题反馈 / 功能建议"></a>
+</p>
+
+此仓库提供各平台安装包、版本说明和校验文件。
 
 ## 当前版本
 
