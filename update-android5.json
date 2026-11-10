@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 160,
-  "version_name": "0.2.161",
+  "version_code": 162,
+  "version_name": "0.2.163",
   "min_sdk": 21,
-  "size": 19646173,
-  "sha256": "132175f8214b74f6bef393318a32c082e7bcf39c9e61ea1a04718959f6c8e211",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.161/hongguo-tv-android5-0.2.161.apk",
-  "release_notes": "# 红果短剧 v0.2.161\n\n- 新增“继续观看”侧栏卡片，切换栏目或重启应用后，可一键全屏继续原剧、集数及观看进度。\n- 优化卡片与遥控器交互；TV 横幅仅保留应用图标。",
-  "published_at": "2026-11-09T06:18:13.998125+00:00"
+  "size": 20584928,
+  "sha256": "4b759a147a1badbfe2b418e97fd284d03dd9635930101b478dffd582fa7b48dd",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.163/hongguo-tv-android5-0.2.163.apk",
+  "release_notes": "# 红果短剧 v0.2.163\n\n- 新增观看统计，查看日、周、月观看时长，以及内容类型和题材偏好。\n- 播放器新增简洁的白色榜单徽标，有榜单信息时显示。\n- 弹幕新增 Noto 表情图片和简洁的爱心点赞数。\n- 侧栏默认仅显示图标，保留已保存的显示方式，可在设置中切回展开。",
+  "published_at": "2026-11-10T05:02:54.015234+00:00"
 }
