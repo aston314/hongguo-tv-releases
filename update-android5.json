@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 163,
-  "version_name": "0.2.164",
+  "version_code": 164,
+  "version_name": "0.2.165",
   "min_sdk": 21,
-  "size": 20111969,
-  "sha256": "fd7781e1d53574b486dc7b10b0e345fd88360c67b87a6ace7e3c561724478817",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.164/hongguo-tv-android5-0.2.164.apk",
-  "release_notes": "# 红果短剧 v0.2.164\n\n- 全屏连播新增下一季提示，提前显示海报、标题和季数。\n- 优化观看统计的焦点操作与 macOS 显示。\n- 弹幕统一使用 53 个官方表情图片。\n- 侧栏默认恢复展开，保留已保存的显示方式。",
-  "published_at": "2026-11-10T16:03:14.131082+00:00"
+  "size": 20121583,
+  "sha256": "ed1b2b71f2940a3611f4f51721b17b18a710e2db0ae146db7d1003093568829a",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.165/hongguo-tv-android5-0.2.165.apk",
+  "release_notes": "# 红果短剧 v0.2.165\n\n- 观看统计新增重置功能，确认后重新开始记录，不影响观看历史和播放进度。\n- 优化观看偏好布局，题材支持四列展示与滚动浏览，完善遥控器焦点操作。",
+  "published_at": "2026-11-10T22:14:21.798957+00:00"
 }
