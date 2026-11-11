@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 166,
-  "version_name": "0.2.167",
+  "version_code": 167,
+  "version_name": "0.2.168",
   "min_sdk": 21,
-  "size": 20667891,
-  "sha256": "46bee879dc0e077292ae05525997681e42cc960ca2fe6122ae8efdcfff5bbcc3",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.167/hongguo-tv-android5-0.2.167.apk",
-  "release_notes": "# 红果短剧 v0.2.167\n\n- Windows 新增可选 CPU 软解（WASM）：默认播放方式不变，可在“设置 → 播放解码”中开启，下次播放或切集时生效。\n- 无法通过系统 HEVC 解码的视频可尝试此方式；支持 HEVC/H.264，不支持 ByteVC2。软解流畅度取决于 CPU 性能，倍速暂时会改变音调。",
-  "published_at": "2026-11-11T01:36:34.437642+00:00"
+  "size": 20766683,
+  "sha256": "7733115254b25a461e91bae23053b4065351ae60b112560f6fa8c0c23f522243",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.168/hongguo-tv-android5-0.2.168.apk",
+  "release_notes": "# 红果短剧 v0.2.168\n\n- 优化播放源解析，改善推荐播放、切集和切剧体验。",
+  "published_at": "2026-11-11T08:02:30.521922+00:00"
 }
