@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.168",
-  "release_tag": "webos-v0.2.168-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.168-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.168\n\n- 同步播放源解析修复，改善推荐播放、切集和切剧体验。",
-  "artifact_name": "hongguo-webos-0.2.168-test.27.ipk",
-  "artifact_size": 1439326,
-  "artifact_sha256": "49de71719f39e913b90ddfd13303696d595cca951d6d8233df5034126f554a3c"
+  "version_name": "0.2.169",
+  "release_tag": "webos-v0.2.169-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.169-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.169\n\n- 弹幕字号支持 100%～200% 调节，新增效果预览。\n- 修复部分合集播放及观看记录保存异常。",
+  "artifact_name": "hongguo-webos-0.2.169-test.27.ipk",
+  "artifact_size": 1441560,
+  "artifact_sha256": "a452d964e8a4d1a76f1514c3beba484142df6aee802a78d29e78177b34d7d281"
 }
