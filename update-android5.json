@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 167,
-  "version_name": "0.2.168",
+  "version_code": 168,
+  "version_name": "0.2.169",
   "min_sdk": 21,
-  "size": 20766683,
-  "sha256": "7733115254b25a461e91bae23053b4065351ae60b112560f6fa8c0c23f522243",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.168/hongguo-tv-android5-0.2.168.apk",
-  "release_notes": "# 红果短剧 v0.2.168\n\n- 优化播放源解析，改善推荐播放、切集和切剧体验。",
-  "published_at": "2026-11-11T08:02:30.521922+00:00"
+  "size": 20786409,
+  "sha256": "167a87f9dcef57ad4e03ca3983ceefb4fa3e8905232d58af8999edb9de870af6",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.169/hongguo-tv-android5-0.2.169.apk",
+  "release_notes": "# 红果短剧 v0.2.169\n\n- 弹幕字号支持 100%～200% 调节，新增效果预览。\n- 修复部分合集播放及观看记录保存异常。",
+  "published_at": "2026-11-11T14:43:26.738458+00:00"
 }
