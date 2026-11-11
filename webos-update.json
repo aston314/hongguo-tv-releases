@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.167",
-  "release_tag": "webos-v0.2.167-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.167-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.167\n\n- 与主线同步版本，继续使用 1280×720 界面和现有播放方式。\n- 本次新增的 WASM 软解仅在 Windows 版提供。",
-  "artifact_name": "hongguo-webos-0.2.167-test.27.ipk",
-  "artifact_size": 1435632,
-  "artifact_sha256": "7a4d1ce08e0791892da89675f9e43d9c2f74c682a90ff0b8a712d879b3fd4b00"
+  "version_name": "0.2.168",
+  "release_tag": "webos-v0.2.168-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.168-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.168\n\n- 同步播放源解析修复，改善推荐播放、切集和切剧体验。",
+  "artifact_name": "hongguo-webos-0.2.168-test.27.ipk",
+  "artifact_size": 1439326,
+  "artifact_sha256": "49de71719f39e913b90ddfd13303696d595cca951d6d8233df5034126f554a3c"
 }
