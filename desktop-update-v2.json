@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.168",
-  "version_code": 105,
-  "release_notes": "# 红果短剧桌面版 0.2.168（macOS / Windows）\n\n- 优化播放源解析，改善推荐播放、切集和切剧体验。",
+  "version_name": "0.2.169",
+  "version_code": 106,
+  "release_notes": "# 红果短剧桌面版 0.2.169（macOS / Windows）\n\n- 弹幕字号支持 100%～200% 调节，新增效果预览。\n- 修复部分合集播放及观看记录保存异常。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.168-macos-universal.zip",
-      "size": 19120377,
-      "sha256": "2a36eeed1760ef9bad6a9092ed2d82062c9cb0dc8c3851a5d680dc737cb1d9d9",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.168/hongguo-desktop-0.2.168-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.169-macos-universal.zip",
+      "size": 19132940,
+      "sha256": "2873007c76f03b56032f779e15f8a9f6df12c6b5787fe27f9df7fd5554de0282",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.169/hongguo-desktop-0.2.169-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.168-windows-x64.zip",
-      "size": 29250985,
-      "sha256": "b99251f0df5a19d949997d1c69dd13aee8bb8702912348164471508ced18af07",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.168/hongguo-desktop-0.2.168-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.169-windows-x64.zip",
+      "size": 29253622,
+      "sha256": "ac5666cb3782514a140c74b468d67c085f81070ac81bd17a289e8a71a7e26ec1",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.169/hongguo-desktop-0.2.169-windows-x64.zip"
     }
   }
 }
