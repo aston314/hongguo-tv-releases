@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.166",
-  "version_code": 103,
-  "release_notes": "# 红果短剧桌面版 0.2.166（macOS / Windows）\n\n- 与主线同步版本；本次新增的应用推荐仅在 Android 版提供。",
+  "version_name": "0.2.167",
+  "version_code": 104,
+  "release_notes": "# 红果短剧桌面版 0.2.167（macOS / Windows）\n\n- Windows 新增“设置 → 播放解码 → CPU 软解（WASM）”，下次播放或切集时生效，默认播放方式保持不变。\n- 支持 HEVC/H.264，无需系统 HEVC 扩展；不支持 ByteVC2。流畅度取决于 CPU 性能，倍速暂时会改变音调，欢迎反馈真机效果。\n- macOS 与主线同步版本。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.166-macos-universal.zip",
-      "size": 19041337,
-      "sha256": "d3f0c037de32735221a8a497b7d405bb5cdb5d72de4bf10e61303463ff4ca550",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.166/hongguo-desktop-0.2.166-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.167-macos-universal.zip",
+      "size": 19057572,
+      "sha256": "703c5db592b6416db761b51e2990ed4eaffa1da3dc992183874601f46e39c25b",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.167/hongguo-desktop-0.2.167-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.166-windows-x64.zip",
-      "size": 9749547,
-      "sha256": "1472e512408706b267482ca037fbdde6a31dff4cc1875a4219db19637591bbed",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.166/hongguo-desktop-0.2.166-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.167-windows-x64.zip",
+      "size": 29219610,
+      "sha256": "6abfe811449c021c41a8dcd155b1daa74fc5194de8c6cd2faf99a12438f8b13c",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.167/hongguo-desktop-0.2.167-windows-x64.zip"
     }
   }
 }
