@@ -16,12 +16,12 @@
 
 ## 当前版本
 
-- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/tag/v0.2.166)
-- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.166-test.27)
-- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.166-test.1)
-- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.166)
+- [Android TV 最新正式版本](https://github.com/aston314/hongguo-tv-releases/releases/tag/v0.2.167)
+- [LG webOS 测试版 `.ipk`](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.167-test.27)
+- [Linux x86_64 AppImage 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.167-test.1)
+- [桌面版下载（macOS / Windows）](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.167)
 
-安卓版新增“应用”入口，可通过代理下载安装豆逗 TV、球赛直播和云映 TV。
+Windows 新增可选 CPU 软解（WASM），默认播放方式不变；可在设置中开启后切集试用。
 
 ## Android TV
 
@@ -29,9 +29,9 @@
 
 | 版本 | 下载文件 | 播放方式 |
 | --- | --- | --- |
-| 标准版 | `hongguo-tv-0.2.166.apk` | HTML5 主播放，失败时有限切换到 Media3 |
-| MPV 版 | `hongguo-tv-mpv-0.2.166.apk` | MPV 自动解码，可手动选择软件解码 |
-| Android 5 兼容版 | `hongguo-tv-android5-0.2.166.apk` | HTML5 主播放，失败时有限切换到 Media3 |
+| 标准版 | `hongguo-tv-0.2.167.apk` | HTML5 主播放，失败时有限切换到 Media3 |
+| MPV 版 | `hongguo-tv-mpv-0.2.167.apk` | MPV 自动解码，可手动选择软件解码 |
+| Android 5 兼容版 | `hongguo-tv-android5-0.2.167.apk` | HTML5 主播放，失败时有限切换到 Media3 |
 
 三个 APK 支持同一组 Android ABI，使用独立包名，可以同时安装，但账号、历史和设置分别保存。
 
@@ -39,18 +39,18 @@ Android 5 兼容版适用 Android 5.0/5.1，沿用标准版播放方式。已安
 
 ## 桌面版
 
-[桌面版 0.2.166](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.166) 提供 macOS 通用 ZIP 和 Windows x64 ZIP，并支持小窗播放。macOS 需要 11 或更高版本；Windows 需要 Microsoft Edge WebView2 Runtime，播放 HEVC 还需要系统 HEVC Video Extensions。
+[桌面版 0.2.167](https://github.com/aston314/hongguo-tv-releases/releases/tag/desktop-v0.2.167) 提供 macOS 通用 ZIP 和 Windows x64 ZIP，并支持小窗播放。macOS 需要 11 或更高版本；Windows 需要 Microsoft Edge WebView2 Runtime，默认播放 HEVC 依赖系统 HEVC Video Extensions；如仍无法播放，可在“设置 → 播放解码”选择“CPU 软解（WASM）”，下次播放或切集生效。软解支持 HEVC/H.264，不支持 ByteVC2，流畅度取决于 CPU，倍速暂时会改变音调。
 
 ## webOS
 
-[webOS 0.2.166 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.166-test.27) 需要 LG Developer Mode 和 webOS 开发工具安装。它是同一应用版本的独立手动测试构建，使用现有 HTML5 播放流程，属于测试版渠道。
+[webOS 0.2.167 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.167-test.27) 需要 LG Developer Mode 和 webOS 开发工具安装。它是同一应用版本的独立手动测试构建，使用现有 HTML5 播放流程，属于测试版渠道。
 
 ## Linux
 
-[Linux x86_64 AppImage 0.2.166 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.166-test.1) 依赖系统 WebKitGTK、GTK 3、GStreamer 及 HEVC/AAC 解码插件。下载后为文件增加执行权限，再运行 AppImage。
+[Linux x86_64 AppImage 0.2.167 测试版](https://github.com/aston314/hongguo-tv-releases/releases/tag/linux-v0.2.167-test.1) 依赖系统 WebKitGTK、GTK 3、GStreamer 及 HEVC/AAC 解码插件。下载后为文件增加执行权限，再运行 AppImage。
 
 ## 更新与反馈
 
 Android 标准版使用 `update.json`，MPV 版使用 `update-mpv.json`，Android 5 兼容版使用 `update-android5.json`。普通用户只需下载 APK；更新清单和校验文件用于应用内更新或核对文件完整性。
 
-播放异常请附设备型号、Android/webOS/桌面系统版本、使用的安装包，以及应用内“播放诊断”截图。Windows 播放 HEVC 时请同时确认系统已安装 HEVC Video Extensions。
+播放异常请附设备型号、Android/webOS/桌面系统版本、使用的安装包，以及应用内“播放诊断”截图。Windows 请注明使用默认播放还是 CPU 软解，并附清晰度和 CPU 型号。
