@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.170",
-  "version_code": 107,
-  "release_notes": "# 红果短剧桌面版 0.2.170（macOS / Windows）\n\n- 同步版本与更新信息。",
+  "version_name": "0.2.171",
+  "version_code": 108,
+  "release_notes": "# 红果短剧桌面版 0.2.171（macOS / Windows）\n\n- 支持收藏手机找剧页面并连续搜索。\n- 修复继续观看进入全屏时的画面切换。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.170-macos-universal.zip",
-      "size": 19132933,
-      "sha256": "f03d9985492b3d1b46e63120cb36bb3e28bd433bf8066513869784d95cb969bf",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.170/hongguo-desktop-0.2.170-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.171-macos-universal.zip",
+      "size": 19166670,
+      "sha256": "41289c5c474abfe931e8e1e31bef93883ac92a5bcd0fd6df6b65c72e493a7144",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.171/hongguo-desktop-0.2.171-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.170-windows-x64.zip",
-      "size": 29254361,
-      "sha256": "208604c4de5a92d3e3cfc3a99ed573a97b200a91186c376f09ee97c57e37fde6",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.170/hongguo-desktop-0.2.170-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.171-windows-x64.zip",
+      "size": 29271647,
+      "sha256": "e16200cf3b85a1844a99a7ef3e5b076f899e4eac838980d57bcfd85a71e82291",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.171/hongguo-desktop-0.2.171-windows-x64.zip"
     }
   }
 }
