@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.170",
-  "release_tag": "webos-v0.2.170-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.170-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.170\n\n- 同步版本与更新信息。",
-  "artifact_name": "hongguo-webos-0.2.170-test.27.ipk",
-  "artifact_size": 1441552,
-  "artifact_sha256": "e51cd34721f92108cb98b7a339b13a5e161c67633ba6def4dbf65acfec629d88"
+  "version_name": "0.2.171",
+  "release_tag": "webos-v0.2.171-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.171-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.171\n\n- 找剧扫码页支持收藏和重复使用。\n- 改善部分播放请求失败后的恢复。",
+  "artifact_name": "hongguo-webos-0.2.171-test.27.ipk",
+  "artifact_size": 1452002,
+  "artifact_sha256": "1c6c8a5f2fabacb3295148a77f5349439cf0ccd8b3da8a5d93c22c8b94cc4647"
 }
