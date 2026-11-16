@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 122,
-  "version_name": "0.2.171",
+  "version_code": 123,
+  "version_name": "0.2.172",
   "min_sdk": 23,
-  "size": 38799361,
-  "sha256": "b963eb8021e1555be3068aa50d6715836649a69d0f8043d7435620a5439455be",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.171/hongguo-tv-mpv-0.2.171.apk",
-  "release_notes": "# 红果短剧 v0.2.171\n\n- 找剧扫码页支持收藏和重复搜索，电视停留在“找剧”时可连续接收剧名。\n- 修复部分 webOS 播放请求恢复和桌面继续观看进入全屏的问题。\n- 改善 Linux 延迟切换后的声音恢复。\n- 安卓更新安装失败时，可将安装包保存至下载目录后自行安装。",
-  "published_at": "2026-11-15T11:49:55.767105+00:00"
+  "size": 38799732,
+  "sha256": "f6db71e6dd0da78b416e705048c1d57ac601eb5ef3ec8303743d6b693d319840",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.172/hongguo-tv-mpv-0.2.172.apk",
+  "release_notes": "# 红果短剧 v0.2.172\n\n- 修复部分 Android 6～7 设备应用内更新误报“安装包与此设备不兼容”。\n- 系统安装器未完成时，保留已校验安装包并提供保存到下载目录的入口。",
+  "published_at": "2026-11-16T00:24:34.238563+00:00"
 }
