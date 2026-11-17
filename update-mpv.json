@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 123,
-  "version_name": "0.2.172",
+  "version_code": 124,
+  "version_name": "0.2.173",
   "min_sdk": 23,
-  "size": 38799732,
-  "sha256": "f6db71e6dd0da78b416e705048c1d57ac601eb5ef3ec8303743d6b693d319840",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.172/hongguo-tv-mpv-0.2.172.apk",
-  "release_notes": "# 红果短剧 v0.2.172\n\n- 修复部分 Android 6～7 设备应用内更新误报“安装包与此设备不兼容”。\n- 系统安装器未完成时，保留已校验安装包并提供保存到下载目录的入口。",
-  "published_at": "2026-11-16T00:24:34.238563+00:00"
+  "size": 38870340,
+  "sha256": "0668e9fc28c70b406f86bd3a135c973ca098471f49d14ab002497fa70fa09b40",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.173/hongguo-tv-mpv-0.2.173.apk",
+  "release_notes": "# 红果短剧 v0.2.173\n\n- 恢复播放链接获取，保留兼容编码回退，优化切集切剧体验。\n- 修复部分云端记录同步和扫码登录异常。\n- 优化播放诊断说明，增加支持作者入口。",
+  "published_at": "2026-11-17T06:17:37.751849+00:00"
 }
