@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "standard",
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 171,
-  "version_name": "0.2.172",
+  "version_code": 172,
+  "version_name": "0.2.173",
   "min_sdk": 23,
-  "size": 20835606,
-  "sha256": "4b14d7d22a523f568db3a2ece5984868bb79f07c579bc68cf288e5b102c95125",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.172/hongguo-tv-0.2.172.apk",
-  "release_notes": "# 红果短剧 v0.2.172\n\n- 修复部分 Android 6～7 设备应用内更新误报“安装包与此设备不兼容”。\n- 系统安装器未完成时，保留已校验安装包并提供保存到下载目录的入口。",
-  "published_at": "2026-11-16T00:24:33.821806+00:00"
+  "size": 20906223,
+  "sha256": "0e90af73d1dcea586a5f7193e440c3b7371701270bc58f093481f45d047b75c8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.173/hongguo-tv-0.2.173.apk",
+  "release_notes": "# 红果短剧 v0.2.173\n\n- 恢复播放链接获取，保留兼容编码回退，优化切集切剧体验。\n- 修复部分云端记录同步和扫码登录异常。\n- 优化播放诊断说明，增加支持作者入口。",
+  "published_at": "2026-11-17T06:17:37.288209+00:00"
 }
