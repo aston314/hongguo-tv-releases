@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 172,
-  "version_name": "0.2.173",
+  "version_code": 174,
+  "version_name": "0.2.175",
   "min_sdk": 21,
-  "size": 20910361,
-  "sha256": "ebac87c7049a48e90cbb2f371c92d9f43607ec5117484c7570697f8037d1446d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.173/hongguo-tv-android5-0.2.173.apk",
-  "release_notes": "# 红果短剧 v0.2.173\n\n- 恢复播放链接获取，保留兼容编码回退，优化切集切剧体验。\n- 修复部分云端记录同步和扫码登录异常。\n- 优化播放诊断说明，增加支持作者入口。",
-  "published_at": "2026-11-17T06:17:38.088628+00:00"
+  "size": 21682733,
+  "sha256": "142eb77d5334eec548e41245ae60832198e80b93e0633b383b2ae5734eb85afb",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.175/hongguo-tv-android5-0.2.175.apk",
+  "release_notes": "# 红果短剧 v0.2.175\n\n- 新增 My Music+ 应用推荐与下载安装入口。\n- 优化侧栏焦点显示和桌面播放控制体验。",
+  "published_at": "2026-11-20T07:44:34.572250+00:00"
 }
