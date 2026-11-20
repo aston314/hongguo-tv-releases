@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 175,
-  "version_name": "0.2.176",
+  "version_code": 176,
+  "version_name": "0.2.177",
   "min_sdk": 21,
-  "size": 21697834,
-  "sha256": "0dde510fb28ca8d7c1de5e5f15765f255ae618f5810ba015677d9416514e744f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.176/hongguo-tv-android5-0.2.176.apk",
-  "release_notes": "# 红果短剧 v0.2.176\n\n- 修复 HTTP 200 空正文导致的播放取源失败，优化切集切剧体验。\n- 同步桌面版、Linux 和 webOS 播放链接恢复逻辑。",
-  "published_at": "2026-11-20T08:57:44.042069+00:00"
+  "size": 21698428,
+  "sha256": "d6407057ea6eccb480953910ad835bb9fe8769dec5049b881e9f088bb3455dfb",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.177/hongguo-tv-android5-0.2.177.apk",
+  "release_notes": "# 红果短剧 v0.2.177\n\n- 优化播放取源回退，提升切集切剧稳定性。\n- 修复 webOS 4 服务启动与上游 HTTPS 证书兼容问题。",
+  "published_at": "2026-11-20T15:51:48.010474+00:00"
 }
