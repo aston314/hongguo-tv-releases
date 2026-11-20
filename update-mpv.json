@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 126,
-  "version_name": "0.2.176",
+  "version_code": 127,
+  "version_name": "0.2.177",
   "min_sdk": 23,
-  "size": 39658060,
-  "sha256": "b871d6926940fbebfed72a81af3d126137e102d36b690ef0059fcbb38d37d7e4",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.176/hongguo-tv-mpv-0.2.176.apk",
-  "release_notes": "# 红果短剧 v0.2.176\n\n- 修复 HTTP 200 空正文导致的播放取源失败，优化切集切剧体验。\n- 同步桌面版、Linux 和 webOS 播放链接恢复逻辑。",
-  "published_at": "2026-11-20T08:57:43.692569+00:00"
+  "size": 39657357,
+  "sha256": "c089e3ff7fd1ecfb55df2496c8e2a4bec7302d4580ec964e1a2f65b3ee51ee77",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.177/hongguo-tv-mpv-0.2.177.apk",
+  "release_notes": "# 红果短剧 v0.2.177\n\n- 优化播放取源回退，提升切集切剧稳定性。\n- 修复 webOS 4 服务启动与上游 HTTPS 证书兼容问题。",
+  "published_at": "2026-11-20T15:51:47.630607+00:00"
 }
