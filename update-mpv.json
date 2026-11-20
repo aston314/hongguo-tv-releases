@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 125,
-  "version_name": "0.2.175",
+  "version_code": 126,
+  "version_name": "0.2.176",
   "min_sdk": 23,
-  "size": 39643060,
-  "sha256": "531362a9ff72d84ec9a0b449d24901f13bfe2dbbe7e5a7ffc450c65ff929d99f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.175/hongguo-tv-mpv-0.2.175.apk",
-  "release_notes": "# 红果短剧 v0.2.175\n\n- 新增 My Music+ 应用推荐与下载安装入口。\n- 优化侧栏焦点显示和桌面播放控制体验。",
-  "published_at": "2026-11-20T07:44:34.197416+00:00"
+  "size": 39658060,
+  "sha256": "b871d6926940fbebfed72a81af3d126137e102d36b690ef0059fcbb38d37d7e4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.176/hongguo-tv-mpv-0.2.176.apk",
+  "release_notes": "# 红果短剧 v0.2.176\n\n- 修复 HTTP 200 空正文导致的播放取源失败，优化切集切剧体验。\n- 同步桌面版、Linux 和 webOS 播放链接恢复逻辑。",
+  "published_at": "2026-11-20T08:57:43.692569+00:00"
 }
