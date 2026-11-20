@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.176",
-  "release_tag": "webos-v0.2.176-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.176-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.176\n\n- 修复 HTTP 200 空正文导致的播放取源失败，优化切集切剧体验。\n- 使用同一注册身份签名回退，严格匹配当前分集。",
-  "artifact_name": "hongguo-webos-0.2.176-test.27.ipk",
-  "artifact_size": 1716904,
-  "artifact_sha256": "0b6d52e73cef6a09beaf15279a8993eaa0829c3d938b745f56a49fb6f4f49935"
+  "version_name": "0.2.177",
+  "release_tag": "webos-v0.2.177-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.177-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.177\n\n- 优化播放取源回退，提升切集切剧稳定性。\n- 修复 webOS 4 服务启动与上游 HTTPS 证书兼容问题。",
+  "artifact_name": "hongguo-webos-0.2.177-test.27.ipk",
+  "artifact_size": 1718884,
+  "artifact_sha256": "120b56c039e1948c1631deb4a1795af24b521748eab6781cb8336e032241bf4b"
 }
