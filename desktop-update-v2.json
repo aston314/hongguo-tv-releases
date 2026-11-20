@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.173",
-  "version_code": 110,
-  "release_notes": "# 红果短剧桌面版 0.2.173（macOS / Windows）\n\n- 恢复播放链接获取，保留兼容编码回退，优化切集切剧体验。\n- 修复部分云端记录同步和扫码登录异常，优化播放诊断。\n- Windows 播放时保持屏幕唤醒。",
+  "version_name": "0.2.176",
+  "version_code": 111,
+  "release_notes": "# 红果短剧桌面版 0.2.176（macOS / Windows）\n\n- 修复 HTTP 200 空正文导致的播放取源失败，优化切集切剧体验。\n- 保留兼容编码回退，支持 Windows WASM CPU 软解兜底。\n- Windows 播放时保持屏幕唤醒。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.173-macos-universal.zip",
-      "size": 19212422,
-      "sha256": "cac3af519740d7d46b324b98bc2eec7b74c733de7ef7c018c1ffce6e1f3c2e10",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.173/hongguo-desktop-0.2.173-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.176-macos-universal.zip",
+      "size": 19740246,
+      "sha256": "89a0da25e1a0710dcc247fdbaa2781436c8ec02f5eae6486968c6c00531b5c00",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.176/hongguo-desktop-0.2.176-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.173-windows-x64.zip",
-      "size": 29294486,
-      "sha256": "f643599c3808e45820f9390f0df33b3ce96d0a00f7cefa7ccf01dd1a81328ad9",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.173/hongguo-desktop-0.2.173-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.176-windows-x64.zip",
+      "size": 29556372,
+      "sha256": "3225173797158d3fd71f7271a8b17180b539300df3725f70e66d447398d6b1a3",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.176/hongguo-desktop-0.2.176-windows-x64.zip"
     }
   }
 }
