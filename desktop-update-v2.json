@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.178",
-  "version_code": 113,
-  "release_notes": "# 红果短剧桌面版 0.2.178（macOS / Windows）\n\n- 小窗随视频横竖屏自适应，拖动缩放时保持画面比例。",
+  "version_name": "0.2.179",
+  "version_code": 114,
+  "release_notes": "# 红果短剧桌面版 0.2.179（macOS / Windows）\n\n- 小窗随视频横竖屏自适应，拖动缩放时保持画面比例。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.178-macos-universal.zip",
-      "size": 19759483,
-      "sha256": "6548d3014b07d1f4f0524e49eaf5566a37336475679051ee7f3574b9d1679a10",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.178/hongguo-desktop-0.2.178-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.179-macos-universal.zip",
+      "size": 19763548,
+      "sha256": "20e3222547ca4d21b61fdfdaaa14831f6172eeb8c2ca6f2fff58700ee5f225ad",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.179/hongguo-desktop-0.2.179-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.178-windows-x64.zip",
-      "size": 29562603,
-      "sha256": "95a8add752c17d09300f967c1bb1327536de88573cfac6dd79005b45b646d57d",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.178/hongguo-desktop-0.2.178-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.179-windows-x64.zip",
+      "size": 29564409,
+      "sha256": "24c23eea49ebec6430f3a896b357b438df66f7845b938aad8d773e4dbc8f28cc",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.179/hongguo-desktop-0.2.179-windows-x64.zip"
     }
   }
 }
