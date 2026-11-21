@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 176,
-  "version_name": "0.2.177",
+  "version_code": 178,
+  "version_name": "0.2.179",
   "min_sdk": 21,
-  "size": 21698428,
-  "sha256": "d6407057ea6eccb480953910ad835bb9fe8769dec5049b881e9f088bb3455dfb",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.177/hongguo-tv-android5-0.2.177.apk",
-  "release_notes": "# 红果短剧 v0.2.177\n\n- 优化播放取源回退，提升切集切剧稳定性。\n- 修复 webOS 4 服务启动与上游 HTTPS 证书兼容问题。",
-  "published_at": "2026-11-20T15:51:48.010474+00:00"
+  "size": 21703924,
+  "sha256": "17f0089c8adb8e0ecc5a9968f5b0e2b5a7cf1464240cb600d2dc238071aa5b4a",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.179/hongguo-tv-android5-0.2.179.apk",
+  "release_notes": "# 红果短剧 v0.2.179\n\n- 桌面小窗随视频横竖屏自适应，拖动缩放时保持画面比例。\n- 修复 Linux 从全屏进入小窗时未能缩小的问题。\n- Android 7–9 标准版新增 HEVC 硬件优先选项，默认保持自动。",
+  "published_at": "2026-11-21T12:35:28.981925+00:00"
 }
