@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.178",
-  "release_tag": "webos-v0.2.178-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.178-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.178\n\n- 同步共享界面与版本信息，沿用现有播放流程。",
-  "artifact_name": "hongguo-webos-0.2.178-test.27.ipk",
-  "artifact_size": 1720520,
-  "artifact_sha256": "607fb32ac8421c5356ddf5d865c5e7f23b1747bfc667588451df82a5131a139c"
+  "version_name": "0.2.179",
+  "release_tag": "webos-v0.2.179-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.179-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.179\n\n- 同步共享界面与版本信息，沿用现有播放流程。",
+  "artifact_name": "hongguo-webos-0.2.179-test.27.ipk",
+  "artifact_size": 1720510,
+  "artifact_sha256": "c6bd5d29b22f136cc597618f3583b3914602478b7da0d9d4b37f1a681ad42cde"
 }
