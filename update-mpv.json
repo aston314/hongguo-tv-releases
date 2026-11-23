@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 129,
-  "version_name": "0.2.179",
+  "version_code": 130,
+  "version_name": "0.2.180",
   "min_sdk": 23,
-  "size": 39663673,
-  "sha256": "910a5d21144e179854dc3398dba6ea4a3285151bbac084a35ac6d2bc48caa33d",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.179/hongguo-tv-mpv-0.2.179.apk",
-  "release_notes": "# 红果短剧 v0.2.179\n\n- 桌面小窗随视频横竖屏自适应，拖动缩放时保持画面比例。\n- 修复 Linux 从全屏进入小窗时未能缩小的问题。\n- Android 7–9 标准版新增 HEVC 硬件优先选项，默认保持自动。",
-  "published_at": "2026-11-21T12:35:28.599805+00:00"
+  "size": 39663874,
+  "sha256": "a662bebfe4d6997334cf1dc4bd738cfbfd70ed12cda305712ad953556f3e9dda",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.180/hongguo-tv-mpv-0.2.180.apk",
+  "release_notes": "# 红果短剧 v0.2.180\n\n- 修复播放接口签名字段与 `manifest_version_code`，降低 `VIDEO_MODEL_EMPTY`。\n- Android、桌面版和 webOS 同步更新播放取源逻辑。\n- 三个真实失败分集已恢复 1080P 取源、下载、解密和完整解码。\n\nwebOS 仍为测试渠道，本次完成请求与协议验证，未新增电视真机验收结论。",
+  "published_at": "2026-11-23T22:51:02.688749+00:00"
 }
