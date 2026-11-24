@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 130,
-  "version_name": "0.2.180",
+  "version_code": 131,
+  "version_name": "0.2.181",
   "min_sdk": 23,
-  "size": 39663874,
-  "sha256": "a662bebfe4d6997334cf1dc4bd738cfbfd70ed12cda305712ad953556f3e9dda",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.180/hongguo-tv-mpv-0.2.180.apk",
-  "release_notes": "# 红果短剧 v0.2.180\n\n- 修复播放接口签名字段与 `manifest_version_code`，降低 `VIDEO_MODEL_EMPTY`。\n- Android、桌面版和 webOS 同步更新播放取源逻辑。\n- 三个真实失败分集已恢复 1080P 取源、下载、解密和完整解码。\n\nwebOS 仍为测试渠道，本次完成请求与协议验证，未新增电视真机验收结论。",
-  "published_at": "2026-11-23T22:51:02.688749+00:00"
+  "size": 46296928,
+  "sha256": "0916bde99d06749f6b0c01b3ebe3990076f23d227048b0a0ed40031644eaf004",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.181/hongguo-tv-mpv-0.2.181.apk",
+  "release_notes": "# 红果短剧 v0.2.181\n\n- 新增公告与播放保障，可按需开启解析规则在线更新。\n- Android、桌面版和 webOS 同步支持，保留内置解析回退。\n- 修复 Mac 全屏／小窗口崩溃，以及 Windows CPU 软解的音频接缝问题。",
+  "published_at": "2026-11-24T09:41:11.510173+00:00"
 }
