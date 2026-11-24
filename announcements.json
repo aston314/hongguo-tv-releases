@@ -3,8 +3,29 @@
   "channel": "stable",
   "items": [
     {
-      "id": "playback-source-20261124-113757",
+      "id": "playback-repair-20261124-r2",
       "enabled": true,
+      "kind": "playback",
+      "status": "resolved",
+      "level": "info",
+      "title": "播放解析修复已发布",
+      "summary": "更新解析规则后，可重试播放",
+      "body": "已发布解析规则 2026.11.24.2。请在「播放保障」开启自动修复并检查更新，然后重试播放；已开启的用户可直接检查更新。需使用支持在线规则的 0.2.181 版，旧版请先升级应用。",
+      "platforms": [
+        "all"
+      ],
+      "published_at": "2026-11-24T12:41:03Z",
+      "expires_at": "2026-12-01T12:41:08Z",
+      "dismissible": true,
+      "action": {
+        "type": "repair_playback",
+        "label": "更新播放解析",
+        "min_revision": 2
+      }
+    },
+    {
+      "id": "playback-source-20261124-113757",
+      "enabled": false,
       "kind": "playback",
       "status": "investigating",
       "level": "warning",
