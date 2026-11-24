@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 179,
-  "version_name": "0.2.180",
+  "version_code": 180,
+  "version_name": "0.2.181",
   "min_sdk": 21,
-  "size": 21703592,
-  "sha256": "f7885e76d3ef0e0d9b076e4caae5eb29d7d738e7241ee2735ef0d238de70cf26",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.180/hongguo-tv-android5-0.2.180.apk",
-  "release_notes": "# 红果短剧 v0.2.180\n\n- 修复播放接口签名字段与 `manifest_version_code`，降低 `VIDEO_MODEL_EMPTY`。\n- Android、桌面版和 webOS 同步更新播放取源逻辑。\n- 三个真实失败分集已恢复 1080P 取源、下载、解密和完整解码。\n\nwebOS 仍为测试渠道，本次完成请求与协议验证，未新增电视真机验收结论。",
-  "published_at": "2026-11-23T22:51:03.066238+00:00"
+  "size": 28336884,
+  "sha256": "c21979313b7da588ff484fa254dbe7010e7b38896e9f5b7d718f8ecc08d8380e",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.181/hongguo-tv-android5-0.2.181.apk",
+  "release_notes": "# 红果短剧 v0.2.181\n\n- 新增公告与播放保障，可按需开启解析规则在线更新。\n- Android、桌面版和 webOS 同步支持，保留内置解析回退。\n- 修复 Mac 全屏／小窗口崩溃，以及 Windows CPU 软解的音频接缝问题。",
+  "published_at": "2026-11-24T09:41:11.933999+00:00"
 }
