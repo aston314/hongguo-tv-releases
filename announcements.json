@@ -1,5 +1,22 @@
 {
   "schema": 1,
   "channel": "stable",
-  "items": []
+  "items": [
+    {
+      "id": "playback-source-20261124-113757",
+      "enabled": true,
+      "kind": "playback",
+      "status": "investigating",
+      "level": "warning",
+      "title": "播放地址获取异常，正在处理中",
+      "summary": "部分剧集可能暂时无法播放",
+      "body": "已确认上游播放接口返回空数据，我们正在排查并适配。请稍后重试，恢复进展会通过公告更新。",
+      "platforms": [
+        "all"
+      ],
+      "published_at": "2026-11-24T11:37:52Z",
+      "expires_at": "2026-12-01T11:37:57Z",
+      "dismissible": true
+    }
+  ]
 }
