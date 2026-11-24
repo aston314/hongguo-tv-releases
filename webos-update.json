@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.180",
-  "release_tag": "webos-v0.2.180-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.180-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.180\n\n- 同步共享界面与版本信息，沿用现有播放流程。",
-  "artifact_name": "hongguo-webos-0.2.180-test.27.ipk",
-  "artifact_size": 1722776,
-  "artifact_sha256": "3dcf6b95340006e0537210589b571eb5b7c2ec434c55c8974e3984826309d46f"
+  "version_name": "0.2.181",
+  "release_tag": "webos-v0.2.181-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.181-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.181\n\n- 新增公告与播放保障，支持解析规则在线更新及内置解析回退。\n- 改善 webOS 4 的规则更新连接兼容性。\n\n沿用现有 HTML5 播放流程，未新增电视真机验收结论。",
+  "artifact_name": "hongguo-webos-0.2.181-test.27.ipk",
+  "artifact_size": 1770332,
+  "artifact_sha256": "5ed115514c95dbdd29f95fe96625bee0d9a5778f3f83b07404c492b74da216b7"
 }
