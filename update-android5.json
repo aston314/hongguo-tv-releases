@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 180,
-  "version_name": "0.2.181",
+  "version_code": 181,
+  "version_name": "0.2.182",
   "min_sdk": 21,
-  "size": 28336884,
-  "sha256": "c21979313b7da588ff484fa254dbe7010e7b38896e9f5b7d718f8ecc08d8380e",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.181/hongguo-tv-android5-0.2.181.apk",
-  "release_notes": "# 红果短剧 v0.2.181\n\n- 新增公告与播放保障，可按需开启解析规则在线更新。\n- Android、桌面版和 webOS 同步支持，保留内置解析回退。\n- 修复 Mac 全屏／小窗口崩溃，以及 Windows CPU 软解的音频接缝问题。",
-  "published_at": "2026-11-24T09:41:11.933999+00:00"
+  "size": 30612480,
+  "sha256": "c8ab2c5676577c7bfd569624518bee3bb936371f76c4b7378217d1ca78c6b1e3",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.182/hongguo-tv-android5-0.2.182.apk",
+  "release_notes": "# 红果短剧 v0.2.182\n\n- 新增默认播放规则自动更新，启动后台检查，也可在设置中手动检查，无需重启应用。\n- 播放保障显示当前优先规则和版本；检查按钮始终可用，保留原有 JS 修复开关和回退逻辑。\n- 更新播放取源的设备参数和签名，保留兼容编码及原生来源回退。\n- 繁体界面支持剧名、简介等内容的本地转换，无需联网翻译。",
+  "published_at": "2026-11-25T12:20:51.519711+00:00"
 }
