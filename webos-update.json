@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.181",
-  "release_tag": "webos-v0.2.181-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.181-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.181\n\n- 新增公告与播放保障，支持解析规则在线更新及内置解析回退。\n- 改善 webOS 4 的规则更新连接兼容性。\n\n沿用现有 HTML5 播放流程，未新增电视真机验收结论。",
-  "artifact_name": "hongguo-webos-0.2.181-test.27.ipk",
-  "artifact_size": 1770332,
-  "artifact_sha256": "5ed115514c95dbdd29f95fe96625bee0d9a5778f3f83b07404c492b74da216b7"
+  "version_name": "0.2.182",
+  "release_tag": "webos-v0.2.182-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.182-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.182\n\n- 新增默认播放规则自动更新，启动后台检查，也可在设置中手动检查，无需重启应用。\n- 播放保障显示当前优先规则和版本；检查按钮始终可用，保留原有 JS 修复开关和回退逻辑。\n- 更新播放取源的设备参数和签名，保留兼容编码及原生来源回退。\n- 繁体界面支持剧名、简介等内容的本地转换，无需联网翻译。\n\n沿用现有 HTML5 播放流程，未新增电视真机验收结论。",
+  "artifact_name": "hongguo-webos-0.2.182-test.27.ipk",
+  "artifact_size": 2621786,
+  "artifact_sha256": "d9197c132350aeb4ef0160d9754aa994c6e10258b0725f494800c9c8d5578d33"
 }
