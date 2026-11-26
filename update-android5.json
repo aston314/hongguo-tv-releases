@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "android5",
   "package_name": "rocks.aston.hongguotv.android5test",
-  "version_code": 182,
-  "version_name": "0.2.183",
+  "version_code": 183,
+  "version_name": "0.2.184",
   "min_sdk": 21,
-  "size": 30616109,
-  "sha256": "5983d561d0aadc9197a1eddc4fc2cff0596fc91b78d2692424b52b1ec7dc73a2",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.183/hongguo-tv-android5-0.2.183.apk",
-  "release_notes": "# 红果短剧 v0.2.183\n\n- 修复繁体界面下系列剧列表副标题未转换的问题。\n- 视频画面内字幕、弹幕和评论继续保持原有显示逻辑。",
-  "published_at": "2026-11-26T06:30:00.428814+00:00"
+  "size": 31006244,
+  "sha256": "d4986e8083f985d0b0dd9cc1f41e11dcb6286d7186d0ed2a09946f79df560a4d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.184/hongguo-tv-android5-0.2.184.apk",
+  "release_notes": "# 红果短剧 v0.2.184\n\n- 修复剧集目录只显示前三集的问题，恢复完整选集。\n- 完整目录补全时保留简介、评分、演员和相关推荐。\n- 加强目录完整性校验和超时处理，避免错误或不完整目录进入播放。",
+  "published_at": "2026-11-26T23:37:57.337370+00:00"
 }
