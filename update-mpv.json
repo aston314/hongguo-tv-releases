@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 132,
-  "version_name": "0.2.182",
+  "version_code": 133,
+  "version_name": "0.2.183",
   "min_sdk": 23,
-  "size": 48573200,
-  "sha256": "3b92f83d5a2f45bf2fecb5d165798a527fd8fdd8627253ef6aef6b917cbbba15",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.182/hongguo-tv-mpv-0.2.182.apk",
-  "release_notes": "# 红果短剧 v0.2.182\n\n- 新增默认播放规则自动更新，启动后台检查，也可在设置中手动检查，无需重启应用。\n- 播放保障显示当前优先规则和版本；检查按钮始终可用，保留原有 JS 修复开关和回退逻辑。\n- 更新播放取源的设备参数和签名，保留兼容编码及原生来源回退。\n- 繁体界面支持剧名、简介等内容的本地转换，无需联网翻译。",
-  "published_at": "2026-11-25T12:20:51.027693+00:00"
+  "size": 48576268,
+  "sha256": "456b4a62b79647b52aa336728a4d68722868e4cb8d415297c80c5defc9c48187",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.183/hongguo-tv-mpv-0.2.183.apk",
+  "release_notes": "# 红果短剧 v0.2.183\n\n- 修复繁体界面下系列剧列表副标题未转换的问题。\n- 视频画面内字幕、弹幕和评论继续保持原有显示逻辑。",
+  "published_at": "2026-11-26T06:29:59.995474+00:00"
 }
