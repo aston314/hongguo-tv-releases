@@ -2,12 +2,12 @@
   "schema": 1,
   "variant": "mpv",
   "package_name": "rocks.aston.hongguotv.mpv",
-  "version_code": 134,
-  "version_name": "0.2.184",
+  "version_code": 135,
+  "version_name": "0.2.185",
   "min_sdk": 23,
-  "size": 48966183,
-  "sha256": "b0a66c626617c7d214e762ff2f1f097a83df39ea83358f1e273764a5b8b4b5ec",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.184/hongguo-tv-mpv-0.2.184.apk",
-  "release_notes": "# 红果短剧 v0.2.184\n\n- 修复剧集目录只显示前三集的问题，恢复完整选集。\n- 完整目录补全时保留简介、评分、演员和相关推荐。\n- 加强目录完整性校验和超时处理，避免错误或不完整目录进入播放。",
-  "published_at": "2026-11-26T23:37:56.860861+00:00"
+  "size": 48999021,
+  "sha256": "308e873b41ed05c39e8ee402ef3a43ea782c4356f1ecc22879ef9d54214a34e8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.185/hongguo-tv-mpv-0.2.185.apk",
+  "release_notes": "# 红果短剧 v0.2.185\n\n- Android 标准版和 Android 5 兼容版新增“设置 → 播放方式”，可选择“自动（默认）”或“原生播放器优先”。\n- 选择原生播放器优先后，从下一次切集、切剧、切换清晰度或重试开始生效；原生播放失败时自动尝试 HTML5。\n- 修复分季信息不完整时的续播判断，减少错误跳集或关联到其他作品的情况。\n- 优化推荐预览进入播放时的详情补全，分季列表加载失败时保留手动选择入口。",
+  "published_at": "2026-11-28T01:59:28.110736+00:00"
 }
