@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "product": "hongguo-desktop",
-  "version_name": "0.2.184",
-  "version_code": 119,
-  "release_notes": "# 红果短剧桌面版 0.2.184（macOS / Windows）\n\n- 修复剧集目录只显示前三集的问题，恢复完整选集。\n- 完整目录补全时保留简介、评分、演员和相关推荐。\n- 加强目录完整性校验和超时处理，避免错误或不完整目录进入播放。",
+  "version_name": "0.2.185",
+  "version_code": 120,
+  "release_notes": "# 红果短剧桌面版 0.2.185（macOS / Windows）\n\n- 修复分季信息不完整时的续播判断，减少错误跳集或关联到其他作品的情况。\n- 优化推荐预览进入播放时的详情补全，分季列表加载失败时保留手动选择入口。",
   "packages": {
     "macos-universal": {
-      "name": "hongguo-desktop-0.2.184-macos-universal.zip",
-      "size": 26020632,
-      "sha256": "c407d39260c04835d410ca405ae7ee864eba16403ede4e755d3dd82907fa2ff7",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.184/hongguo-desktop-0.2.184-macos-universal.zip"
+      "name": "hongguo-desktop-0.2.185-macos-universal.zip",
+      "size": 26040409,
+      "sha256": "96ee235adf63c5289a35b8126812ec442531cd6b2448a7dc17d7a894ecf2306a",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.185/hongguo-desktop-0.2.185-macos-universal.zip"
     },
     "windows-amd64": {
-      "name": "hongguo-desktop-0.2.184-windows-x64.zip",
-      "size": 32660051,
-      "sha256": "f9fb33fc13748d65baadb387d270fef12d572c0f97dbe45ad6413ffbf5e20a60",
-      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.184/hongguo-desktop-0.2.184-windows-x64.zip"
+      "name": "hongguo-desktop-0.2.185-windows-x64.zip",
+      "size": 32670207,
+      "sha256": "2080bfc90ba2568493b3dfceedabe1fd54ee50215ebb96a3679cd000ba603fc4",
+      "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/desktop-v0.2.185/hongguo-desktop-0.2.185-windows-x64.zip"
     }
   }
 }
