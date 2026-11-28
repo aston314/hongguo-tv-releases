@@ -2,11 +2,11 @@
   "schema": 1,
   "platform": "webos",
   "app_id": "com.aston314.hongguo.webos",
-  "version_name": "0.2.184",
-  "release_tag": "webos-v0.2.184-test.27",
-  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.184-test.27",
-  "release_notes": "# 红果短剧 webOS 测试版 0.2.184\n\n- 修复剧集目录只显示前三集的问题，恢复完整选集。\n- 完整目录补全时保留简介、评分、演员和相关推荐。\n- 加强目录完整性校验和超时处理，避免错误或不完整目录进入播放。\n\n沿用现有 HTML5 播放流程，未新增电视真机验收结论。",
-  "artifact_name": "hongguo-webos-0.2.184-test.27.ipk",
-  "artifact_size": 2748930,
-  "artifact_sha256": "8366fa1300be086d07b2d5dc5b7a8eb5e4296746881ed6ee9379443450c418cd"
+  "version_name": "0.2.185",
+  "release_tag": "webos-v0.2.185-test.27",
+  "release_url": "https://github.com/aston314/hongguo-tv-releases/releases/tag/webos-v0.2.185-test.27",
+  "release_notes": "# 红果短剧 webOS 测试版 0.2.185\n\n- 修复分季信息不完整时的续播判断，减少错误跳集或关联到其他作品的情况。\n- 优化推荐预览进入播放时的详情补全，分季列表加载失败时保留手动选择入口。\n\n沿用现有 HTML5 播放流程，未新增电视真机验收结论。",
+  "artifact_name": "hongguo-webos-0.2.185-test.27.ipk",
+  "artifact_size": 2752396,
+  "artifact_sha256": "55b4e14923347eedb4fb88573e6a8c72a32dcdbfbfa6c4bdd8e4a0b18830b68b"
 }
